@@ -1,0 +1,1445 @@
+
+2021-01-11 18:22:20:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\Fish.exe-3.2.7-0201
+18:22:21:book118 enable
+18:22:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:22:25:ToAddBatchTasks nSize = 0
+18:22:25:AddBatchTasks batch task is done. nSize is zero
+18:22:26:DownloadFile taskid = 9997, nThreadId = 1, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:22:26:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:22:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:22:28:status = 200, uTaskId = 9997
+18:22:28:download begin, uTaskId = 9997, content-length = 
+18:22:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:22:28:no book118 doc id:10002
+18:22:29:ToAddBatchTasks nSize = 0
+18:22:29:AddBatchTasks batch task is done. nSize is zero
+18:22:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:22:31:DownloadFile taskid = 9997, nThreadId = 2, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:22:31:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:22:31:status = 200, uTaskId = 9997
+18:22:31:download begin, uTaskId = 9997, content-length = 
+18:22:31:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:22:31:no book118 doc id:10002
+18:22:33:ToAddBatchTasks nSize = 0
+18:22:33:AddBatchTasks batch task is done. nSize is zero
+18:22:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:22:36:DownloadFile taskid = 1, nThreadId = 3, nIndex = 0, url = https://wenku.baidu.com/view/c345a2ff59fb770bf78a6529647d27284b7337b7.html
+18:22:36:DownloadFileCallBack url= https://wenku.baidu.com/view/c345a2ff59fb770bf78a6529647d27284b7337b7.html, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\c345a2ff59fb770bf78a6529647d27284b7337b7.html, nUncompress = 0
+18:22:36:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:36:AddExportPDFTask. i:0, status:101,downloadstatus:2,ListItem:0,https://wenku.baidu.com/view/c345a2ff59fb770bf78a6529647d27284b7337b7.html
+18:22:36:in AddExportPDFTask. i equal size. i = 1.
+18:22:37:ToAddBatchTasks nSize = 0
+18:22:37:AddBatchTasks batch task is done. nSize is zero
+18:22:37:status = 200, uTaskId = 1
+18:22:37:download begin, uTaskId = 1, content-length = 
+18:22:38:download close. nRecvLen = 27894, nReadLen = 0, uTaskId = 1
+18:22:38:encoding is gzip. uTaskId = 1, sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\c345a2ff59fb770bf78a6529647d27284b7337b7.html
+18:22:38:DownloadFile taskid = 1, nThreadId = 4, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A36%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A36Z%2F3600%2Fhost%2F0f50a1ffa60e19deb2b6b0ef98fd7b4a1eda71bf7770765a5e43961c92b1c2ac&x-bce-range=0-18523&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU1NiwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Je8F%2BuxZ6kVXYkdFuiBG7NVlh4jOyXldfCPaDKXWzEM%3D.1610360556
+18:22:38:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A36%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A36Z%2F3600%2Fhost%2F0f50a1ffa60e19deb2b6b0ef98fd7b4a1eda71bf7770765a5e43961c92b1c2ac&x-bce-range=0-18523&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU1NiwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Je8F%2BuxZ6kVXYkdFuiBG7NVlh4jOyXldfCPaDKXWzEM%3D.1610360556, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\bE3E57AEE215796C6563A4B19202EF398_json, nUncompress = 0
+18:22:39:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:39:AddExportPDFTask. i:0, status:102,downloadstatus:2,ListItem:0,VBAFSO对象模型详解
+18:22:39:in AddExportPDFTask. i equal size. i = 1.
+18:22:40:status = 206, uTaskId = 1
+18:22:40:download begin, uTaskId = 1, content-length = 18524
+18:22:40:download close. nRecvLen = 18524, nReadLen = 0, uTaskId = 1
+18:22:40:DownloadFile taskid = 1, nThreadId = 5, nIndex = 0, url = https://wenku.baidu.com/browse/getrequest?doc_id=c345a2ff59fb770bf78a6529647d27284b7337b7&pn=1&rn=50&type=html
+18:22:40:DownloadFileCallBack url= https://wenku.baidu.com/browse/getrequest?doc_id=c345a2ff59fb770bf78a6529647d27284b7337b7&pn=1&rn=50&type=html, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\bE3E57AEE215796C6563A4B19202EF398_html_1.lst, nUncompress = 0
+18:22:41:status = 200, uTaskId = 1
+18:22:41:download begin, uTaskId = 1, content-length = 
+18:22:41:download close. nRecvLen = 1159, nReadLen = 0, uTaskId = 1
+18:22:41:encoding is gzip. uTaskId = 1, sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\bE3E57AEE215796C6563A4B19202EF398_html_1.lst
+18:22:41:UpdateTaskStatus. status:-1, url:https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=0-18523&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.eijbGao42kkKQoNExv4aVOeAeKZEg2lhg52rJzbHxNk%3D.1610360560, m_sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_1.dat
+18:22:41:DownloadFile taskid = 1, nThreadId = 6, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=0-18523&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.eijbGao42kkKQoNExv4aVOeAeKZEg2lhg52rJzbHxNk%3D.1610360560
+18:22:41:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=0-18523&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.eijbGao42kkKQoNExv4aVOeAeKZEg2lhg52rJzbHxNk%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_1.dat, nUncompress = 0
+18:22:41:ToAddBatchTasks nSize = 0
+18:22:41:AddBatchTasks batch task is done. nSize is zero
+18:22:42:status = 206, uTaskId = 1
+18:22:42:download begin, uTaskId = 1, content-length = 18524
+18:22:42:download close. nRecvLen = 18524, nReadLen = 0, uTaskId = 1
+18:22:42:DownloadFile taskid = 1, nThreadId = 7, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=18524-34275&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.EzN46oKMSyv2MDWdjo9fbgmuZqf3D3Lp7PpzszI9ehA%3D.1610360560
+18:22:42:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=18524-34275&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.EzN46oKMSyv2MDWdjo9fbgmuZqf3D3Lp7PpzszI9ehA%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_2.dat, nUncompress = 0
+18:22:42:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:42:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,VBAFSO对象模型详解
+18:22:42:in AddExportPDFTask. i equal size. i = 1.
+18:22:42:status = 206, uTaskId = 1
+18:22:42:download begin, uTaskId = 1, content-length = 15752
+18:22:42:download close. nRecvLen = 15752, nReadLen = 0, uTaskId = 1
+18:22:42:DownloadFile taskid = 1, nThreadId = 8, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=34276-50232&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.sEw2owIuXoJqxub9ithZJWFzSVGSdKQCmFKnbHvIr90%3D.1610360560
+18:22:42:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=34276-50232&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.sEw2owIuXoJqxub9ithZJWFzSVGSdKQCmFKnbHvIr90%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_3.dat, nUncompress = 0
+18:22:43:status = 206, uTaskId = 1
+18:22:43:download begin, uTaskId = 1, content-length = 15957
+18:22:43:download close. nRecvLen = 15957, nReadLen = 0, uTaskId = 1
+18:22:43:DownloadFile taskid = 1, nThreadId = 9, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=50233-75056&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.q1Bc07GsM%2FxZ9WjnIb2K%2B0f%2FXPPRhmwhz3B6mZ0ANIE%3D.1610360560
+18:22:43:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=50233-75056&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.q1Bc07GsM%2FxZ9WjnIb2K%2B0f%2FXPPRhmwhz3B6mZ0ANIE%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_4.dat, nUncompress = 0
+18:22:45:status = 206, uTaskId = 1
+18:22:45:download begin, uTaskId = 1, content-length = 24824
+18:22:45:download close. nRecvLen = 24824, nReadLen = 0, uTaskId = 1
+18:22:45:DownloadFile taskid = 1, nThreadId = 10, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=75057-92868&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.F7ChuJKXEO6SnQoHV%2BJu%2FPS411dOsDPoiLyC2tOJLPA%3D.1610360560
+18:22:45:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=75057-92868&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.F7ChuJKXEO6SnQoHV%2BJu%2FPS411dOsDPoiLyC2tOJLPA%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_5.dat, nUncompress = 0
+18:22:45:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:45:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,VBAFSO对象模型详解
+18:22:45:in AddExportPDFTask. i equal size. i = 1.
+18:22:45:ToAddBatchTasks nSize = 0
+18:22:45:AddBatchTasks batch task is done. nSize is zero
+18:22:46:status = 206, uTaskId = 1
+18:22:46:download begin, uTaskId = 1, content-length = 17812
+18:22:46:download close. nRecvLen = 17812, nReadLen = 0, uTaskId = 1
+18:22:46:DownloadFile taskid = 1, nThreadId = 11, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=92869-107839&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.J1cI6QdyyDdhhqMVqcfSnv8d53T7tPX3XO91kTcQkzM%3D.1610360560
+18:22:46:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=92869-107839&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.J1cI6QdyyDdhhqMVqcfSnv8d53T7tPX3XO91kTcQkzM%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_6.dat, nUncompress = 0
+18:22:46:status = 206, uTaskId = 1
+18:22:46:download begin, uTaskId = 1, content-length = 14971
+18:22:46:download close. nRecvLen = 14971, nReadLen = 0, uTaskId = 1
+18:22:46:DownloadFile taskid = 1, nThreadId = 12, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=107840-129208&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.6ucG4%2BEQGwCYiA9qK6NCFd2h0Ta%2FPtmNh33Jl3rhe3c%3D.1610360560
+18:22:46:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=107840-129208&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.6ucG4%2BEQGwCYiA9qK6NCFd2h0Ta%2FPtmNh33Jl3rhe3c%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_7.dat, nUncompress = 0
+18:22:47:status = 206, uTaskId = 1
+18:22:47:download begin, uTaskId = 1, content-length = 21369
+18:22:47:download close. nRecvLen = 21369, nReadLen = 0, uTaskId = 1
+18:22:47:DownloadFile taskid = 1, nThreadId = 13, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=129209-148853&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.JStXRQ2ZubA9sL2N%2F4%2FZM8%2Fi8x%2BBLELmbdI1rz97b9I%3D.1610360560
+18:22:47:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=129209-148853&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.JStXRQ2ZubA9sL2N%2F4%2FZM8%2Fi8x%2BBLELmbdI1rz97b9I%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_8.dat, nUncompress = 0
+18:22:48:status = 206, uTaskId = 1
+18:22:48:download begin, uTaskId = 1, content-length = 19645
+18:22:48:download close. nRecvLen = 19645, nReadLen = 0, uTaskId = 1
+18:22:48:DownloadFile taskid = 1, nThreadId = 14, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=148854-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hJQJe0a4pfv5ByXMaKnM%2B1o51Bf5M6CH3jfl7rL57tg%3D.1610360560
+18:22:48:DownloadFileCallBack url= https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=148854-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hJQJe0a4pfv5ByXMaKnM%2B1o51Bf5M6CH3jfl7rL57tg%3D.1610360560, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_9.dat, nUncompress = 0
+18:22:48:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:48:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,VBAFSO对象模型详解
+18:22:48:in AddExportPDFTask. i equal size. i = 1.
+18:22:48:status = 206, uTaskId = 1
+18:22:48:download begin, uTaskId = 1, content-length = 2011
+18:22:48:download close. nRecvLen = 2011, nReadLen = 0, uTaskId = 1
+18:22:48:UpdateTaskStatus. status:-5, url:https://wkbjcloudbos.bdimg.com/v1/docconvert3875//wk/9544a37da0edc67b6345efeb3bbe1dc0/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2025%20Feb%202021%2017%3A22%3A40%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2021-01-11T09%3A22%3A40Z%2F3600%2Fhost%2F8ce54392d7c38ada6c14bc85f4d88fd93747969dea731e5c93a49d0055aea521&x-bce-range=148854-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTYxMDM2MDU2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hJQJe0a4pfv5ByXMaKnM%2B1o51Bf5M6CH3jfl7rL57tg%3D.1610360560, m_sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_c345a2ff59fb770bf78a6529647d27284b7337b7_9.dat
+18:22:48:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:22:48:AddExportPDFTask. i:0, status:-5,downloadstatus:1,ListItem:0,VBAFSO对象模型详解
+18:22:48:ExportPdfFile html, taskid = 1, nThreadId = 15, nIndex = 0, m_sPdfFileName = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kpdf\VBAFSO对象模型详解.pdf
+18:22:49:ExportPDFFromHTMLCallBack uTaskId = 1, uId = 15, uMsgId = 983041, res = 0, m_sReaderType=html, m_sPdfFileName=C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kpdf\VBAFSO对象模型详解.pdf
+18:22:49:ToAddBatchTasks nSize = 0
+18:22:49:AddBatchTasks batch task is done. nSize is zero
+18:22:51:begin to export
+18:22:53:ToAddBatchTasks nSize = 0
+18:22:53:AddBatchTasks batch task is done. nSize is zero
+18:22:57:ToAddBatchTasks nSize = 0
+18:22:57:AddBatchTasks batch task is done. nSize is zero
+18:23:02:ToAddBatchTasks nSize = 0
+18:23:02:AddBatchTasks batch task is done. nSize is zero
+18:23:06:ToAddBatchTasks nSize = 0
+18:23:06:AddBatchTasks batch task is done. nSize is zero
+18:23:09:end to export
+18:23:09:DownloadFile taskid = 9998, nThreadId = 16, nIndex = 0, url = https://max.book118.com/index.php?g=Api&m=Uu456&a=SetDocInfo
+18:23:09:DownloadFileCallBack url= https://max.book118.com/index.php?g=Api&m=Uu456&a=SetDocInfo, uerproxy = 0, method = 4, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118info.txt, nUncompress = 0
+18:23:09:status = 403, uTaskId = 9998
+18:23:09:failed to set book118 info
+18:23:10:ToAddBatchTasks nSize = 0
+18:23:10:AddBatchTasks batch task is done. nSize is zero
+18:23:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:12:DownloadFile taskid = 9997, nThreadId = 17, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:12:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:13:status = 200, uTaskId = 9997
+18:23:13:download begin, uTaskId = 9997, content-length = 
+18:23:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:13:no book118 doc id:10002
+18:23:14:ToAddBatchTasks nSize = 0
+18:23:14:AddBatchTasks batch task is done. nSize is zero
+18:23:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:17:DownloadFile taskid = 9997, nThreadId = 18, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:17:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:18:status = 200, uTaskId = 9997
+18:23:18:download begin, uTaskId = 9997, content-length = 
+18:23:18:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:18:no book118 doc id:10002
+18:23:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:18:ToAddBatchTasks nSize = 0
+18:23:18:AddBatchTasks batch task is done. nSize is zero
+18:23:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:22:ToAddBatchTasks nSize = 0
+18:23:22:AddBatchTasks batch task is done. nSize is zero
+18:23:22:DownloadFile taskid = 9997, nThreadId = 19, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:22:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:23:status = 200, uTaskId = 9997
+18:23:23:download begin, uTaskId = 9997, content-length = 
+18:23:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:23:no book118 doc id:10002
+18:23:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:26:ToAddBatchTasks nSize = 0
+18:23:26:AddBatchTasks batch task is done. nSize is zero
+18:23:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:27:DownloadFile taskid = 9997, nThreadId = 20, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:27:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:27:status = 200, uTaskId = 9997
+18:23:27:download begin, uTaskId = 9997, content-length = 
+18:23:27:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:27:no book118 doc id:10002
+18:23:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:30:ToAddBatchTasks nSize = 0
+18:23:30:AddBatchTasks batch task is done. nSize is zero
+18:23:32:DownloadFile taskid = 9997, nThreadId = 21, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:32:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:33:status = 200, uTaskId = 9997
+18:23:33:download begin, uTaskId = 9997, content-length = 
+18:23:33:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:33:no book118 doc id:10002
+18:23:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:34:ToAddBatchTasks nSize = 0
+18:23:34:AddBatchTasks batch task is done. nSize is zero
+18:23:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:37:DownloadFile taskid = 9997, nThreadId = 22, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:37:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:37:status = 200, uTaskId = 9997
+18:23:37:download begin, uTaskId = 9997, content-length = 
+18:23:37:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:37:no book118 doc id:10002
+18:23:38:ToAddBatchTasks nSize = 0
+18:23:38:AddBatchTasks batch task is done. nSize is zero
+18:23:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:42:ToAddBatchTasks nSize = 0
+18:23:42:AddBatchTasks batch task is done. nSize is zero
+18:23:42:DownloadFile taskid = 9997, nThreadId = 23, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:42:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:42:status = 200, uTaskId = 9997
+18:23:42:download begin, uTaskId = 9997, content-length = 
+18:23:42:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:42:no book118 doc id:10002
+18:23:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:46:ToAddBatchTasks nSize = 0
+18:23:46:AddBatchTasks batch task is done. nSize is zero
+18:23:47:DownloadFile taskid = 9997, nThreadId = 24, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:47:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:47:status = 200, uTaskId = 9997
+18:23:47:download begin, uTaskId = 9997, content-length = 
+18:23:47:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:47:no book118 doc id:10002
+18:23:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:50:ToAddBatchTasks nSize = 0
+18:23:50:AddBatchTasks batch task is done. nSize is zero
+18:23:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:52:DownloadFile taskid = 9997, nThreadId = 25, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:52:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:52:status = 200, uTaskId = 9997
+18:23:52:download begin, uTaskId = 9997, content-length = 
+18:23:52:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:52:no book118 doc id:10002
+18:23:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:54:ToAddBatchTasks nSize = 0
+18:23:54:AddBatchTasks batch task is done. nSize is zero
+18:23:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:23:57:DownloadFile taskid = 9997, nThreadId = 26, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:23:57:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:23:58:status = 200, uTaskId = 9997
+18:23:58:download begin, uTaskId = 9997, content-length = 
+18:23:58:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:23:58:no book118 doc id:10002
+18:23:58:ToAddBatchTasks nSize = 0
+18:23:58:AddBatchTasks batch task is done. nSize is zero
+18:24:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:02:ToAddBatchTasks nSize = 0
+18:24:02:AddBatchTasks batch task is done. nSize is zero
+18:24:02:DownloadFile taskid = 9997, nThreadId = 27, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:02:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:04:status = 200, uTaskId = 9997
+18:24:04:download begin, uTaskId = 9997, content-length = 
+18:24:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:04:no book118 doc id:10002
+18:24:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:06:ToAddBatchTasks nSize = 0
+18:24:06:AddBatchTasks batch task is done. nSize is zero
+18:24:07:DownloadFile taskid = 9997, nThreadId = 28, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:07:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:09:status = 200, uTaskId = 9997
+18:24:09:download begin, uTaskId = 9997, content-length = 
+18:24:09:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:09:no book118 doc id:10002
+18:24:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:10:ToAddBatchTasks nSize = 0
+18:24:10:AddBatchTasks batch task is done. nSize is zero
+18:24:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:12:DownloadFile taskid = 9997, nThreadId = 29, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:12:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:13:status = 200, uTaskId = 9997
+18:24:13:download begin, uTaskId = 9997, content-length = 
+18:24:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:13:no book118 doc id:10002
+18:24:14:ToAddBatchTasks nSize = 0
+18:24:14:AddBatchTasks batch task is done. nSize is zero
+18:24:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:17:DownloadFile taskid = 9997, nThreadId = 30, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:17:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:18:ToAddBatchTasks nSize = 0
+18:24:18:AddBatchTasks batch task is done. nSize is zero
+18:24:19:status = 200, uTaskId = 9997
+18:24:19:download begin, uTaskId = 9997, content-length = 
+18:24:19:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:19:no book118 doc id:10002
+18:24:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:22:ToAddBatchTasks nSize = 0
+18:24:22:AddBatchTasks batch task is done. nSize is zero
+18:24:22:DownloadFile taskid = 9997, nThreadId = 31, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:22:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:23:status = 200, uTaskId = 9997
+18:24:23:download begin, uTaskId = 9997, content-length = 
+18:24:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:23:no book118 doc id:10002
+18:24:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:26:ToAddBatchTasks nSize = 0
+18:24:26:AddBatchTasks batch task is done. nSize is zero
+18:24:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:27:DownloadFile taskid = 9997, nThreadId = 32, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:27:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:28:status = 200, uTaskId = 9997
+18:24:28:download begin, uTaskId = 9997, content-length = 
+18:24:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:28:no book118 doc id:10002
+18:24:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:30:ToAddBatchTasks nSize = 0
+18:24:30:AddBatchTasks batch task is done. nSize is zero
+18:24:32:DownloadFile taskid = 9997, nThreadId = 33, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:32:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:33:status = 200, uTaskId = 9997
+18:24:33:download begin, uTaskId = 9997, content-length = 
+18:24:33:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:33:no book118 doc id:10002
+18:24:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:34:ToAddBatchTasks nSize = 0
+18:24:34:AddBatchTasks batch task is done. nSize is zero
+18:24:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:37:DownloadFile taskid = 9997, nThreadId = 34, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:37:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:38:status = 200, uTaskId = 9997
+18:24:38:download begin, uTaskId = 9997, content-length = 
+18:24:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:38:no book118 doc id:10002
+18:24:38:ToAddBatchTasks nSize = 0
+18:24:38:AddBatchTasks batch task is done. nSize is zero
+18:24:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:42:ToAddBatchTasks nSize = 0
+18:24:42:AddBatchTasks batch task is done. nSize is zero
+18:24:42:DownloadFile taskid = 9997, nThreadId = 35, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:42:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:43:status = 200, uTaskId = 9997
+18:24:43:download begin, uTaskId = 9997, content-length = 
+18:24:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:43:no book118 doc id:10002
+18:24:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:46:ToAddBatchTasks nSize = 0
+18:24:46:AddBatchTasks batch task is done. nSize is zero
+18:24:47:DownloadFile taskid = 9997, nThreadId = 36, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:47:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:48:status = 200, uTaskId = 9997
+18:24:48:download begin, uTaskId = 9997, content-length = 
+18:24:48:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:48:no book118 doc id:10002
+18:24:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:50:ToAddBatchTasks nSize = 0
+18:24:50:AddBatchTasks batch task is done. nSize is zero
+18:24:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:52:DownloadFile taskid = 9997, nThreadId = 37, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:52:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:53:status = 200, uTaskId = 9997
+18:24:53:download begin, uTaskId = 9997, content-length = 
+18:24:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:53:no book118 doc id:10002
+18:24:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:54:ToAddBatchTasks nSize = 0
+18:24:54:AddBatchTasks batch task is done. nSize is zero
+18:24:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:24:57:DownloadFile taskid = 9997, nThreadId = 38, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:24:57:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:24:57:status = 200, uTaskId = 9997
+18:24:57:download begin, uTaskId = 9997, content-length = 
+18:24:57:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:24:57:no book118 doc id:10002
+18:24:58:ToAddBatchTasks nSize = 0
+18:24:58:AddBatchTasks batch task is done. nSize is zero
+18:25:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:02:ToAddBatchTasks nSize = 0
+18:25:02:AddBatchTasks batch task is done. nSize is zero
+18:25:02:DownloadFile taskid = 9997, nThreadId = 39, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:25:02:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:25:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:04:status = 200, uTaskId = 9997
+18:25:04:download begin, uTaskId = 9997, content-length = 
+18:25:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:25:04:no book118 doc id:10002
+18:25:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:06:ToAddBatchTasks nSize = 0
+18:25:06:AddBatchTasks batch task is done. nSize is zero
+18:25:07:DownloadFile taskid = 9997, nThreadId = 40, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:25:07:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:25:08:status = 200, uTaskId = 9997
+18:25:08:download begin, uTaskId = 9997, content-length = 
+18:25:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:25:08:no book118 doc id:10002
+18:25:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:10:ToAddBatchTasks nSize = 0
+18:25:10:AddBatchTasks batch task is done. nSize is zero
+18:25:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:12:DownloadFile taskid = 9997, nThreadId = 41, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:25:12:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:25:13:status = 200, uTaskId = 9997
+18:25:13:download begin, uTaskId = 9997, content-length = 
+18:25:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:25:13:no book118 doc id:10002
+18:25:14:ToAddBatchTasks nSize = 0
+18:25:14:AddBatchTasks batch task is done. nSize is zero
+18:25:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:17:DownloadFile taskid = 9997, nThreadId = 42, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:25:17:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:25:17:status = 200, uTaskId = 9997
+18:25:17:download begin, uTaskId = 9997, content-length = 
+18:25:17:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:25:17:no book118 doc id:10002
+18:25:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:18:ToAddBatchTasks nSize = 0
+18:25:18:AddBatchTasks batch task is done. nSize is zero
+18:25:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:22:ToAddBatchTasks nSize = 0
+18:25:22:AddBatchTasks batch task is done. nSize is zero
+18:25:22:DownloadFile taskid = 9997, nThreadId = 43, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:25:22:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:25:23:status = 200, uTaskId = 9997
+18:25:23:download begin, uTaskId = 9997, content-length = 
+18:25:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:25:23:no book118 doc id:10002
+18:25:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:25:26:ToAddBatchTasks nSize = 0
+18:25:26:AddBatchTasks batch task is done. nSize is zero
+18:25:27:DownloadFile taskid = 2, nThreadId = 44, nIndex = 0, url = https://wenku.baidu.com/view/79e2f676b72acfc789eb172ded630b1c59ee9bcd.html
+18:25:27:DownloadFileCallBack url= https://wenku.baidu.com/view/79e2f676b72acfc789eb172ded630b1c59ee9bcd.html, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\79e2f676b72acfc789eb172ded630b1c59ee9bcd.html, nUncompress = 0
+18:25:27:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:27:AddExportPDFTask. i:0, status:101,downloadstatus:2,ListItem:0,https://wenku.baidu.com/view/79e2f676b72acfc789eb172ded630b1c59ee9bcd.html
+18:25:27:in AddExportPDFTask. i equal size. i = 1.
+18:25:28:status = 200, uTaskId = 2
+18:25:28:download begin, uTaskId = 2, content-length = 
+18:25:28:download close. nRecvLen = 21402, nReadLen = 0, uTaskId = 2
+18:25:28:encoding is gzip. uTaskId = 2, sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\79e2f676b72acfc789eb172ded630b1c59ee9bcd.html
+18:25:28:DownloadFile taskid = 2, nThreadId = 45, nIndex = 0, url = https://wenku.baidu.com/browse/getbcsurl?doc_id=79e2f676b72acfc789eb172ded630b1c59ee9bcd&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468&_=146384783147
+18:25:28:DownloadFileCallBack url= https://wenku.baidu.com/browse/getbcsurl?doc_id=79e2f676b72acfc789eb172ded630b1c59ee9bcd&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468&_=146384783147, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b33F1A152475892836BCDA5199DC4AFEA_ppt_1.lst, nUncompress = 0
+18:25:29:status = 200, uTaskId = 2
+18:25:29:download begin, uTaskId = 2, content-length = 
+18:25:29:download close. nRecvLen = 1168, nReadLen = 0, uTaskId = 2
+18:25:29:encoding is gzip. uTaskId = 2, sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b33F1A152475892836BCDA5199DC4AFEA_ppt_1.lst
+18:25:29:UpdateTaskStatus. status:-1, url:https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186, m_sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_1.dat
+18:25:29:DownloadFile taskid = 2, nThreadId = 46, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186
+18:25:29:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_1.dat, nUncompress = 0
+18:25:30:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:30:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:30:in AddExportPDFTask. i equal size. i = 1.
+18:25:30:ToAddBatchTasks nSize = 0
+18:25:30:AddBatchTasks batch task is done. nSize is zero
+18:25:33:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:33:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:33:in AddExportPDFTask. i equal size. i = 1.
+18:25:34:ToAddBatchTasks nSize = 0
+18:25:34:AddBatchTasks batch task is done. nSize is zero
+18:25:36:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:36:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:36:in AddExportPDFTask. i equal size. i = 1.
+18:25:38:ToAddBatchTasks nSize = 0
+18:25:38:AddBatchTasks batch task is done. nSize is zero
+18:25:39:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:39:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:39:in AddExportPDFTask. i equal size. i = 1.
+18:25:42:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:42:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:42:in AddExportPDFTask. i equal size. i = 1.
+18:25:42:ToAddBatchTasks nSize = 0
+18:25:42:AddBatchTasks batch task is done. nSize is zero
+18:25:45:download internet exception error = 0, cause = 処理がタイムアウトになりました
+, uTaskId = 2
+18:25:45:DownloadFailed uTaskId:2, uCauseCode:8, status:108, retry:0, url:https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186
+18:25:45:DownloadFailed. xx url is set from https to http. sUrl:https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186, downloadurl:http://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186.
+18:25:45:DownloadFile taskid = 2, nThreadId = 47, nIndex = 0, url = http://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186
+18:25:45:DownloadFileCallBack url= http://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=1&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=0-51944&jpg=0-131186, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_1.dat, nUncompress = 0
+18:25:45:status = 200, uTaskId = 2
+18:25:45:download begin, uTaskId = 2, content-length = 131187
+18:25:45:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:45:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:45:in AddExportPDFTask. i equal size. i = 1.
+18:25:46:download close. nRecvLen = 131187, nReadLen = 0, uTaskId = 2
+18:25:46:DownloadFile taskid = 2, nThreadId = 48, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=2&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=51945-109294&jpg=131187-272885
+18:25:46:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=2&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=51945-109294&jpg=131187-272885, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_2.dat, nUncompress = 0
+18:25:46:ToAddBatchTasks nSize = 0
+18:25:46:AddBatchTasks batch task is done. nSize is zero
+18:25:46:status = 200, uTaskId = 2
+18:25:46:download begin, uTaskId = 2, content-length = 141699
+18:25:47:download close. nRecvLen = 141699, nReadLen = 0, uTaskId = 2
+18:25:47:DownloadFile taskid = 2, nThreadId = 49, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=3&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=109295-164320&jpg=272886-409425
+18:25:47:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=3&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=109295-164320&jpg=272886-409425, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_3.dat, nUncompress = 0
+18:25:47:status = 200, uTaskId = 2
+18:25:47:download begin, uTaskId = 2, content-length = 136540
+18:25:47:download close. nRecvLen = 136540, nReadLen = 0, uTaskId = 2
+18:25:47:DownloadFile taskid = 2, nThreadId = 50, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=4&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=164321-212855&jpg=409426-530267
+18:25:47:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=4&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=164321-212855&jpg=409426-530267, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_4.dat, nUncompress = 0
+18:25:48:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:48:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:48:in AddExportPDFTask. i equal size. i = 1.
+18:25:49:status = 200, uTaskId = 2
+18:25:49:download begin, uTaskId = 2, content-length = 120842
+18:25:49:download close. nRecvLen = 120842, nReadLen = 0, uTaskId = 2
+18:25:49:DownloadFile taskid = 2, nThreadId = 51, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=5&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=212856-236791&jpg=530268-587989
+18:25:49:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=5&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=212856-236791&jpg=530268-587989, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_5.dat, nUncompress = 0
+18:25:50:status = 200, uTaskId = 2
+18:25:50:download begin, uTaskId = 2, content-length = 57722
+18:25:50:download close. nRecvLen = 57722, nReadLen = 0, uTaskId = 2
+18:25:50:DownloadFile taskid = 2, nThreadId = 52, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=6&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=236792-278499&jpg=587990-689968
+18:25:50:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=6&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=236792-278499&jpg=587990-689968, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_6.dat, nUncompress = 0
+18:25:50:ToAddBatchTasks nSize = 0
+18:25:50:AddBatchTasks batch task is done. nSize is zero
+18:25:51:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:51:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:51:in AddExportPDFTask. i equal size. i = 1.
+18:25:51:status = 200, uTaskId = 2
+18:25:51:download begin, uTaskId = 2, content-length = 101979
+18:25:51:download close. nRecvLen = 101979, nReadLen = 0, uTaskId = 2
+18:25:51:DownloadFile taskid = 2, nThreadId = 53, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=7&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=278500-329550&jpg=689969-816064
+18:25:51:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=7&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=278500-329550&jpg=689969-816064, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_7.dat, nUncompress = 0
+18:25:52:status = 200, uTaskId = 2
+18:25:52:download begin, uTaskId = 2, content-length = 126096
+18:25:52:download close. nRecvLen = 126096, nReadLen = 0, uTaskId = 2
+18:25:52:DownloadFile taskid = 2, nThreadId = 54, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=8&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=329551-367515&jpg=816065-907693
+18:25:52:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=8&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=329551-367515&jpg=816065-907693, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_8.dat, nUncompress = 0
+18:25:53:status = 200, uTaskId = 2
+18:25:53:download begin, uTaskId = 2, content-length = 91629
+18:25:53:download close. nRecvLen = 91629, nReadLen = 0, uTaskId = 2
+18:25:53:DownloadFile taskid = 2, nThreadId = 55, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=9&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=367516-391968&jpg=907694-967606
+18:25:53:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=9&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=367516-391968&jpg=907694-967606, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_9.dat, nUncompress = 0
+18:25:54:status = 200, uTaskId = 2
+18:25:54:download begin, uTaskId = 2, content-length = 59913
+18:25:54:download close. nRecvLen = 59913, nReadLen = 0, uTaskId = 2
+18:25:54:DownloadFile taskid = 2, nThreadId = 56, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=10&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=391969-435725&jpg=967607-1076550
+18:25:54:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=10&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=391969-435725&jpg=967607-1076550, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_10.dat, nUncompress = 0
+18:25:54:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:54:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:54:in AddExportPDFTask. i equal size. i = 1.
+18:25:54:ToAddBatchTasks nSize = 0
+18:25:54:AddBatchTasks batch task is done. nSize is zero
+18:25:54:status = 200, uTaskId = 2
+18:25:54:download begin, uTaskId = 2, content-length = 108944
+18:25:55:download close. nRecvLen = 108944, nReadLen = 0, uTaskId = 2
+18:25:55:DownloadFile taskid = 2, nThreadId = 57, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=11&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=435726-481577&jpg=1076551-1191445
+18:25:55:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=11&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=435726-481577&jpg=1076551-1191445, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_11.dat, nUncompress = 0
+18:25:55:status = 200, uTaskId = 2
+18:25:55:download begin, uTaskId = 2, content-length = 114895
+18:25:56:download close. nRecvLen = 114895, nReadLen = 0, uTaskId = 2
+18:25:56:DownloadFile taskid = 2, nThreadId = 58, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=12&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=481578-530673&jpg=1191446-1313823
+18:25:56:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=12&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=481578-530673&jpg=1191446-1313823, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_12.dat, nUncompress = 0
+18:25:57:status = 200, uTaskId = 2
+18:25:57:download begin, uTaskId = 2, content-length = 122378
+18:25:57:download close. nRecvLen = 122378, nReadLen = 0, uTaskId = 2
+18:25:57:DownloadFile taskid = 2, nThreadId = 59, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=13&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=530674-569999&jpg=1313824-1411168
+18:25:57:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:25:57:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:25:57:in AddExportPDFTask. i equal size. i = 1.
+18:25:57:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=13&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=530674-569999&jpg=1313824-1411168, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_13.dat, nUncompress = 0
+18:25:58:status = 200, uTaskId = 2
+18:25:58:download begin, uTaskId = 2, content-length = 97345
+18:25:58:download close. nRecvLen = 97345, nReadLen = 0, uTaskId = 2
+18:25:58:DownloadFile taskid = 2, nThreadId = 60, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=14&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=570000-597855&jpg=1411169-1479846
+18:25:58:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=14&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=570000-597855&jpg=1411169-1479846, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_14.dat, nUncompress = 0
+18:25:58:ToAddBatchTasks nSize = 0
+18:25:58:AddBatchTasks batch task is done. nSize is zero
+18:25:59:status = 200, uTaskId = 2
+18:25:59:download begin, uTaskId = 2, content-length = 68678
+18:25:59:download close. nRecvLen = 68678, nReadLen = 0, uTaskId = 2
+18:25:59:DownloadFile taskid = 2, nThreadId = 61, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=15&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=597856-656148&jpg=1479847-1622492
+18:25:59:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=15&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=597856-656148&jpg=1479847-1622492, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_15.dat, nUncompress = 0
+18:26:00:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:00:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:00:in AddExportPDFTask. i equal size. i = 1.
+18:26:00:status = 200, uTaskId = 2
+18:26:00:download begin, uTaskId = 2, content-length = 142646
+18:26:01:download close. nRecvLen = 142646, nReadLen = 0, uTaskId = 2
+18:26:01:DownloadFile taskid = 2, nThreadId = 62, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=16&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=656149-698106&jpg=1622493-1726898
+18:26:01:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=16&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=656149-698106&jpg=1622493-1726898, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_16.dat, nUncompress = 0
+18:26:02:status = 200, uTaskId = 2
+18:26:02:download begin, uTaskId = 2, content-length = 104406
+18:26:02:download close. nRecvLen = 104406, nReadLen = 0, uTaskId = 2
+18:26:03:DownloadFile taskid = 2, nThreadId = 63, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=17&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=698107-744261&jpg=1726899-1840538
+18:26:03:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=17&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=698107-744261&jpg=1726899-1840538, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_17.dat, nUncompress = 0
+18:26:03:ToAddBatchTasks nSize = 0
+18:26:03:AddBatchTasks batch task is done. nSize is zero
+18:26:03:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:03:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:03:in AddExportPDFTask. i equal size. i = 1.
+18:26:03:status = 200, uTaskId = 2
+18:26:03:download begin, uTaskId = 2, content-length = 113640
+18:26:04:download close. nRecvLen = 113640, nReadLen = 0, uTaskId = 2
+18:26:04:DownloadFile taskid = 2, nThreadId = 64, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=18&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=744262-790945&jpg=1840539-1957657
+18:26:04:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=18&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=744262-790945&jpg=1840539-1957657, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_18.dat, nUncompress = 0
+18:26:04:status = 200, uTaskId = 2
+18:26:04:download begin, uTaskId = 2, content-length = 117119
+18:26:05:download close. nRecvLen = 117119, nReadLen = 0, uTaskId = 2
+18:26:05:DownloadFile taskid = 2, nThreadId = 65, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=19&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=790946-830051&jpg=1957658-2053437
+18:26:05:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=19&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=790946-830051&jpg=1957658-2053437, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_19.dat, nUncompress = 0
+18:26:06:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:06:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:06:in AddExportPDFTask. i equal size. i = 1.
+18:26:06:status = 200, uTaskId = 2
+18:26:06:download begin, uTaskId = 2, content-length = 95780
+18:26:07:download close. nRecvLen = 95780, nReadLen = 0, uTaskId = 2
+18:26:07:DownloadFile taskid = 2, nThreadId = 66, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=20&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=830052-863118&jpg=2053438-2132909
+18:26:07:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=20&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=830052-863118&jpg=2053438-2132909, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_20.dat, nUncompress = 0
+18:26:07:ToAddBatchTasks nSize = 0
+18:26:07:AddBatchTasks batch task is done. nSize is zero
+18:26:08:status = 200, uTaskId = 2
+18:26:08:download begin, uTaskId = 2, content-length = 79472
+18:26:08:download close. nRecvLen = 79472, nReadLen = 0, uTaskId = 2
+18:26:08:DownloadFile taskid = 2, nThreadId = 67, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=21&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=863119-889444&jpg=2132910-2195713
+18:26:08:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=21&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=863119-889444&jpg=2132910-2195713, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_21.dat, nUncompress = 0
+18:26:09:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:09:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:09:in AddExportPDFTask. i equal size. i = 1.
+18:26:11:ToAddBatchTasks nSize = 0
+18:26:11:AddBatchTasks batch task is done. nSize is zero
+18:26:12:status = 200, uTaskId = 2
+18:26:12:download begin, uTaskId = 2, content-length = 62804
+18:26:12:download close. nRecvLen = 62804, nReadLen = 0, uTaskId = 2
+18:26:12:DownloadFile taskid = 2, nThreadId = 68, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=22&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=889445-935845&jpg=2195714-2310733
+18:26:12:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=22&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=889445-935845&jpg=2195714-2310733, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_22.dat, nUncompress = 0
+18:26:12:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:12:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:12:in AddExportPDFTask. i equal size. i = 1.
+18:26:13:status = 200, uTaskId = 2
+18:26:13:download begin, uTaskId = 2, content-length = 115020
+18:26:13:download close. nRecvLen = 115020, nReadLen = 0, uTaskId = 2
+18:26:13:DownloadFile taskid = 2, nThreadId = 69, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=23&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=935846-969046&jpg=2310734-2389733
+18:26:13:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=23&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=935846-969046&jpg=2310734-2389733, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_23.dat, nUncompress = 0
+18:26:15:status = 200, uTaskId = 2
+18:26:15:download begin, uTaskId = 2, content-length = 79000
+18:26:15:ToAddBatchTasks nSize = 0
+18:26:15:AddBatchTasks batch task is done. nSize is zero
+18:26:15:download close. nRecvLen = 79000, nReadLen = 0, uTaskId = 2
+18:26:15:DownloadFile taskid = 2, nThreadId = 70, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=24&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=969047-1005210&jpg=2389734-2476666
+18:26:15:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=24&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=969047-1005210&jpg=2389734-2476666, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_24.dat, nUncompress = 0
+18:26:15:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:15:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:15:in AddExportPDFTask. i equal size. i = 1.
+18:26:16:status = 200, uTaskId = 2
+18:26:16:download begin, uTaskId = 2, content-length = 86933
+18:26:16:download close. nRecvLen = 86933, nReadLen = 0, uTaskId = 2
+18:26:16:DownloadFile taskid = 2, nThreadId = 71, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=25&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1005211-1041932&jpg=2476667-2565358
+18:26:16:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=25&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1005211-1041932&jpg=2476667-2565358, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_25.dat, nUncompress = 0
+18:26:17:status = 200, uTaskId = 2
+18:26:17:download begin, uTaskId = 2, content-length = 88692
+18:26:17:download close. nRecvLen = 88692, nReadLen = 0, uTaskId = 2
+18:26:17:DownloadFile taskid = 2, nThreadId = 72, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=26&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1041933-1087595&jpg=2565359-2680773
+18:26:17:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=26&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1041933-1087595&jpg=2565359-2680773, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_26.dat, nUncompress = 0
+18:26:17:status = 200, uTaskId = 2
+18:26:17:download begin, uTaskId = 2, content-length = 115415
+18:26:18:download close. nRecvLen = 115415, nReadLen = 0, uTaskId = 2
+18:26:18:DownloadFile taskid = 2, nThreadId = 73, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=27&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1087596-1127099&jpg=2680774-2778784
+18:26:18:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=27&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1087596-1127099&jpg=2680774-2778784, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_27.dat, nUncompress = 0
+18:26:18:status = 200, uTaskId = 2
+18:26:18:download begin, uTaskId = 2, content-length = 98011
+18:26:18:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:18:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:18:in AddExportPDFTask. i equal size. i = 1.
+18:26:18:download close. nRecvLen = 98011, nReadLen = 0, uTaskId = 2
+18:26:18:DownloadFile taskid = 2, nThreadId = 74, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=28&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1127100-1166350&jpg=2778785-2874879
+18:26:18:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=28&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1127100-1166350&jpg=2778785-2874879, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_28.dat, nUncompress = 0
+18:26:19:ToAddBatchTasks nSize = 0
+18:26:19:AddBatchTasks batch task is done. nSize is zero
+18:26:19:status = 200, uTaskId = 2
+18:26:19:download begin, uTaskId = 2, content-length = 96095
+18:26:20:download close. nRecvLen = 96095, nReadLen = 0, uTaskId = 2
+18:26:20:DownloadFile taskid = 2, nThreadId = 75, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=29&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1166351-1205868&jpg=2874880-2972467
+18:26:20:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=29&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1166351-1205868&jpg=2874880-2972467, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_29.dat, nUncompress = 0
+18:26:21:status = 200, uTaskId = 2
+18:26:21:download begin, uTaskId = 2, content-length = 97588
+18:26:21:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:21:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:21:in AddExportPDFTask. i equal size. i = 1.
+18:26:21:download close. nRecvLen = 97588, nReadLen = 0, uTaskId = 2
+18:26:21:DownloadFile taskid = 2, nThreadId = 76, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=30&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1205869-1255574&jpg=2972468-3096693
+18:26:21:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=30&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1205869-1255574&jpg=2972468-3096693, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_30.dat, nUncompress = 0
+18:26:23:ToAddBatchTasks nSize = 0
+18:26:23:AddBatchTasks batch task is done. nSize is zero
+18:26:24:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:24:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:24:in AddExportPDFTask. i equal size. i = 1.
+18:26:25:status = 200, uTaskId = 2
+18:26:25:download begin, uTaskId = 2, content-length = 124226
+18:26:25:download close. nRecvLen = 124226, nReadLen = 0, uTaskId = 2
+18:26:25:DownloadFile taskid = 2, nThreadId = 77, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=31&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1255575-1291979&jpg=3096694-3184005
+18:26:25:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=31&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1255575-1291979&jpg=3096694-3184005, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_31.dat, nUncompress = 0
+18:26:26:status = 200, uTaskId = 2
+18:26:26:download begin, uTaskId = 2, content-length = 87312
+18:26:26:download close. nRecvLen = 87312, nReadLen = 0, uTaskId = 2
+18:26:26:DownloadFile taskid = 2, nThreadId = 78, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=32&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1291980-1322303&jpg=3184006-3258574
+18:26:26:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=32&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1291980-1322303&jpg=3184006-3258574, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_32.dat, nUncompress = 0
+18:26:27:ToAddBatchTasks nSize = 0
+18:26:27:AddBatchTasks batch task is done. nSize is zero
+18:26:27:status = 200, uTaskId = 2
+18:26:27:download begin, uTaskId = 2, content-length = 74569
+18:26:27:download close. nRecvLen = 74569, nReadLen = 0, uTaskId = 2
+18:26:27:DownloadFile taskid = 2, nThreadId = 79, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=33&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1322304-1345725&jpg=3258575-3315907
+18:26:27:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=33&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1322304-1345725&jpg=3258575-3315907, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_33.dat, nUncompress = 0
+18:26:27:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:27:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:27:in AddExportPDFTask. i equal size. i = 1.
+18:26:28:status = 200, uTaskId = 2
+18:26:28:download begin, uTaskId = 2, content-length = 57333
+18:26:28:download close. nRecvLen = 57333, nReadLen = 0, uTaskId = 2
+18:26:28:DownloadFile taskid = 2, nThreadId = 80, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=34&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1345726-1382941&jpg=3315908-3406662
+18:26:28:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=34&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1345726-1382941&jpg=3315908-3406662, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_34.dat, nUncompress = 0
+18:26:28:status = 200, uTaskId = 2
+18:26:28:download begin, uTaskId = 2, content-length = 90755
+18:26:29:download close. nRecvLen = 90755, nReadLen = 0, uTaskId = 2
+18:26:29:DownloadFile taskid = 2, nThreadId = 81, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=35&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1382942-1423246&jpg=3406663-3507254
+18:26:29:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=35&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1382942-1423246&jpg=3406663-3507254, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_35.dat, nUncompress = 0
+18:26:29:status = 200, uTaskId = 2
+18:26:29:download begin, uTaskId = 2, content-length = 100592
+18:26:30:download close. nRecvLen = 100592, nReadLen = 0, uTaskId = 2
+18:26:30:DownloadFile taskid = 2, nThreadId = 82, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=36&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1423247-1448886&jpg=3507255-3568714
+18:26:30:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=36&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1423247-1448886&jpg=3507255-3568714, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_36.dat, nUncompress = 0
+18:26:30:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:30:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:30:in AddExportPDFTask. i equal size. i = 1.
+18:26:30:status = 200, uTaskId = 2
+18:26:30:download begin, uTaskId = 2, content-length = 61460
+18:26:30:download close. nRecvLen = 61460, nReadLen = 0, uTaskId = 2
+18:26:30:DownloadFile taskid = 2, nThreadId = 83, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=37&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1448887-1491530&jpg=3568715-3675567
+18:26:31:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=37&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1448887-1491530&jpg=3568715-3675567, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_37.dat, nUncompress = 0
+18:26:31:ToAddBatchTasks nSize = 0
+18:26:31:AddBatchTasks batch task is done. nSize is zero
+18:26:31:status = 200, uTaskId = 2
+18:26:31:download begin, uTaskId = 2, content-length = 106853
+18:26:31:download close. nRecvLen = 106853, nReadLen = 0, uTaskId = 2
+18:26:31:DownloadFile taskid = 2, nThreadId = 84, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=38&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1491531-1547622&jpg=3675568-3814817
+18:26:31:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=38&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1491531-1547622&jpg=3675568-3814817, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_38.dat, nUncompress = 0
+18:26:32:status = 200, uTaskId = 2
+18:26:32:download begin, uTaskId = 2, content-length = 139250
+18:26:32:download close. nRecvLen = 139250, nReadLen = 0, uTaskId = 2
+18:26:32:DownloadFile taskid = 2, nThreadId = 85, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=39&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1547623-1549589&jpg=3814818-3819114
+18:26:32:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=39&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1547623-1549589&jpg=3814818-3819114, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_39.dat, nUncompress = 0
+18:26:33:status = 200, uTaskId = 2
+18:26:33:download begin, uTaskId = 2, content-length = 4297
+18:26:33:download close. nRecvLen = 4297, nReadLen = 0, uTaskId = 2
+18:26:33:DownloadFile taskid = 2, nThreadId = 86, nIndex = 0, url = https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=40&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1549590-&jpg=3819115-
+18:26:33:DownloadFileCallBack url= https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=40&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1549590-&jpg=3819115-, uerproxy = 0, method = 3, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_40.dat, nUncompress = 0
+18:26:33:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:33:AddExportPDFTask. i:0, status:108,downloadstatus:2,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:33:in AddExportPDFTask. i equal size. i = 1.
+18:26:35:status = 200, uTaskId = 2
+18:26:35:download begin, uTaskId = 2, content-length = 30590
+18:26:35:ToAddBatchTasks nSize = 0
+18:26:35:AddBatchTasks batch task is done. nSize is zero
+18:26:35:download close. nRecvLen = 30590, nReadLen = 0, uTaskId = 2
+18:26:35:UpdateTaskStatus. status:-5, url:https://wkretype.bdimg.com/retype/zoom/8a16632d680203d8cf2f2493?pn=40&o=jpg_6&md5sum=fdbbfb62e25ca63c74d74cb027fbe0f1&sign=4735a02b80&png=1549590-&jpg=3819115-, m_sSavePath:C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\b_79e2f676b72acfc789eb172ded630b1c59ee9bcd_40.dat
+18:26:35:AddExportPDFTask. size = 1, m_nExportTask = 0.
+18:26:35:AddExportPDFTask. i:0, status:-5,downloadstatus:1,ListItem:0,使用VBA开发Word编程基础知识共40页
+18:26:35:ExportPdfFile html, taskid = 2, nThreadId = 87, nIndex = 0, m_sPdfFileName = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kpdf\使用VBA开发Word编程基础知识共40页.pdf
+18:26:35:ExportPDFFromHTMLCallBack uTaskId = 2, uId = 87, uMsgId = 5701634, res = 0, m_sReaderType=ppt, m_sPdfFileName=C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kpdf\使用VBA开发Word编程基础知识共40页.pdf
+18:26:39:ToAddBatchTasks nSize = 0
+18:26:39:AddBatchTasks batch task is done. nSize is zero
+18:26:43:ToAddBatchTasks nSize = 0
+18:26:43:AddBatchTasks batch task is done. nSize is zero
+18:26:44:export end
+18:26:44:DownloadFile taskid = 9998, nThreadId = 88, nIndex = 0, url = https://max.book118.com/index.php?g=Api&m=Uu456&a=SetDocInfo
+18:26:44:DownloadFileCallBack url= https://max.book118.com/index.php?g=Api&m=Uu456&a=SetDocInfo, uerproxy = 0, method = 4, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118info.txt, nUncompress = 0
+18:26:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:26:46:status = 403, uTaskId = 9998
+18:26:46:failed to set book118 info
+18:26:47:ToAddBatchTasks nSize = 0
+18:26:47:AddBatchTasks batch task is done. nSize is zero
+18:26:48:DownloadFile taskid = 9997, nThreadId = 89, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:26:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:26:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:26:49:status = 200, uTaskId = 9997
+18:26:49:download begin, uTaskId = 9997, content-length = 
+18:26:49:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:26:49:no book118 doc id:10002
+18:26:51:ToAddBatchTasks nSize = 0
+18:26:51:AddBatchTasks batch task is done. nSize is zero
+18:26:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:26:53:DownloadFile taskid = 9997, nThreadId = 90, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:26:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:26:53:status = 200, uTaskId = 9997
+18:26:53:download begin, uTaskId = 9997, content-length = 
+18:26:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:26:53:no book118 doc id:10002
+18:26:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:26:55:ToAddBatchTasks nSize = 0
+18:26:55:AddBatchTasks batch task is done. nSize is zero
+18:26:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:26:58:DownloadFile taskid = 9997, nThreadId = 91, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:26:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:26:58:status = 200, uTaskId = 9997
+18:26:58:download begin, uTaskId = 9997, content-length = 
+18:26:58:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:26:58:no book118 doc id:10002
+18:26:59:ToAddBatchTasks nSize = 0
+18:26:59:AddBatchTasks batch task is done. nSize is zero
+18:27:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:03:DownloadFile taskid = 9997, nThreadId = 92, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:03:ToAddBatchTasks nSize = 0
+18:27:03:AddBatchTasks batch task is done. nSize is zero
+18:27:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:04:status = 200, uTaskId = 9997
+18:27:04:download begin, uTaskId = 9997, content-length = 
+18:27:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:04:no book118 doc id:10002
+18:27:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:07:ToAddBatchTasks nSize = 0
+18:27:07:AddBatchTasks batch task is done. nSize is zero
+18:27:08:DownloadFile taskid = 9997, nThreadId = 93, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:08:status = 200, uTaskId = 9997
+18:27:08:download begin, uTaskId = 9997, content-length = 
+18:27:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:08:no book118 doc id:10002
+18:27:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:11:ToAddBatchTasks nSize = 0
+18:27:11:AddBatchTasks batch task is done. nSize is zero
+18:27:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:13:DownloadFile taskid = 9997, nThreadId = 94, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:13:status = 200, uTaskId = 9997
+18:27:13:download begin, uTaskId = 9997, content-length = 
+18:27:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:13:no book118 doc id:10002
+18:27:15:ToAddBatchTasks nSize = 0
+18:27:15:AddBatchTasks batch task is done. nSize is zero
+18:27:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:18:DownloadFile taskid = 9997, nThreadId = 95, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:18:status = 200, uTaskId = 9997
+18:27:18:download begin, uTaskId = 9997, content-length = 
+18:27:18:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:18:no book118 doc id:10002
+18:27:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:19:ToAddBatchTasks nSize = 0
+18:27:19:AddBatchTasks batch task is done. nSize is zero
+18:27:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:23:ToAddBatchTasks nSize = 0
+18:27:23:AddBatchTasks batch task is done. nSize is zero
+18:27:23:DownloadFile taskid = 9997, nThreadId = 96, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:23:status = 200, uTaskId = 9997
+18:27:23:download begin, uTaskId = 9997, content-length = 
+18:27:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:23:no book118 doc id:10002
+18:27:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:27:ToAddBatchTasks nSize = 0
+18:27:27:AddBatchTasks batch task is done. nSize is zero
+18:27:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:28:DownloadFile taskid = 9997, nThreadId = 97, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:28:status = 200, uTaskId = 9997
+18:27:28:download begin, uTaskId = 9997, content-length = 
+18:27:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:28:no book118 doc id:10002
+18:27:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:31:ToAddBatchTasks nSize = 0
+18:27:31:AddBatchTasks batch task is done. nSize is zero
+18:27:33:DownloadFile taskid = 9997, nThreadId = 98, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:33:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:33:status = 200, uTaskId = 9997
+18:27:33:download begin, uTaskId = 9997, content-length = 
+18:27:33:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:33:no book118 doc id:10002
+18:27:35:ToAddBatchTasks nSize = 0
+18:27:35:AddBatchTasks batch task is done. nSize is zero
+18:27:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:38:DownloadFile taskid = 9997, nThreadId = 99, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:38:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:38:status = 200, uTaskId = 9997
+18:27:38:download begin, uTaskId = 9997, content-length = 
+18:27:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:38:no book118 doc id:10002
+18:27:39:ToAddBatchTasks nSize = 0
+18:27:39:AddBatchTasks batch task is done. nSize is zero
+18:27:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:43:DownloadFile taskid = 9997, nThreadId = 100, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:43:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:43:ToAddBatchTasks nSize = 0
+18:27:43:AddBatchTasks batch task is done. nSize is zero
+18:27:43:status = 200, uTaskId = 9997
+18:27:43:download begin, uTaskId = 9997, content-length = 
+18:27:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:43:no book118 doc id:10002
+18:27:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:47:ToAddBatchTasks nSize = 0
+18:27:47:AddBatchTasks batch task is done. nSize is zero
+18:27:48:DownloadFile taskid = 9997, nThreadId = 101, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:48:status = 200, uTaskId = 9997
+18:27:48:download begin, uTaskId = 9997, content-length = 
+18:27:48:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:48:no book118 doc id:10002
+18:27:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:51:ToAddBatchTasks nSize = 0
+18:27:51:AddBatchTasks batch task is done. nSize is zero
+18:27:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:53:DownloadFile taskid = 9997, nThreadId = 102, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:53:status = 200, uTaskId = 9997
+18:27:53:download begin, uTaskId = 9997, content-length = 
+18:27:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:53:no book118 doc id:10002
+18:27:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:55:ToAddBatchTasks nSize = 0
+18:27:55:AddBatchTasks batch task is done. nSize is zero
+18:27:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:27:58:DownloadFile taskid = 9997, nThreadId = 103, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:27:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:27:58:status = 200, uTaskId = 9997
+18:27:58:download begin, uTaskId = 9997, content-length = 
+18:27:58:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:27:58:no book118 doc id:10002
+18:27:59:ToAddBatchTasks nSize = 0
+18:27:59:AddBatchTasks batch task is done. nSize is zero
+18:28:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:03:DownloadFile taskid = 9997, nThreadId = 104, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:03:ToAddBatchTasks nSize = 0
+18:28:03:AddBatchTasks batch task is done. nSize is zero
+18:28:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:04:status = 200, uTaskId = 9997
+18:28:04:download begin, uTaskId = 9997, content-length = 
+18:28:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:04:no book118 doc id:10002
+18:28:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:07:ToAddBatchTasks nSize = 0
+18:28:07:AddBatchTasks batch task is done. nSize is zero
+18:28:08:DownloadFile taskid = 9997, nThreadId = 105, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:08:status = 200, uTaskId = 9997
+18:28:08:download begin, uTaskId = 9997, content-length = 
+18:28:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:08:no book118 doc id:10002
+18:28:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:11:ToAddBatchTasks nSize = 0
+18:28:11:AddBatchTasks batch task is done. nSize is zero
+18:28:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:13:DownloadFile taskid = 9997, nThreadId = 106, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:13:status = 200, uTaskId = 9997
+18:28:13:download begin, uTaskId = 9997, content-length = 
+18:28:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:13:no book118 doc id:10002
+18:28:15:ToAddBatchTasks nSize = 0
+18:28:15:AddBatchTasks batch task is done. nSize is zero
+18:28:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:18:DownloadFile taskid = 9997, nThreadId = 107, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:19:ToAddBatchTasks nSize = 0
+18:28:19:AddBatchTasks batch task is done. nSize is zero
+18:28:19:status = 200, uTaskId = 9997
+18:28:19:download begin, uTaskId = 9997, content-length = 
+18:28:19:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:19:no book118 doc id:10002
+18:28:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:23:ToAddBatchTasks nSize = 0
+18:28:23:AddBatchTasks batch task is done. nSize is zero
+18:28:23:DownloadFile taskid = 9997, nThreadId = 108, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:24:status = 200, uTaskId = 9997
+18:28:24:download begin, uTaskId = 9997, content-length = 
+18:28:24:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:24:no book118 doc id:10002
+18:28:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:27:ToAddBatchTasks nSize = 0
+18:28:27:AddBatchTasks batch task is done. nSize is zero
+18:28:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:28:DownloadFile taskid = 9997, nThreadId = 109, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:28:status = 200, uTaskId = 9997
+18:28:28:download begin, uTaskId = 9997, content-length = 
+18:28:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:28:no book118 doc id:10002
+18:28:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:31:ToAddBatchTasks nSize = 0
+18:28:31:AddBatchTasks batch task is done. nSize is zero
+18:28:33:DownloadFile taskid = 9997, nThreadId = 110, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:33:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:34:status = 200, uTaskId = 9997
+18:28:34:download begin, uTaskId = 9997, content-length = 
+18:28:34:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:34:no book118 doc id:10002
+18:28:35:ToAddBatchTasks nSize = 0
+18:28:35:AddBatchTasks batch task is done. nSize is zero
+18:28:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:38:DownloadFile taskid = 9997, nThreadId = 111, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:38:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:38:status = 200, uTaskId = 9997
+18:28:38:download begin, uTaskId = 9997, content-length = 
+18:28:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:38:no book118 doc id:10002
+18:28:39:ToAddBatchTasks nSize = 0
+18:28:39:AddBatchTasks batch task is done. nSize is zero
+18:28:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:43:ToAddBatchTasks nSize = 0
+18:28:43:AddBatchTasks batch task is done. nSize is zero
+18:28:43:DownloadFile taskid = 9997, nThreadId = 112, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:43:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:43:status = 200, uTaskId = 9997
+18:28:43:download begin, uTaskId = 9997, content-length = 
+18:28:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:43:no book118 doc id:10002
+18:28:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:47:ToAddBatchTasks nSize = 0
+18:28:47:AddBatchTasks batch task is done. nSize is zero
+18:28:48:DownloadFile taskid = 9997, nThreadId = 113, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:48:status = 200, uTaskId = 9997
+18:28:48:download begin, uTaskId = 9997, content-length = 
+18:28:48:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:48:no book118 doc id:10002
+18:28:51:ToAddBatchTasks nSize = 0
+18:28:51:AddBatchTasks batch task is done. nSize is zero
+18:28:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:53:DownloadFile taskid = 9997, nThreadId = 114, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:53:status = 200, uTaskId = 9997
+18:28:53:download begin, uTaskId = 9997, content-length = 
+18:28:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:53:no book118 doc id:10002
+18:28:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:55:ToAddBatchTasks nSize = 0
+18:28:55:AddBatchTasks batch task is done. nSize is zero
+18:28:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:28:58:DownloadFile taskid = 9997, nThreadId = 115, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:28:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:28:59:status = 200, uTaskId = 9997
+18:28:59:download begin, uTaskId = 9997, content-length = 
+18:28:59:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:28:59:no book118 doc id:10002
+18:28:59:ToAddBatchTasks nSize = 0
+18:28:59:AddBatchTasks batch task is done. nSize is zero
+18:29:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:03:ToAddBatchTasks nSize = 0
+18:29:03:AddBatchTasks batch task is done. nSize is zero
+18:29:03:DownloadFile taskid = 9997, nThreadId = 116, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:04:status = 200, uTaskId = 9997
+18:29:04:download begin, uTaskId = 9997, content-length = 
+18:29:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:04:no book118 doc id:10002
+18:29:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:07:ToAddBatchTasks nSize = 0
+18:29:07:AddBatchTasks batch task is done. nSize is zero
+18:29:08:DownloadFile taskid = 9997, nThreadId = 117, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:08:status = 200, uTaskId = 9997
+18:29:08:download begin, uTaskId = 9997, content-length = 
+18:29:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:08:no book118 doc id:10002
+18:29:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:11:ToAddBatchTasks nSize = 0
+18:29:11:AddBatchTasks batch task is done. nSize is zero
+18:29:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:13:DownloadFile taskid = 9997, nThreadId = 118, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:13:status = 200, uTaskId = 9997
+18:29:13:download begin, uTaskId = 9997, content-length = 
+18:29:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:13:no book118 doc id:10002
+18:29:15:ToAddBatchTasks nSize = 0
+18:29:15:AddBatchTasks batch task is done. nSize is zero
+18:29:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:18:DownloadFile taskid = 9997, nThreadId = 119, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:19:status = 200, uTaskId = 9997
+18:29:19:download begin, uTaskId = 9997, content-length = 
+18:29:19:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:19:no book118 doc id:10002
+18:29:19:ToAddBatchTasks nSize = 0
+18:29:19:AddBatchTasks batch task is done. nSize is zero
+18:29:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:23:ToAddBatchTasks nSize = 0
+18:29:23:AddBatchTasks batch task is done. nSize is zero
+18:29:23:DownloadFile taskid = 9997, nThreadId = 120, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:23:status = 200, uTaskId = 9997
+18:29:23:download begin, uTaskId = 9997, content-length = 
+18:29:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:23:no book118 doc id:10002
+18:29:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:27:ToAddBatchTasks nSize = 0
+18:29:27:AddBatchTasks batch task is done. nSize is zero
+18:29:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:28:DownloadFile taskid = 9997, nThreadId = 121, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:28:status = 200, uTaskId = 9997
+18:29:28:download begin, uTaskId = 9997, content-length = 
+18:29:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:28:no book118 doc id:10002
+18:29:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:31:ToAddBatchTasks nSize = 0
+18:29:31:AddBatchTasks batch task is done. nSize is zero
+18:29:33:DownloadFile taskid = 9997, nThreadId = 122, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:33:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:34:status = 200, uTaskId = 9997
+18:29:34:download begin, uTaskId = 9997, content-length = 
+18:29:34:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:34:no book118 doc id:10002
+18:29:35:ToAddBatchTasks nSize = 0
+18:29:35:AddBatchTasks batch task is done. nSize is zero
+18:29:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:38:DownloadFile taskid = 9997, nThreadId = 123, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:38:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:38:status = 200, uTaskId = 9997
+18:29:38:download begin, uTaskId = 9997, content-length = 
+18:29:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:38:no book118 doc id:10002
+18:29:39:ToAddBatchTasks nSize = 0
+18:29:39:AddBatchTasks batch task is done. nSize is zero
+18:29:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:43:ToAddBatchTasks nSize = 0
+18:29:43:AddBatchTasks batch task is done. nSize is zero
+18:29:43:DownloadFile taskid = 9997, nThreadId = 124, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:43:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:43:status = 200, uTaskId = 9997
+18:29:43:download begin, uTaskId = 9997, content-length = 
+18:29:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:43:no book118 doc id:10002
+18:29:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:47:ToAddBatchTasks nSize = 0
+18:29:47:AddBatchTasks batch task is done. nSize is zero
+18:29:48:DownloadFile taskid = 9997, nThreadId = 125, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:48:status = 200, uTaskId = 9997
+18:29:48:download begin, uTaskId = 9997, content-length = 
+18:29:48:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:48:no book118 doc id:10002
+18:29:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:51:ToAddBatchTasks nSize = 0
+18:29:51:AddBatchTasks batch task is done. nSize is zero
+18:29:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:53:DownloadFile taskid = 9997, nThreadId = 126, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:53:status = 200, uTaskId = 9997
+18:29:53:download begin, uTaskId = 9997, content-length = 
+18:29:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:53:no book118 doc id:10002
+18:29:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:55:ToAddBatchTasks nSize = 0
+18:29:55:AddBatchTasks batch task is done. nSize is zero
+18:29:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:29:58:DownloadFile taskid = 9997, nThreadId = 127, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:29:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:29:58:status = 200, uTaskId = 9997
+18:29:58:download begin, uTaskId = 9997, content-length = 
+18:29:58:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:29:58:no book118 doc id:10002
+18:29:59:ToAddBatchTasks nSize = 0
+18:29:59:AddBatchTasks batch task is done. nSize is zero
+18:30:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:03:ToAddBatchTasks nSize = 0
+18:30:03:AddBatchTasks batch task is done. nSize is zero
+18:30:03:DownloadFile taskid = 9997, nThreadId = 128, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:04:status = 200, uTaskId = 9997
+18:30:04:download begin, uTaskId = 9997, content-length = 
+18:30:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:04:no book118 doc id:10002
+18:30:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:07:ToAddBatchTasks nSize = 0
+18:30:07:AddBatchTasks batch task is done. nSize is zero
+18:30:08:DownloadFile taskid = 9997, nThreadId = 129, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:08:status = 200, uTaskId = 9997
+18:30:08:download begin, uTaskId = 9997, content-length = 
+18:30:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:08:no book118 doc id:10002
+18:30:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:11:ToAddBatchTasks nSize = 0
+18:30:11:AddBatchTasks batch task is done. nSize is zero
+18:30:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:13:DownloadFile taskid = 9997, nThreadId = 130, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:14:status = 200, uTaskId = 9997
+18:30:14:download begin, uTaskId = 9997, content-length = 
+18:30:14:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:14:no book118 doc id:10002
+18:30:15:ToAddBatchTasks nSize = 0
+18:30:15:AddBatchTasks batch task is done. nSize is zero
+18:30:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:18:DownloadFile taskid = 9997, nThreadId = 131, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:18:status = 200, uTaskId = 9997
+18:30:18:download begin, uTaskId = 9997, content-length = 
+18:30:18:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:18:no book118 doc id:10002
+18:30:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:19:ToAddBatchTasks nSize = 0
+18:30:19:AddBatchTasks batch task is done. nSize is zero
+18:30:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:23:ToAddBatchTasks nSize = 0
+18:30:23:AddBatchTasks batch task is done. nSize is zero
+18:30:23:DownloadFile taskid = 9997, nThreadId = 132, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:23:status = 200, uTaskId = 9997
+18:30:23:download begin, uTaskId = 9997, content-length = 
+18:30:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:23:no book118 doc id:10002
+18:30:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:27:ToAddBatchTasks nSize = 0
+18:30:27:AddBatchTasks batch task is done. nSize is zero
+18:30:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:28:DownloadFile taskid = 9997, nThreadId = 133, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:28:status = 200, uTaskId = 9997
+18:30:28:download begin, uTaskId = 9997, content-length = 
+18:30:28:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:28:no book118 doc id:10002
+18:30:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:31:ToAddBatchTasks nSize = 0
+18:30:31:AddBatchTasks batch task is done. nSize is zero
+18:30:33:DownloadFile taskid = 9997, nThreadId = 134, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:33:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:33:status = 200, uTaskId = 9997
+18:30:33:download begin, uTaskId = 9997, content-length = 
+18:30:33:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:33:no book118 doc id:10002
+18:30:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:35:ToAddBatchTasks nSize = 0
+18:30:35:AddBatchTasks batch task is done. nSize is zero
+18:30:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:38:DownloadFile taskid = 9997, nThreadId = 135, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:38:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:38:status = 200, uTaskId = 9997
+18:30:38:download begin, uTaskId = 9997, content-length = 
+18:30:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:38:no book118 doc id:10002
+18:30:39:ToAddBatchTasks nSize = 0
+18:30:39:AddBatchTasks batch task is done. nSize is zero
+18:30:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:43:ToAddBatchTasks nSize = 0
+18:30:43:AddBatchTasks batch task is done. nSize is zero
+18:30:43:DownloadFile taskid = 9997, nThreadId = 136, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:43:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:43:status = 200, uTaskId = 9997
+18:30:43:download begin, uTaskId = 9997, content-length = 
+18:30:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:43:no book118 doc id:10002
+18:30:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:47:ToAddBatchTasks nSize = 0
+18:30:47:AddBatchTasks batch task is done. nSize is zero
+18:30:48:DownloadFile taskid = 9997, nThreadId = 137, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:48:status = 200, uTaskId = 9997
+18:30:48:download begin, uTaskId = 9997, content-length = 
+18:30:48:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:48:no book118 doc id:10002
+18:30:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:51:ToAddBatchTasks nSize = 0
+18:30:51:AddBatchTasks batch task is done. nSize is zero
+18:30:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:53:DownloadFile taskid = 9997, nThreadId = 138, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:53:status = 200, uTaskId = 9997
+18:30:53:download begin, uTaskId = 9997, content-length = 
+18:30:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:53:no book118 doc id:10002
+18:30:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:55:ToAddBatchTasks nSize = 0
+18:30:55:AddBatchTasks batch task is done. nSize is zero
+18:30:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:30:58:DownloadFile taskid = 9997, nThreadId = 139, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:30:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:30:58:status = 200, uTaskId = 9997
+18:30:58:download begin, uTaskId = 9997, content-length = 
+18:30:58:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:30:58:no book118 doc id:10002
+18:30:59:ToAddBatchTasks nSize = 0
+18:30:59:AddBatchTasks batch task is done. nSize is zero
+18:31:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:03:ToAddBatchTasks nSize = 0
+18:31:03:AddBatchTasks batch task is done. nSize is zero
+18:31:03:DownloadFile taskid = 9997, nThreadId = 140, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:04:status = 200, uTaskId = 9997
+18:31:04:download begin, uTaskId = 9997, content-length = 
+18:31:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:04:no book118 doc id:10002
+18:31:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:07:ToAddBatchTasks nSize = 0
+18:31:07:AddBatchTasks batch task is done. nSize is zero
+18:31:08:DownloadFile taskid = 9997, nThreadId = 141, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:08:status = 200, uTaskId = 9997
+18:31:08:download begin, uTaskId = 9997, content-length = 
+18:31:08:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:08:no book118 doc id:10002
+18:31:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:11:ToAddBatchTasks nSize = 0
+18:31:11:AddBatchTasks batch task is done. nSize is zero
+18:31:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:13:DownloadFile taskid = 9997, nThreadId = 142, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:13:status = 200, uTaskId = 9997
+18:31:13:download begin, uTaskId = 9997, content-length = 
+18:31:13:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:13:no book118 doc id:10002
+18:31:15:ToAddBatchTasks nSize = 0
+18:31:15:AddBatchTasks batch task is done. nSize is zero
+18:31:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:18:DownloadFile taskid = 9997, nThreadId = 143, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:18:status = 200, uTaskId = 9997
+18:31:18:download begin, uTaskId = 9997, content-length = 
+18:31:18:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:18:no book118 doc id:10002
+18:31:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:19:ToAddBatchTasks nSize = 0
+18:31:19:AddBatchTasks batch task is done. nSize is zero
+18:31:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:23:ToAddBatchTasks nSize = 0
+18:31:23:AddBatchTasks batch task is done. nSize is zero
+18:31:23:DownloadFile taskid = 9997, nThreadId = 144, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:23:status = 200, uTaskId = 9997
+18:31:23:download begin, uTaskId = 9997, content-length = 
+18:31:23:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:23:no book118 doc id:10002
+18:31:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:27:ToAddBatchTasks nSize = 0
+18:31:27:AddBatchTasks batch task is done. nSize is zero
+18:31:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:28:DownloadFile taskid = 9997, nThreadId = 145, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:29:status = 200, uTaskId = 9997
+18:31:29:download begin, uTaskId = 9997, content-length = 
+18:31:29:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:29:no book118 doc id:10002
+18:31:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:31:ToAddBatchTasks nSize = 0
+18:31:31:AddBatchTasks batch task is done. nSize is zero
+18:31:33:DownloadFile taskid = 9997, nThreadId = 146, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:33:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:33:status = 200, uTaskId = 9997
+18:31:33:download begin, uTaskId = 9997, content-length = 
+18:31:33:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:33:no book118 doc id:10002
+18:31:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:35:ToAddBatchTasks nSize = 0
+18:31:35:AddBatchTasks batch task is done. nSize is zero
+18:31:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:38:DownloadFile taskid = 9997, nThreadId = 147, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:38:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:38:status = 200, uTaskId = 9997
+18:31:38:download begin, uTaskId = 9997, content-length = 
+18:31:38:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:38:no book118 doc id:10002
+18:31:39:ToAddBatchTasks nSize = 0
+18:31:39:AddBatchTasks batch task is done. nSize is zero
+18:31:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:43:ToAddBatchTasks nSize = 0
+18:31:43:AddBatchTasks batch task is done. nSize is zero
+18:31:43:DownloadFile taskid = 9997, nThreadId = 148, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:43:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:43:status = 200, uTaskId = 9997
+18:31:43:download begin, uTaskId = 9997, content-length = 
+18:31:43:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:43:no book118 doc id:10002
+18:31:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:47:ToAddBatchTasks nSize = 0
+18:31:47:AddBatchTasks batch task is done. nSize is zero
+18:31:48:DownloadFile taskid = 9997, nThreadId = 149, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:48:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:49:status = 200, uTaskId = 9997
+18:31:49:download begin, uTaskId = 9997, content-length = 
+18:31:49:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:49:no book118 doc id:10002
+18:31:51:ToAddBatchTasks nSize = 0
+18:31:51:AddBatchTasks batch task is done. nSize is zero
+18:31:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:53:DownloadFile taskid = 9997, nThreadId = 150, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:53:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:53:status = 200, uTaskId = 9997
+18:31:53:download begin, uTaskId = 9997, content-length = 
+18:31:53:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:53:no book118 doc id:10002
+18:31:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:55:ToAddBatchTasks nSize = 0
+18:31:55:AddBatchTasks batch task is done. nSize is zero
+18:31:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:31:58:DownloadFile taskid = 9997, nThreadId = 151, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:31:58:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:31:59:status = 200, uTaskId = 9997
+18:31:59:download begin, uTaskId = 9997, content-length = 
+18:31:59:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:31:59:no book118 doc id:10002
+18:31:59:ToAddBatchTasks nSize = 0
+18:31:59:AddBatchTasks batch task is done. nSize is zero
+18:32:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:03:ToAddBatchTasks nSize = 0
+18:32:03:AddBatchTasks batch task is done. nSize is zero
+18:32:03:DownloadFile taskid = 9997, nThreadId = 152, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:03:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:04:status = 200, uTaskId = 9997
+18:32:04:download begin, uTaskId = 9997, content-length = 
+18:32:04:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:04:no book118 doc id:10002
+18:32:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:07:ToAddBatchTasks nSize = 0
+18:32:07:AddBatchTasks batch task is done. nSize is zero
+18:32:08:DownloadFile taskid = 9997, nThreadId = 153, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:08:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:09:status = 200, uTaskId = 9997
+18:32:09:download begin, uTaskId = 9997, content-length = 
+18:32:09:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:09:no book118 doc id:10002
+18:32:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:11:ToAddBatchTasks nSize = 0
+18:32:11:AddBatchTasks batch task is done. nSize is zero
+18:32:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:13:DownloadFile taskid = 9997, nThreadId = 154, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:13:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:14:status = 200, uTaskId = 9997
+18:32:14:download begin, uTaskId = 9997, content-length = 
+18:32:14:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:14:no book118 doc id:10002
+18:32:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:15:ToAddBatchTasks nSize = 0
+18:32:15:AddBatchTasks batch task is done. nSize is zero
+18:32:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:18:DownloadFile taskid = 9997, nThreadId = 155, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:18:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:19:status = 200, uTaskId = 9997
+18:32:19:download begin, uTaskId = 9997, content-length = 
+18:32:19:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:19:no book118 doc id:10002
+18:32:19:ToAddBatchTasks nSize = 0
+18:32:19:AddBatchTasks batch task is done. nSize is zero
+18:32:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:23:ToAddBatchTasks nSize = 0
+18:32:23:AddBatchTasks batch task is done. nSize is zero
+18:32:23:DownloadFile taskid = 9997, nThreadId = 156, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:23:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:24:status = 200, uTaskId = 9997
+18:32:24:download begin, uTaskId = 9997, content-length = 
+18:32:24:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:24:no book118 doc id:10002
+18:32:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+18:32:27:ToAddBatchTasks nSize = 0
+18:32:27:AddBatchTasks batch task is done. nSize is zero
+18:32:28:DownloadFile taskid = 9997, nThreadId = 157, nIndex = 0, url = http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5
+18:32:28:DownloadFileCallBack url= http://max.book118.com/index.php?g=Api&m=Uu456&a=GetBaiduIds&limit=5, uerproxy = 0, method = 1, save = C:\GitHub\SBHiTech\WRD-2022-2\MyTools\冰点文库下载器 3.2.7\kdocin\118url.txt, nUncompress = 0
+18:32:29:status = 200, uTaskId = 9997
+18:32:29:download begin, uTaskId = 9997, content-length = 
+18:32:29:download close. nRecvLen = 90, nReadLen = 0, uTaskId = 9997
+18:32:29:no book118 doc id:10002
+18:32:32:end

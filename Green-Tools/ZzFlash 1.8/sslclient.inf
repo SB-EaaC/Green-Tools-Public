@@ -1,0 +1,60 @@
+[Version]
+Signature="$Chicago$"
+AdvancedINF=2.5
+
+[DefaultInstall]
+CopyFiles=InstallFilesSection,InstallInfSection
+AddReg=AddRegSection
+RegisterOCXs=RegisterOCXSection
+
+[DefaultUninstall]
+cleanup=1
+Delfiles=InstallFilesSection
+delreg=DelRegSection
+UnRegisterOCXs=UnRegisterOCXSection
+
+[strings]
+VersionNumber = "2,0,0,3"
+
+[RegisterOCXSection]
+%11%\sslclientnew.ocx
+
+[UnRegisterOCXSection]
+%11%\sslclientnew.ocx
+
+[AddRegSection]
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","ButtonText",0,"TOL24"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","CLSID",0,"{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Default Visible",0,"yes"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Exec",0,"http://www.TOL24.com"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","HotIcon",0,"%11%\TOL24Res.dll,105"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Icon",0,"%11%\TOL24Res.dll,105"
+
+[DelRegSection]
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","ButtonText",0,"TOL24"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","CLSID",0,"{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Default Visible",0,"yes"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Exec",0,"http://www.TOL24.com"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","HotIcon",0,"%11%\TOL24Res.dll,105"
+HKLM,"SOFTWARE\Microsoft\Internet Explorer\Extensions\{345ff7d8-2364-4ef7-889b-7d3c1d0bd342}","Icon",0,"%11%\TOL24Res.dll,105"
+
+[InstallFilesSection]
+TOL24ActiveX=sslclientnew.ocx
+TOL24Resource=TOL24Res.dll
+
+[InstallInfSection]
+infFile=sslclient.inf
+
+[TOL24ActiveX]
+file-win32-x86=thiscab
+FileVersion=%VersionNumber%
+RegisterServer=yes
+
+[TOL24Resource]
+file-win32-x86=thiscab
+RegisterServer=no
+
+[DestinationDirs]
+InstallFilesSection=11
+FileVersion="1.0.0.1"
+InstallInfSection=17
