@@ -1,0 +1,150 @@
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.7:
+- New feature: color bar for graphical presentation of differences
+- New feature: option to ignore lines matching regular expression
+- New feature: options to ignore first and last characters in each line
+- New feature: option to enable / disable warning on 'no newline'
+- New feature: command line options to specify filters for 
+  directory comparison
+
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.6f:
+- New feature: directory snapshot
+- New feature: simple word wrap
+- New feature: View/Edit in File context menu
+- New feature: option to set time zone difference for directory 
+  comparison
+- New feature: Show Only Differences feature is superceded by
+  View Filter
+- New feature: ignore blank lines
+- Improvement: faster file comparison, especially for large files
+- Bug fix: restored  Compare Matched From Directories and Compare
+  Selected From Directories lost in 2.6
+- Bug fix: incorrect behavior with option 'Run new instance of
+  the program to compare from directory panes'
+- Bug fix: Find and Replace dialogs did not go away after re-compare
+
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.6:
+- New feature: option to show/print just the changes with 
+  a user-defineable number of lines of context (for file
+  comparison)
+- New feature: insert/overwrite mode (for file comparison)
+- New feature: bookmarks (for file comparison)
+- New feature: replace (for file comparison)
+- New feature: go to line (for file comparison)
+- New feature: regular expressions for find/replace
+- New feature: customizable toolbar
+- New feature: ignore background for printing
+- New feature: option to disable pane synchronization
+- New feature: command line switch to read options from a 
+  specified file (/g:file)
+- New feature: option to print file diffs when printing 
+  directory diff report (and a new command line switch /c)
+- Improvement: warn about changes before spawning external 
+  editor
+- Bug fix: for files with over 1000 lines, the line number of 
+  the left file did not print completely
+- Bug fix: Ctrl + Mouse Click did not unselect items in 
+  directory comparison panes
+- Bug fix: synchronized word wrapping
+- Bug fix: sorting of Path column in directory comparison panes
+
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.5:
+- New feature: ability to edit files within file comparison
+  panes
+- New feature: view whitespace in file comparison panes
+- New feature: additional command line switches: 
+   /s  consider files with the same size and timestamp 
+       identical 
+   /y  consider files with different size different (even 
+       if some ignore options are selected) 
+   /z  consider files with different timestamp different 
+   /r0 do not compare subdirectories at all 
+   /r1 compare subdirectories only to determine their status 
+   /r2 compare subdirectories recursively 
+   /f  report file differences during directory comparison 
+   /x  read-only mode
+- New feature: option to show directory sizes
+- Bug fix: copying and deleting multiple files in recursive 
+  directory comparison mode
+- Bug fix: going one level up to root directories in directory
+  comparison mode
+- Bug fix: occasional crashes in print preview for directory
+  comparison
+
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.2:
+- New feature: directories are optionally compared recursively
+- New feature: directories are optionally marked as different 
+  if their files/directories differ
+- New feature: synchronous word wrapping of long lines
+- New feature: ability to compare two selected (but not 
+  necessarily matched) files/directories from directory
+  comparison panes
+- New feature: additional command line switch:
+   /p  print diff report and exit
+- New feature: same window or new window option when comparing
+  two directories from the directory comparison panes
+- New feature: "One directory level up" command to move up the
+  directory tree in the directory comparison mode
+- New feature: status column in directory comparison mode which
+  shows Same, Added, Deleted files/directories, and Newer and 
+  Older files or Changed directories
+- New feature: Windows Explorer menu in directories right-click 
+  menu
+- Improvement: several new options to make directory comparison
+  faster
+- Improvement: separate fonts for screen and printer
+- Improvement: option to automatically re-compare 
+  files/directories if change is detected
+- Improvement: number of added/deleted/changed items is 
+  shown in the status bar
+- Improvement: significantly expanded online help
+- Bug fix: multiple include filters didn't work
+- Bug fix: minimizing main window didn't bring "Compare Dialog" 
+  to the top under Windows 98 and Windows 2000
+- Bug fix: file operations (copy, delete) could cause problems 
+  (including crash) in "Show Only Differences" mode 
+- Bug fix: change notifications didn't work after file 
+  operations
+- Bug fix: incorrect coloring if compared files did not have 
+  carriage return at the end
+- Bug fix: directory comparison for root directories could 
+  produce wrong file types and icons
+- Bug fix: comparing files/directories by double-clicking items 
+  in directory comparison panes didn't work with "Show Only 
+  Differences" option enabled
+                        
+//////////////////////////////////////////////////////////////
+CHANGES IN VERSION 2.1:
+- New feature: highlights differences down to the level of 
+  words or characters in changed lines
+- New feature: allows printing and print previewing of diff
+  reports
+- New feature: able to copy and delete multiple 
+  files/directories in directory comparison mode
+- New feature: additional command line switch:
+   /o:file  outputs diff results to a file 'file' (or
+            to standard output if '-' is specified), then quits.
+- New feature: option to have Compare Dialog box always on top
+- New feature: $COLUMN variable to pass the cursor's column
+  number to the external editor
+- New feature: toggle between "Ignore nothing" and "Ignore
+  what I specified to be ignored" states
+- New feature: in addition to background colors, hatched 
+  patterns may be used  
+- New feature: in directory comparison mode, option to consider
+  files with the same name, size and timestamp identical, 
+  making comparison significantly faster
+- Improvement: if the option to "Compare New Pair of Files"
+  is selected, then the main window is minimized, permitting 
+  better access to the desktop with unobscured drag-and drop
+- Improvement: no more serial numbers
+- Bug fix: in file comparison mode, pressing Delete key caused
+  a crash
+- Bug fix: in directory comparison mode, incorrect binary files
+  comparison
+- Bug fix: from the command line, UNC file names didn't work
+- Bug fix: root directory comparison didn't work

@@ -1,0 +1,56 @@
+Software License Agreement for HyperSnap.
+
+This is a legal agreement between you and Hyperionics Technologies, Inc. covering your use of HyperSnap (the "Software").  Be sure to read the following agreement before using the Software.  BY USING THE SOFTWARE (REGARDLESS IF YOU HAVE REGISTERED THE SOFTWARE OR NOT), YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT USE THE SOFTWARE AND DESTROY ALL COPIES IN YOUR POSSESSION.  
+
+The Software is owned by Hyperionics Technology, LLC and is protected by United States copyright laws and international treaty provisions. Therefore, you must treat the Software like any other copyrighted material (e.  g., a book or musical recording).  Paying a single user license fee allows you the right to use one copy of the Software on a single computer. You may not network the Software or otherwise use it or make it available for use on more than one computer at the same time.  Corporate customers with multi-user network licenses should undertake a reasonable effort to make sure that the total number of concurrent users within their organization does not exceed their license user limit.  You may not rent or lease the Software, nor may you modify, adapt, translate, reverse engineer, decompile, or disassemble the Software.  If you violate any part of this agreement, your right to use this Software terminates automatically and you must then destroy all copies of the Software in your possession.  
+
+The Software and its related documentation are provided "AS IS" and without warranty of any kind and Hyperionics Technology expressly disclaims all other warranties, expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  Under no circumstances shall Hyperionics Technology be liable for any incidental, special, or consequential damages that result from the use or inability to use the Software or related documentation, even if Hyperionics Technology has been advised of the possibility of such damages.  In no event shall Hyperionics Technology' liability exceed the license fee paid, if any.  
+
+This Agreement shall be governed by the laws of the Commonwealth of Pennsylvania.  If for any reason a court of competent jurisdiction finds any provision of the Agreement, or portion thereof, to be unenforceable, that provision of the Agreement shall be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remainder of this Agreement shall continue in full force and effect.  
+
+The Software and documentation is provided with RESTRICTED RIGHTS.  Use, duplication, or disclosure by the Government is subject to restrictions as set forth in subdivision (b)( 3)( ii) of the ASPR Rights in Technical Data and Computer Software clause as 252.  227- 7013.  Manufacturer is: Hyperionics Technology, 3146 Chestnut Drive, Murrysville, PA 15668, USA, info@hyperionics.com.  
+
+Copyright (C) 1995-2005 by Hyperionics Technology, LLC.  All rights reserved.  Hyperionics, HyperSnap, HyperSnap-DX, HyperCam and FileBox eXtender are trademarks of Hyperionics Technology, LLC.  
+
+
+CNNIC中文上网官方版软件最终用户使用授权协议
+
+    本最终用户软件授权协议（以下简称“协议”）是由您，作为最终用户，与中国互联网络信息中心（以下简称“CNNIC”）共同签订。
+
+1. 许可授权
+
+    按照本协议的以下条款，CNNIC授权您使用本软件及其相关修订、升级或错误更正，该授权为有限、非专用、不可传递、不可转授的，并仅供您在自己的电脑上依照本协议使用。本软件产品为免费软件，用户可以非商业性地下载、安装、复制和散发本软件产品。如果需要进行商业性的销售、复制和散发，例如软件预装和捆绑，必须获得CNNIC的授权和许可。并且，您无权转授本使用许可，不得销售、租借、租赁或散发本软件的拷贝，除非明确获得您、您所在单位或负责人与CNNIC达成的有效书面授权协议。
+
+2. 知识产权保护
+
+    本软件受中华人民共和国著作权法及国际著作权条约、知识产权法、国际版权法及条约的保护，其所有知识产权归CNNIC所有。除非本协议另有明确规定，否则本协议不向您提供任何有关该软件的知识产权。该软件的所有标题和版权，包括但不限于其操作、代码、结构和执行、外观、屏幕显示结果、任何图象、照片、动画、录像、录音、音乐、文字和附加程序(dll、exe等)、随附的帮助材料、及本软件产品的任何副本，均属CNNIC的知识财产。CNNIC保留所有在本协议中未明确授让的权利。用户不得对本软件产品进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble），违者属于侵权行为，将可能受到来自CNNIC的法律追究，行为人并应当自行承担由此产生的不利后果。
+
+3. 有限责任
+
+    本软件以“现状”方式提供，CNNIC不对该软件作任何明确的、隐含的或法定的保证，包括但不限于任何关于可销售性、特定用途的适用性或不损害第三方利益的隐含保证。CNNIC不对与本软件有着相同或相似实现原理的其它软件（如3721网络实名软件等）的冲突做任何明确的、隐含的或法定的保证。CNNIC不对您或任何其他人所造成的损失承担责任，这些损失可能来自于与用户安装使用的其他软件的冲突，或由于不能使用本产品而造成的损害，包括（但不限于）直接的、间接的、特殊的、偶然的、惩戒性或结果性的个人损害、商业利润损失、业务中断、信息的丢失或任何其它商业损失。本软件经过详细的测试，但不能保证与所有的软硬件系统完全兼容。如果出现不兼容的情况，用户可拨打电话、Email、传真等方式将情况报告CNNIC，获得技术支持。
+
+4. 软件认定
+
+    本软件产品可以通过网络等途径下载、传播，对于从非CNNIC指定站点下载的本软件产品以及从非CNNIC发行的介质上获得的本软件产品，CNNIC无法保证该软件的完整性、安全性和有效性，不承担由此引起的直接和间接损害责任。
+
+5. 功能升级
+
+    CNNIC保证本软件的升级模块中也不含有任何旨在破坏用户计算机数据和获取用户隐私信息的恶意代码，不含有任何跟踪、监视用户计算机和或操作行为的功能代码，不会监控用户网上、网下的行为或泄漏用户隐私。
+
+6. 自愿性软件和卸载权
+
+    本软件为自愿性质的软件，在Windows操作系统启动时自动运行，您可以在任何时候利用Windows的添加/删除程序功能来卸载本软件，因删除产生的一切后果由用户承担。
+
+    由于本软件与某些浏览器插件软件（如3721网络实名等插件）不兼容，这些插件将导致本软件功能无法正常使用。为了确保本软件功能有效，本软件安装后将覆盖或卸载这些插件。同时本软件安装后用户也将有可能无法下载、安装这些与本软件不兼容的插件软件。如果用户确需安装这些插件，请先从系统“控制面版”的“添加/删除程序”中卸载本软件。
+
+7. 终止
+
+    如果您违反了本协议，则您使用本软件的授权将被终止。终止后，您必须将本软件的拷贝及所有相关文档销毁。
+
+8. 争议解决
+
+    双方一致同意本协议的内容及效力，双方一致同意由于执行本协议而产生的一切纠纷适用中华人民共和国法律，并由CNNIC所在地法院管辖。
+
+9. 通过下载安装或者对弹出插件窗口点击“是”安装软件包，表明您已同意本协议，并且作为本协议的一方而受其约束。如果您不同意本协议的所有条款，请不要下载或安装本软件，或者对弹出插件窗口点击“否”。
+
+      中国互联网络信息中心（CNNIC）

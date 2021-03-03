@@ -1,0 +1,177 @@
+#TITLE=SQL-SSB
+; Auto-completion file for Oracle SQL written by Johannes J鋜vinen.
+; (C) Commit; Material Automation Oy  http://www.commit.fi
+; Johannes.Jarvinen@Commit.fi
+
+#CASE=n
+#T=/*
+/*………*/
+#T=proc
+$******: PROC(PARM) OPTIONS(MAIN);  
+
+#T=proc
+END $******;
+#T=get list
+GET LIST   (變數列)；
+#T=put list
+PUT LIST(資料列)；
+
+#T=GET EDIT
+GET EDIT(變數列) (格式列);
+
+#T=PUT EDIT
+PUT EDIT (變數列) (格式列);
+
+
+
+
+
+#T=loop
+LOOP：********；
+
+
+GOTO LOOP；
+
+#T=DECLARE
+DECLARE(變數列) [性質1][性質2]…[性質n]，
+       (變數列) [性質1][性質2]…[性質n]；
+#T=FIXED
+FIXED DECLMAL
+#T=FIXED INIT
+FIXED(*,*) INIT(*.*)；
+
+#T=DCL CHARACTER 
+DCL ****  CHARACTER(*) VARYING；
+
+#T=DCL BIT
+DCL ** BIT(9) INITIAL(‘111100001’B)；
+
+#T=DCLto
+DCL  名稱  (界限, [界限], …,[界限]) [性質][性質]…[性質]；
+
+
+#T=DECLAREFILE
+DECLARE   檔案名稱  FILE[性質列]；
+
+
+
+
+
+#T=ifelse
+IF expression 
+THEN Statement 1；
+                
+ELSE  Statement 2；
+ Statement 3； 
+
+
+
+
+
+
+#T=SELECT
+【標記】SELECT(陳式)；
+	WHEN(陳式1-1，[陳式1-2，陳式1-3 ，……])敘述1；
+	WHEN(陳式2-1，[陳式2-2，陳式2-3 ，……])敘述2；
+                                                                                      .
+	                                      .
+                               	                                      .
+	WHEN(陳式n-1，[陳式n-2，陳式n-3 ，……])敘述n-1；]
+	[OTHERWISE	敘述n；]
+	END[標記]；
+
+
+
+
+#T=DO
+【標記】：DO;
+                     ：
+ END【標記】
+
+
+#T=DO WHILE
+【標記】：DO WHILE（陳式）;
+                          ：
+ END 【標記】;
+
+#T=DO UNTIL
+【標記】：DO UNTIL （陳式）；
+                       ：
+                    END （標記）；
+
+#T=DOto
+【標記】：DO 控制變數=初值 [ TO 界限值] [BY 變更值]
+                     ：
+          END 【標記】；
+
+#T=DObyWHILE
+【標記】： DO控制變數=初值【TO 界限值】【BY變更值】WHILE （陳式）；
+                      ：
+                     END （標記）；
+
+
+#T=DObyUNTIL
+（標記）：DO控制變數=初值（TO界限值）（BY變更值）
+	                         UNTIL（陳式）；
+                    ：
+                    END （標記）；
+
+#T=LEAVE
+LEAVE
+
+#T=----file----
+#T=OPEN FILE
+OPEN FILE(檔案名稱1) [性質列]，
+           FILE(檔案名稱2) [性質列]；
+#T=CLOSE FILE
+CLOSE FILE(檔案名稱1) [性質列]，
+            FILE(檔案名稱2) [性質列]；
+#T=GET FILE
+GET FILE(文件名) [SKIP] EDIT(变量1,变量2….)(格式1,格式2….);
+
+
+#T=READ FILE
+READ FILE(檔案名稱) INTO (變數名稱)；
+
+#T=WRITE FILE
+WRITE FILE(檔案名稱) FROM (變數名稱)；
+
+#T=go to
+GO TO 標記；
+
+
+#T=-----SQL-----
+#T=SQL  SELECT
+EXEC    SQL  SELECT COUNT(*)        
+INTO :COUNT_TABLE_TINP1            
+FROM LAI.PHWP_PAMTBL                      
+WHERE PARTNO1 = :IN_INF1.MFGPNO1;
+
+
+#T=SQL   UPDATE
+EXEC SQL   UPDATE FFF01.FFFT014  
+             SET   SEQNO     = 1,  
+                   JOBSTS    = 'P',  
+                   JOBDSC    = 'JOB IN PROCESS',   
+		   LUPUSR    = '$FFFSET ' ,  
+                   LUPTIM    = CURRENT TIMESTAMP   
+             WHERE JOBNM     = :FFFT014.JOBNM;  
+
+
+
+
+#T=COMMIT;
+EXEC SQL COMMIT;
+#T=ROLLBACK; 
+EXEC SQL ROLLBACK; 
+#T=SQLCODE
+IF SQLCODE   = 0 THEN 
+
+ELSE
+
+END;
+#T=------------
+#T=new proc
+$******: PROC(PARM) OPTIONS(MAIN); 
+
+END $******;

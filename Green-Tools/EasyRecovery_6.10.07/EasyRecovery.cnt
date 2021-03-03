@@ -1,0 +1,172 @@
+:Base EasyRecovery.hlp
+:Title EasyRecovery(TM) Professional
+1 EasyRecovery
+2 EasyRecovery Contents=IDH_EasyRecovery_Contents
+2 EasyRecovery Keyboard Shortcuts=IDH_EasyRecovery_Keyboard_Shortcuts
+2 About EasyRecovery
+3 About EasyRecovery=IDH_About_EasyRecovery
+3 Installing EasyRecovery=IDH_Installing_EasyRecovery
+3 Removing EasyRecovery=IDH_Uninstalling_EasyRecovery
+3 Customizing EasyRecovery=IDH_Customizing_EasyRecovery
+2 Disk Diagnostics Components
+3 Disk Diagnostics Contents=IDH_Disk_Diagnostics_Contents
+3 Drive Tests=IDH_Drive_Tests
+3 Drive Tests - Drive selection=IDH_Drive_Tests_Drive_Selection
+3 Drive Tests - Test Selection=IDH_Drive_Tests_Test_Selection
+3 Drive Tests - Performing Tests=IDH_Drive_Tests_Performing_Tests
+3 Quick Diagnostic Test=IDH_Quick_Diagnostic_Test
+3 Full Diagnostic Test=IDH_Full_Diagnostic_Test
+3 SMARTTests=IDH_SMARTTests
+3 SMARTTests - Drive Selection=IDH_SMARTTests_Drive_Selection
+3 SMARTTests - Test Selection=IDH_SMARTTests_Test_Selection
+3 SMARTTests - Results=IDH_SMARTTests_Results
+3 Partition Tests=IDH_Partition_Tests
+3 Partition Tests - Partition Selection=IDH_Partition_Tests_Partition_Selection
+3 Partition Tests - Results=IDH_Partition_Tests_Results
+3 Data Advisor Diskette=IDH_DataAdvisor_Diskette
+3 Jumper Viewer=IDH_Jumper_Viewer
+3 SizeManager
+4 Size Manager=IDH_SizeManager
+4 SizeManager Properties=IDH_SizeManager_Properties
+4 SizeManager Main Window=IDH_SizeManager_Main_Window
+4 SizeManager Window Components=IDH_SizeManager_Window_Components
+4 Customizing the Toolbar in SizeManager=IDH_Customizing_the_Toolbar_in_SizeManager
+4 Displaying the SizeManager File Pane=IDH_Displaying_the_SizeManager_File_Pane
+4 Displaying File Contents in SizeManager=IDH_Displaying_File_Contents_in_SizeManager
+4 Displaying Folder and File Properties in SizeManager=IDH_Displaying_Folder_and_File_Properties_in_SizeManager
+4 Displaying the Status Bar in SizeManager=IDH_Displaying_the_Status_Bar_in_SizeManager
+4 Displaying File Sizes in SizeManager=IDH_Displaying_File_Sizes_in_SizeManager
+4 Displaying the File Sizes in Bytes in SizeManager=IDH_Displaying_the_File_Sizes_in_Bytes_in_SizeManager
+4 Displaying Actual File Sizes in SizeManager=IDH_Displaying_Actual_File_Sizes_in_SizeManager
+4 Displaying Folder Details in SizeManager=IDH_Displaying_Folder_Details_in_SizeManager
+4 Finding Folders in SizeManager=IDH_Finding_Folders_in_SizeManager
+4 Folder Details Dialog Box in SizeManager=IDH_Folder_Details_Dialog_Box_in_SizeManager
+4 Refreshing the Tree Pane in SizeManager=IDH_Refreshing_the_Tree_Pane_in_SizeManager
+4 Tagging Folders in SizeManager=IDH_Tagging_Folders_in_SizeManager
+4 Clearing Tags in SizeManager=IDH_Clearing_Tags_in_SizeManager
+4 Tag Folders Dialog Box in SizeManager=IDH_Tag_Folders_Dialog_Box_in_SizeManager
+4 Printing the Tree List in SizeManager=IDH_Printing_the_Tree_List_in_SizeManager
+4 Exporting the Tree List in SizeManager=IDH_Exporting_the_Tree_List_in_SizeManager
+4 Setting Cluster Sizes for Network Drives=IDH_Setting_Cluster_Sizes_for_Network_Drives
+4 Mapping a Network Drive in SizeManager=IDH_Mapping_a_Network_Drive_in_SizeManager
+4 Disconnecting a Network Drive in SizeManager=IDH_Disconnecting_a_Network_Drive_in_SizeManager
+4 Scanning Drives=IDH_Scanning_Drives
+4 Stopping a Scan in SizeManager=IDH_Stopping_a_Scan_in_SizeManager
+4 Displaying Drive Information in SizeManager=IDH_Displaying_Drive_Information_in_SizeManager
+4 Adding and Removing Programs in SizeManager=IDH_Adding_and_Removing_Programs_in_SizeManager
+4 Renaming Folders and Files in SizeManager=IDH_Renaming_Folders_and_Files_in_SizeManager
+4 Copying or Moving Folders/Files in SizeManager=IDH_Copying_or_Moving_Files_Folders_in_SizeManager
+4 Copying Folders/Files Using Commands in SizeManager=IDH_Copying_Folders_Files_Using_Commands_in_SizeManager
+4 Copying Folders/Files Using Copy/Move Dialog Boxes=IDH_Copying_Folders_Files_Using_Copy_Move_Dialog_Boxes
+4 Copying Folders/Files Using Drag and Drop in SizeManager=IDH_Copying_Folders_Files_Using_Drag_and_Drop_in_SizeManager
+4 Creating New Folders in SizeManager=IDH_Creating_New_Folders_in_SizeManager
+4 Deleting Folders/Files in SizeManager=IDH_Deleting_Folders_Files_in_SizeManager
+4 Deleting Folders/Files Using the Recycle Bin in SizeManager=IDH_Deleting_Folders_Files_Using_the_Recycle_Bin_in_SizeManager
+4 Cleaning Out the Recycle Bin in SizeManager=IDH_Cleaning_Out_the_Recycle_Bin_in_SizeManager
+4 Managing the Recycle Bin in SizeManager=IDH_Managing_the_Recycle_Bin_in_SizeManager
+4 Deleting Files Using Permanent Delete in SizeManager=IDH_Deleting_Files_Using_Permanent_Delete_in_SizeManager
+4 Undoing Deletions in SizeManager=IDH_Undoing_Deletions_in_SizeManager
+4 Disk Operations in SizeManager=IDH_Disk_Operations_in_SizeManager
+4 Copying Disks in SizeManager=IDH_Copying_Disks_in_SizeManager
+4 Labeling a Disk in SizeManager=IDH_Labeling_a_Disk_in_SizeManager
+4 Formatting a Disk in SizeManager=IDH_Formatting_a_Disk_in_SizeManager
+2 Data Recovery Components
+3 Data Recovery Contents=IDH_DataRecovery_Contents
+3 Data Recovery System Requirements=IDH_Data_Recovery_System_Requirements
+3 Basic Recovery Steps=IDH_Basic_Recovery_Steps
+3 AdvancedRecovery=IDH_AdvancedRecovery
+3 AdvancedRecovery - Selecting a Partition=IDH_AdvancedRecovery_Selecting_a_Partition
+3 DeletedRecovery=IDH_DeletedRecovery
+3 DeletedRecovery - Selecting a Partition=IDH_DeletedRecovery_Selecting_a_Partition
+3 FormatRecovery=IDH_FormatRecovery
+3 FormatRecovery - Selecting a Partition=IDH_FormatRecovery_Selecting_a_Partition
+3 RawRecovery=IDH_RawRecovery
+3 RawRecovery - Selecting a Partition=IDH_RawRecovery_Selecting_a_Partition
+3 RawRecovery - File Types=IDH_RawRecovery_File_Types
+3 Scanning for Files=IDH_Scanning_for_Files
+3 Tag Files for Recovery=IDH_Tag_Files_for_Recovery
+3 Filter Options=IDH_Filter_Options
+3 Find=IDH_Find
+3 View File=IDH_View_File
+3 Assessing the Quality of a File=IDH_Assessing_the_Quality_of_a_File
+3 Destination Selection=IDH_Destination_Selection
+3 CreateZip=IDH_CreateZip
+3 FTP Options=IDH_FTP_Options
+3 Copy Data=IDH_Copy_Data
+3 Copy Errors=IDH_Copy_Errors
+3 Recovery Summary=IDH_Recovery_Summary
+3 Advanced Options=IDH_Advanced_Options
+3 Advanced Options - Partition Settings=IDH_Advanced_Options_Partition_Settings
+3 Advanced Options - Partition Information=IDH_Advanced_Options_Partition_Information
+3 Advanced Options - Hint=IDH_Advanced_Options_Hint
+3 Advanced Options - File System Scan=IDH_Advanced_Options_File_System_Scan
+3 Advanced Options - Recovery Options=IDH_Advanced_Options_Recovery_Options
+3 Rescan System=IDH_Rescan_System
+3 View=IDH_View
+3 ResumeRecovery=IDH_ResumeRecovery
+3 Supported File Systems=IDH_Supported_File_Systems
+3 EmergencyMedia=IDH_EmergencyMedia
+3 Glossary=IDH_Glossary
+2 EmailRepair Components
+3 EmailRepair Contents=IDH_EmailRepair_Contents
+3 Keyboard Shortcuts - Component Level=IDH_Keyboard_Shortcuts_Component
+3 OutlookRepair
+4 OutlookRepair Contents=IDH_OutlookRepair_Contents
+4 Locating Corrupted Microsoft Outlook Files=IDH_Locating_Corrupted_Microsoft_Outlook_Files
+4 Repairing Corrupted Microsoft Outlook Files=IDH_Repairing_Corrupted_Microsoft_Outlook_Files
+4 OutlookRepair Report=IDH_OutlookRepair_Results_Report
+4 Customizing OutlookRepair=IDH_Customizing_OutlookRepair
+4 Opening Recovered Files in Microsoft Outlook=IDH_Opening_Recovered_Files_in_Microsoft_Outlook
+3 OutlookExpressRepair
+4 OutlookExpressRepair Contents=IDH_OutlookExpressRepair_Contents
+4 Locating Corrupted Microsoft Outlook Express Files=IDH_Locating_Corrupted_Microsoft_Outlook_Express_Files
+4 Repairing Corrupted Microsoft Outlook Express Files=IDH_Repairing_Corrupted_Microsoft_Outlook_Express_Files
+4 OutlookExpressRepair Report=IDH_OutlookExpressRepair_Results_Report
+4 Customizing OutlookExpressRepair=IDH_Customizing_OutlookExpressRepair
+4 Importing Recovered Files into Microsoft Outlook Express=IDH_Importing_Recovered_Files_into_Microsoft_Outlook_Express
+2 FileRepair Components
+3 FileRepair Contents=IDH_FileRepair_Contents
+3 Keyboard Shortcuts - Component Level=IDH_Keyboard_Shortcuts_Component
+3 AccessRepair
+4 AccessRepair Contents=IDH_AccessRepair_Contents
+4 AccessRepair Selection Window=IDH_AccessRepair_Selection_Window
+4 AccessRepair Progress Window=IDH_AccessRepair_Progress_Window
+4 AccessRepair Results Report=IDH_AccessRepair_Results_Report
+4 Customizing AccessRepair=IDH_Customizing_AccessRepair
+4 Changing the Default File Format in Microsoft Access=IDH_Changing_the_Default_File_Format_in_Microsoft_Access
+3 ExcelRepair
+4 ExcelRepair Contents=IDH_ExcelRepair_Contents
+4 ExcelRepair Selection Window=IDH_ExcelRepair_Selection_Window
+4 ExcelRepair Progress Window=IDH_ExcelRepair_Progress_Window
+4 ExcelRepair Results Report=IDH_ExcelRepair_Results_Report
+4 Customizing ExcelRepair=IDH_Customizing_ExcelRepair
+3 PowerPointRepair
+4 PowerPointRepair Contents=IDH_PowerPointRepair_Contents
+4 PowerPointRepair Selection Window=IDH_PowerPointRepair_Selection_Window
+4 Progress Window PowerPointRepair=IDH_PowerPointRepair_Progress_Window
+4 PowerPointRepair Results Report=IDH_PowerPointRepair_Results_Report
+4 Customizing PowerPointRepair=IDH_Customizing_PowerPointRepair
+3 WordRepair
+4 WordRepair Contents=IDH_WordRepair_Contents
+4 WordRepair Selection Window=IDH_WordRepair_Selection_Window
+4 WordRepair Progress Window=IDH_WordRepair_Progress_Window
+4 WordRepair Results Report=IDH_WordRepair_Results_Report
+4 Customizing WordRepair=IDH_Customizing_WordRepair
+3 ZipRepair
+4 ZipRepair Contents=IDH_ZipRepair_Contents
+4 ZipRepair Selection Window=IDH_ZipRepair_Selection_Window
+4 ZipRepair Progress Window=IDH_ZipRepair_Progress_Window
+4 ZipRepair Results Report=IDH_ZipRepair_Results_Report
+4 Customizing ZipRepair=IDH_Customizing_ZipRepair
+2 Software Updates
+3 Software Updates=IDH_Software_Updates
+3 EasyUpdate=IDH_EasyUpdate
+3 Product News=IDH_Product_News
+2 Crisis Center
+3 Crisis Center=IDH_Crisis_Center
+3 CrisisInformation=IDH_CrisisInformation
+3 RemoteDataRecovery=IDH_RemoteDataRecovery
+3 In-LabDataRecovery=IDH_InLab_Data_Recovery
+3 Exclusive Offers=IDH_Exclusive_Offers
+2 License Agreement
+3 License Agreement=IDH_License_Agreement

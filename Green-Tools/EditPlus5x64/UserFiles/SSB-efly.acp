@@ -1,0 +1,125 @@
+#TITLE=Ef
+; EditPlus Auto-completion file v1.0 written by ES-Computing.
+; This file is provided as a default auto-completion file for Java and C#.
+
+#CASE=y
+;以下为名称
+#T=zhen
+真
+#T=jia
+假
+#T=yy
+引入 
+#T=gk
+公开
+#T=jl
+基类
+#T=cj
+创建
+#T=sj
+事件
+#T=jt
+静态
+#T=kd
+宽度
+#T=cd
+长度()
+#T=wb
+文本
+#T=zs
+整数
+#T=lj
+逻辑
+#T=wj
+文件
+#T=gd
+高度
+#T=tc
+跳出
+#T=kzt
+控制台
+#T=xhw
+循环尾
+#T=bdx
+本对象
+#T=ckfg
+窗口风格.
+#TITLE=
+;以下为类型
+#T=ann
+按钮
+#T=bjk
+编辑框
+#TITLE=
+;以下为表达式、语句、语句块
+#T=zb
+左边()
+#T=yb
+右边()
+#T=zj
+中间()
+#T=cz
+查找()
+#T=bfdxxcz
+不分大小写查找()
+#T=th
+替换()
+#T=bfdxxth
+不分大小写替换()
+#T=ddx
+到大写()
+#T=dxx
+到小写()
+#T=dwb
+到文本()
+#T=dzs
+到整数()
+#T=dxs
+到小数()
+#T=jz
+居中()
+#T=xs
+显示()
+#T=fh
+返回();
+#T=qk
+清空();
+#T=tjwb
+添加文本();
+#T=cjwb
+创建完毕(创建完毕事件 事件)
+#T=xxk
+界面程序.信息框("","");
+#T=rg
+如果 (^!)
+{
+}
+#T=jcxh
+计次循环 (^!)
+{
+}
+#T=xh
+循环 (^!)
+{
+}
+#T=l
+类 ^!
+{
+}
+#T=jk
+接口 ^!
+{
+}
+#T=ks
+开始 (^!)
+{
+}循环();
+#T=yr
+又如 (^!)
+{
+}
+#T=fz
+否则 (^!)
+{
+}
+#

@@ -1,0 +1,51 @@
+#TITLE=ANSI C
+; EditPlus Auto-completion file v1.0 written by ES-Computing.
+; This file is provided as a default auto-completion file for C/C++ and Java.
+
+#CASE=y
+
+#T=if
+if (^!) {
+     
+}
+#T=else
+else {
+     
+}
+#T=while
+while (^!) {
+     
+}
+#T=for
+for (^!; ; ) {
+     
+}
+#T=printf
+printf("^!");
+#T=exit
+exit(^!);
+#T=return
+return(^!);
+#T=sizeof
+sizeof(^!);
+#T=switch
+switch (^!) {
+     case :
+           
+           break;
+}
+#T=do
+do {
+     
+} while (^!);
+#T=struct
+struct ^! {
+     
+};
+#T=try
+try {
+     ^!
+} catch () {
+     
+}
+#

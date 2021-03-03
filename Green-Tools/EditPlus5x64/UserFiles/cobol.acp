@@ -1,0 +1,43 @@
+#TITLE=COBOL
+; EditPlus Auto-completion file v1.0 written by Gulzarilal Jena.
+; Email: gulzar_j@yahoo.com
+;	 gulzarilal_jena@tcscal.co.in
+; This file is provided as a default auto-completion file for COBOL.
+; This file is getting updated on a regular basis.keep track of the new versions.
+
+#CASE=n
+
+#T=IF
+IF ^!(condition) 
+    (statement)
+[ELSE
+    statement]
+END-IF.
+
+#T=PERFORM
+PERFORM  ^!procedure_name THRU/THROUGH procedure_name_2
+
+#T=MOVE
+MOVE (^!identifier_1) TO identifier_2 [,identifier_3...]
+
+#T=EVALUATE
+EVALUATE ^!subject_1 [ALSO subject_2...]
+     {WHEN object_1  [ALSO object_2....] imperative-statement-1 }
+     [WHEN OTHER  imperative-statement-2] 
+[END-EVALUATE]     
+
+#T=INSPECT
+INSPECT ^! identifier_1 CONVERTING {identifier_2} TO {identifier_3}
+       [BEFORE/AFTER INITIAL {identifier_4}]
+
+#T=READ
+READ ^!file_name RECORD [INTO identifier_1]
+    AT END imperative-statement
+
+#T=WRITE
+WRITE ^!record_name [FROM identifier_1]
+      [{BEFORE/AFTER} ADVANCING {integer_1/identifier_2} [LINES]] 
+
+#T=SELECT
+SELECT [OPTIONAL] file_name ASSIGN TO hardware_name
+#

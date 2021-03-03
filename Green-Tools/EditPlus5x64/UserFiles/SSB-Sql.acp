@@ -1,0 +1,121 @@
+#TITLE=SQL-SSB
+; Auto-completion file for Oracle SQL written by Johannes Järvinen.
+; (C) Commit; Material Automation Oy  http://www.commit.fi
+; Johannes.Jarvinen@Commit.fi
+
+#CASE=n
+
+#T=if
+IF (^!) THEN
+	
+END IF;
+#
+
+#T=if(
+IF (^!) THEN
+	
+END IF;
+#
+
+#T=loop
+LOOP (^!)
+	
+END LOOP;
+#
+
+#T=select
+SELECT ^! 
+FROM 
+WHERE 
+^;
+#
+
+#T=insert
+INSERT INTO ^! (
+	)
+	VALUES (
+	)
+^;
+#
+
+#T=cursor
+CURSOR ^! IS
+	SELECT
+	FROM
+	WHERE
+^;
+#
+
+#T=declare
+DECLARE
+	^!
+BEGIN
+END;
+#
+
+#T=begin
+BEGIN
+	^!
+END;
+#
+
+#T=fetch
+FETCH ^!
+	INTO
+^;
+#
+
+#T=decode
+DECODE( ^!,
+	,,
+	)
+#
+
+#T=decode(
+DECODE( ^!,
+	,,
+	)
+#
+
+#T=create
+CREATE TABLE ^! (
+	)
+^;
+#
+
+#T=drop
+DROP TABLE ^!;
+#
+
+#T=and
+AND ^!
+#
+
+#T=or
+OR ^!
+#
+
+#T=like
+LIKE ^!
+#
+
+#T=in
+IN (^!)
+#
+
+#T=in(
+IN (^!)
+#
+
+#T=where
+WHERE ^!
+#
+
+#T=into
+INTO ^!
+#
+
+#T=when
+WHEN ^! THEN
+	
+#

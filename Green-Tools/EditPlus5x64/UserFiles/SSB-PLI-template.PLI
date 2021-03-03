@@ -1,0 +1,199 @@
+ /* CH88H10 : ASCA COUNT CREATE(ASCA REPORT1)   IBM INTERNAL USE ONLY */
+ ***** : PROC OPTIONS(MAIN) REORDER ;
+ /********************************************************************/
+ /*                                                                  */
+ /* MODULE NAME = *******                                            */
+ /* DESCRIPTION = READS FILES EDQWI0S AND EXTRACT CL AND CX RECORDS  */
+ /*               FOR DB2 LOAD.                                      */
+ /*                                                                  */
+ /*                                                   VERSION 0001   */
+ /* CHANGED BY RICK DANIELS SEPT 94. ADDED 5 NEW FIELDS TO OUTPUT    */
+ /* RECORD. CUST_DEF, ATTR_6, CUST_PROB_REF, ATTR_8 & ATTR_9.        */
+ /* RENAMED FROM CSDP41 TO COMPLY WITH NAMING STANDARDS              */
+ /*                                                                  */
+ /********************************************************************/
+ /* MODULE HISTORY:                                                  */
+ /* 07.02.91 CALL EXTRACT RECORD (EXTR_RECC) CHANGED. VERSION 0002   */
+ /*          IFLTPMH DELETED, AND SEDQMJB REPLACED BY IOPDBU         */
+ /*                                                                  */
+ /* SEP 1998 RCMS RELEASE 5                                          */
+ /*          K. FINNIGAN                              VERSION 0007   */
+ /*                                                                  */
+ /********************************************************************/
+ /*            RECORD STRUCTURES                                     */
+ /********************************************************************/
+1/*-------------------------------------------------------------------*/
+ /*  DECLARE OF TABLE LAYOUT                                          */
+ /*-------------------------------------------------------------------*/
+ EXEC SQL INCLUDE SQLCA ;
+ /*-------------------------------------------------------------------*/
+ /*  DECLARE OF DB TABLE FIELDS                                       */
+ /*-------------------------------------------------------------------*/
+ DCL 1 TE03_TBL,                            /* REIMBURSEMENT TABLE    */
+       %INCLUDE CH88TE03;;                  /*                        */
+1/*-------------------------------------------------------------------*/
+ /*           FILE DECLARE                                            */
+ /*-------------------------------------------------------------------*/
+ DCL INF1               FILE RECORD INPUT;       /* TODAY     FILE    */
+ DCL INF2               FILE RECORD INPUT;       /* YESTERDAY FILE    */
+ DCL OUTF1              FILE RECORD OUTPUT;      /* DELTA     FILE    */
+ DCL SYSPRINT           STREAM OUTPUT;           /* SYSPRINT          */
+ /*-------------------------------------------------------------------*/
+ /*  DECLARE OF FILE LAYOUT                                           */
+ /*-------------------------------------------------------------------*/
+ DCL 1 FINP1_REC STATIC,                    /* ASOF FILE              */
+       %INCLUDE CH88FASO;                   /*                        */
+ /*-------------------------------------------------------------------*/
+ /*  INPUT AND OUTPUT WORK AREA DECLARATION                           */
+ /*-------------------------------------------------------------------*/
+
+ /*-------------------------------------------------------------------*/
+ /*  WORK AREA                                                        */
+ /*-------------------------------------------------------------------*/
+ DCL EOF           BIT(1) INIT('0'B);
+ DCL MSG           BIT(1) INIT('0'B);
+ DCL I             FIXED BIN(15,0);
+ DCL DATE_WRK      CHAR(8) INIT('');
+ DCL DATE_RETN     CHAR(10) INIT('');
+ /*-------------------------------------------------------------------*/
+ /*  DECLARE OF ERROR MESSAGE                                         */
+ /*-------------------------------------------------------------------*/
+ DCL 1 ERR_MSG STATIC,                           /*                   */
+       2 FIL1     CHAR(10)  INIT('[SQL ERROR_'), /*                   */
+       2 SEQ      FIXED(04) INIT( 0 ),           /*                   */
+       2 FIL2     CHAR(09)  INIT('][SQL_CODE '), /*                   */
+       2 SQL_CODE PIC'-999' INIT(000)  ,         /*                   */
+       2 FIL3     CHAR(01)  INIT(']');           /*                   */
+ /*-------------------------------------------------------------------*/
+ /*  ON ENDFILE                                                       */
+ /*-------------------------------------------------------------------*/
+ ON ENDFILE(FINP1)    BEGIN;                    /* EOF FINP1         */
+   EOF_FINP1 = '1'B;                            /*                   */
+ END;                                           /*                   */
+ ON ENDFILE(FINP2)    BEGIN;                    /* EOF FINP2         */
+   EOF_FINP2 = '1'B;                            /*                   */
+ END;                                           /*                   */
+ ON ENDFILE(FINP3)    BEGIN;                    /* EOF FINP3         */
+   EOF_FINP3 = '1'B;                            /*                   */
+ END;                                           /*                   */
+
+ /*-------------------------------------------------------------------*/
+ /*  SWITCH                                                           */
+ /*-------------------------------------------------------------------*/
+ DCL 1 SWITCH_DCL STATIC,                        /* SWITCH            */
+       2 EOF_FINP1       BIT  (  1)  INIT('0'B), /* EOF FINP1         */
+       2 EOF_FINP2       BIT  (  1)  INIT('0'B), /* EOF FINP2         */
+       2 EOF_FINP3       BIT  (  1)  INIT('0'B); /* EOF FINP3         */
+ /*-------------------------------------------------------------------*/
+ /*  DECLARE OF COUNTER                                               */
+ /*-------------------------------------------------------------------*/
+ DCL 1 COUNT_DCL STATIC,                         /* COUNTER           */
+       2 CNT_FINP1       FIXED BIN(31,0) INIT(0),/* COUNT FINP1       */
+       2 CNT_FINP2       FIXED BIN(31,0) INIT(0),/* COUNT FINP2       */
+       2 CNT_FINP3       FIXED BIN(31,0) INIT(0),/* COUNT FINP3       */
+       2 CNT_FOUT1       FIXED BIN(31,0) INIT(0);/* COUNT FOUT1       */
+
+ /*-------------------------------------------------------------------*/
+ /*  DECLARE OF INCLUDE                                               */
+ /*-------------------------------------------------------------------*/
+ DCL  ADDR              BUILTIN;
+ DCL  DATETIME          BUILTIN;
+ DCL  PLIDUMP           BUILTIN;
+ DCL  NULL              BUILTIN;
+ DCL  HIGH              BUILTIN;
+ DCL  STRING            BUILTIN;
+ DCL  SUBSTR            BUILTIN;
+ DCL  LOW               BUILTIN;
+
+ /********************************************************************/
+ /*  %INCLUDE  SYSLIB2(SMONERR1)           ADD 98/12/28              */
+ /********************************************************************/
+ %INCLUDE  SYSLIB2(SMONERR1);
+
+
+
+0/********************************************************************/
+ /*            BUILTIN                                               */
+ /********************************************************************/
+ DCL SUBSTR        BUILTIN;
+ DCL CHAR          BUILTIN;
+ DCL VERIFY        BUILTIN;
+ DCL ADDR          BUILTIN;
+ DCL STRING        BUILTIN;
+ DCL PLIDUMP       BUILTIN; /* MH01 */
+ /*-------------------------------------------------------------------*/
+ /*  INITIAL PROCESS                                                  */
+ /*-------------------------------------------------------------------*/
+ S1000_INIT : PROC ;
+   OPEN  FILE(FINP1);                     /* FILE OPEN INPUT   */
+   OPEN  FILE(FINP2);                     /*                   */
+   OPEN  FILE(FINP3);                     /*                   */
+   OPEN  FILE(FOUT1);                     /* FILE OPEN OUTPUT  */
+   FOUT1_REC.CFLBL = 'BPRS';
+   FOUT1_REC.IOCLS = 'INPUT';
+   READ FILE(INFILE) INTO(PURG_REC);
+
+ END S1000_INIT;
+
+ /*------------------------------------------------------------------*/
+ /*  MAIN PROCESS                                                    */
+ /*------------------------------------------------------------------*/
+ S2000_MAIN : PROC ;
+     CALL S2001_ASOF_FILE;                /*  ASOF FILE          */
+     CALL S2010_AB;                       /*  OUT01 AB           */
+ END S2000_MAIN ;
+
+
+ /*-------------------------------------------------------------------*/
+ /*  END PROCESS                                                      */
+ /*-------------------------------------------------------------------*/
+ S3000_END_PROCESS : PROC ;
+   CLOSE FILE(FINP1);                         /*  FILE CLOSE       */
+   CLOSE FILE(FINP2);                         /*                   */
+   CLOSE FILE(FINP3);                         /*                   */
+   CLOSE FILE(FOUT1);                         /*  FILE CLOSE       */
+ END S3000_END_PROCESS ;
+
+ /*-------------------------------------------------------------------*/
+ /*    ERROR                                                          */
+ /*-------------------------------------------------------------------*/
+ SQLERROR:PROC;
+   SELECT( WK_SQLCODE ) ;
+      WHEN( 0 )
+         DO;
+         END ;
+      WHEN( 100 )
+        DO;
+        END ;
+      OTHERWISE
+         DO;
+           ERR_MSG.SEQ = PGM_NAME;
+           ERR_MSG.SQL_CODE = WK_SQLCODE;
+           PUT SKIP EDIT(ERR_MSG)(A) ;
+           PUT SKIP EDIT('PROGRAM CH88H10 ABNORMAL END')(A) ;
+           SIGNAL ERROR ;
+         END ;
+   END;
+ END SQLERROR ;
+
+ /*-------------------------------------------------------------------*/
+ /*  ENDING PROCESS                                                   */
+ /*-------------------------------------------------------------------*/
+ EOJ:
+    %INCLUDE SYSLIB2(SMHEAD3);
+    XDESC='TOPS FILE CONTROL';
+    XPGMR='EV6217';
+    %INCLUDE SYSLIB(SMCTIME1);
+    PUT SKIP EDIT('=====> PROGRAM ID : CH88H10')(A) ;
+    PUT SKIP EDIT('****************************************') (A) ;
+    PUT SKIP EDIT('******* PGM = CH88H10 COUNT INF. ******')  (A) ;
+    PUT SKIP EDIT('**  CNT_FINP1 = ', CNT_FINP1)              (A) ;
+    PUT SKIP EDIT('**  CNT_FINP2 = ', CNT_FINP2)              (A) ;
+    PUT SKIP EDIT('**  CNT_FINP3 = ', CNT_FINP3)              (A) ;
+    PUT SKIP EDIT('**  CNT_FOUT1 = ', CNT_FOUT1)              (A) ;
+    PUT SKIP EDIT('****************************************') (A) ;
+     %INCLUDE SYSLIB2(SMCHECK5);
+     %XTWOWAY = 3 ;
+     SMEND7 (END) ;
+ END CH88H10;                              /*           END          */
+

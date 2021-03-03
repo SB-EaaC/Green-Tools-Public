@@ -1,0 +1,272 @@
+
+
+=========================
+11/4/2007 17:03:22:921
+C0000005 (ACCESS_VIOLATION), Address 0150AE69 (01:00009E69), Faulting module is D:\noinstall\EasyRecovery_6.10.07\engine.dll, 
+EAX=00000080
+EBX=00000808
+ECX=00000000
+EDX=00000000
+ESI=00000000
+EDI=00000080
+CS:EIP=001B:0150AE69
+SS:ESP=0023:0194FA20  EBP=015848E0
+DS=0023  ES=0023  FS=003B  GS=0000
+Flags=00010212
+        0150ae29 8b4c2434         mov     ecx,[esp+0x34]
+        0150ae2d 8b542440         mov     edx,[esp+0x40]
+        0150ae31 89442418         mov     [esp+0x18],eax
+        0150ae35 8d442410         lea     eax,[esp+0x10]
+        0150ae39 50               push    eax
+        0150ae3a 51               push    ecx
+        0150ae3b 56               push    esi
+        0150ae3c 66897c241e       mov     [esp+0x1e],di
+        0150ae41 89542420         mov     [esp+0x20],edx
+        0150ae45 e8c6110000       call    0150c010
+        0150ae4a 81e6ffff0000     and     esi,0xffff
+        0150ae50 8bd0             mov     edx,eax
+        0150ae52 8bce             mov     ecx,esi
+        0150ae54 8bc7             mov     eax,edi
+        0150ae56 c1e104           shl     ecx,0x4
+        0150ae59 03ce             add     ecx,esi
+        0150ae5b 8b35c07c5301     mov     esi,[01537cc0]
+        0150ae61 25ffff0000       and     eax,0xffff
+        0150ae66 83c40c           add     esp,0xc
+------> 0150ae69 8b4c8e14         mov     ecx,[esi+ecx*4+0x14]
+        0150ae6d 8b742440         mov     esi,[esp+0x40]
+        0150ae71 0fafc8           imul    ecx,eax
+        0150ae74 03d8             add     ebx,eax
+        0150ae76 8b44243c         mov     eax,[esp+0x3c]
+        0150ae7a 2bc7             sub     eax,edi
+        0150ae7c 03f1             add     esi,ecx
+        0150ae7e 6685c0           test    ax,ax
+        0150ae81 89742440         mov     [esp+0x40],esi
+        0150ae85 8944243c         mov     [esp+0x3c],eax
+        0150ae89 8bf8             mov     edi,eax
+        0150ae8b 0f8513ffffff     jne     0150ada4
+        0150ae91 5f               pop     edi
+        0150ae92 5e               pop     esi
+        0150ae93 5d               pop     ebp
+        0150ae94 668bc2           mov     ax,dx
+        0150ae97 5b               pop     ebx
+        0150ae98 83c41c           add     esp,0x1c
+        0150ae9b c3               ret
+        0150ae9c 5f               pop     edi
+        0150ae9d 5e               pop     esi
+        0150ae9e 5d               pop     ebp
+        0150ae9f b8ebffffff       mov     eax,0xffffffeb
+        0150aea4 5b               pop     ebx
+        0150aea5 83c41c           add     esp,0x1c
+        0150aea8 c3               ret
+
+Call stack:
+Address   Frame
+0150AE69  015848E0
+    Filename: D:\noinstall\EasyRecovery_6.10.07\engine.dll
+    Logical Address: 0001:00009E69
+    Nearest export: DllUnregisterServer+0x5849
+        0150ae29 8b4c2434         mov     ecx,[esp+0x34]
+        0150ae2d 8b542440         mov     edx,[esp+0x40]
+        0150ae31 89442418         mov     [esp+0x18],eax
+        0150ae35 8d442410         lea     eax,[esp+0x10]
+        0150ae39 50               push    eax
+        0150ae3a 51               push    ecx
+        0150ae3b 56               push    esi
+        0150ae3c 66897c241e       mov     [esp+0x1e],di
+        0150ae41 89542420         mov     [esp+0x20],edx
+        0150ae45 e8c6110000       call    0150c010
+        0150ae4a 81e6ffff0000     and     esi,0xffff
+        0150ae50 8bd0             mov     edx,eax
+        0150ae52 8bce             mov     ecx,esi
+        0150ae54 8bc7             mov     eax,edi
+        0150ae56 c1e104           shl     ecx,0x4
+        0150ae59 03ce             add     ecx,esi
+        0150ae5b 8b35c07c5301     mov     esi,[01537cc0]
+        0150ae61 25ffff0000       and     eax,0xffff
+        0150ae66 83c40c           add     esp,0xc
+------> 0150ae69 8b4c8e14         mov     ecx,[esi+ecx*4+0x14]
+        0150ae6d 8b742440         mov     esi,[esp+0x40]
+        0150ae71 0fafc8           imul    ecx,eax
+        0150ae74 03d8             add     ebx,eax
+        0150ae76 8b44243c         mov     eax,[esp+0x3c]
+        0150ae7a 2bc7             sub     eax,edi
+        0150ae7c 03f1             add     esi,ecx
+        0150ae7e 6685c0           test    ax,ax
+        0150ae81 89742440         mov     [esp+0x40],esi
+        0150ae85 8944243c         mov     [esp+0x3c],eax
+        0150ae89 8bf8             mov     edi,eax
+        0150ae8b 0f8513ffffff     jne     0150ada4
+        0150ae91 5f               pop     edi
+        0150ae92 5e               pop     esi
+        0150ae93 5d               pop     ebp
+        0150ae94 668bc2           mov     ax,dx
+        0150ae97 5b               pop     ebx
+        0150ae98 83c41c           add     esp,0x1c
+        0150ae9b c3               ret
+        0150ae9c 5f               pop     edi
+        0150ae9d 5e               pop     esi
+        0150ae9e 5d               pop     ebp
+        0150ae9f b8ebffffff       mov     eax,0xffffffeb
+        0150aea4 5b               pop     ebx
+        0150aea5 83c41c           add     esp,0x1c
+        0150aea8 c3               ret
+    Stack Dump
+
+File Version Data:
+  D:\noinstall\EasyRecovery_6.10.07\engine.dll
+    CompanyName: Ontrack Data Recovery Inc.
+    FileDescription: FileRecoveryEngine
+    FileVersion: 1.00.16.44
+    InternalName: FileRecoveryEngine
+    LegalCopyright: Copyright ? 2002 Ontrack Data Recovery Inc.
+    LegalTrademarks: EasyRecovery Professional is a trademark of Ontrack Data Recovery Inc.
+    OriginalFilename: Engine.dll
+    ProductName: ONTRACK EasyRecovery Professional
+    ProductVersion: 6.10.07
+    LegalTrademarks: EasyRecovery Professional is a trademark of Ontrack Data Recovery Inc.
+    File Version 1.0.16.44
+    Product Version 6.1.0.7
+    Debug Info: No
+    Dynamically Created: No
+    Patched File: No
+    Pre-release build: No
+    Private Build: No
+    Special Build: No
+    Destination OS: Win32 API
+    File Type: DLL
+
+
+=========================
+11/4/2007 17:04:34:234
+C0000005 (ACCESS_VIOLATION), Address 0150AE69 (01:00009E69), Faulting module is D:\noinstall\EasyRecovery_6.10.07\engine.dll, 
+EAX=00000002
+EBX=00000034
+ECX=00000000
+EDX=00000000
+ESI=00000000
+EDI=01580002
+CS:EIP=001B:0150AE69
+SS:ESP=0023:017BF960  EBP=01584490
+DS=0023  ES=0023  FS=003B  GS=0000
+Flags=00010216
+        0150ae29 8b4c2434         mov     ecx,[esp+0x34]
+        0150ae2d 8b542440         mov     edx,[esp+0x40]
+        0150ae31 89442418         mov     [esp+0x18],eax
+        0150ae35 8d442410         lea     eax,[esp+0x10]
+        0150ae39 50               push    eax
+        0150ae3a 51               push    ecx
+        0150ae3b 56               push    esi
+        0150ae3c 66897c241e       mov     [esp+0x1e],di
+        0150ae41 89542420         mov     [esp+0x20],edx
+        0150ae45 e8c6110000       call    0150c010
+        0150ae4a 81e6ffff0000     and     esi,0xffff
+        0150ae50 8bd0             mov     edx,eax
+        0150ae52 8bce             mov     ecx,esi
+        0150ae54 8bc7             mov     eax,edi
+        0150ae56 c1e104           shl     ecx,0x4
+        0150ae59 03ce             add     ecx,esi
+        0150ae5b 8b35c07c5301     mov     esi,[01537cc0]
+        0150ae61 25ffff0000       and     eax,0xffff
+        0150ae66 83c40c           add     esp,0xc
+------> 0150ae69 8b4c8e14         mov     ecx,[esi+ecx*4+0x14]
+        0150ae6d 8b742440         mov     esi,[esp+0x40]
+        0150ae71 0fafc8           imul    ecx,eax
+        0150ae74 03d8             add     ebx,eax
+        0150ae76 8b44243c         mov     eax,[esp+0x3c]
+        0150ae7a 2bc7             sub     eax,edi
+        0150ae7c 03f1             add     esi,ecx
+        0150ae7e 6685c0           test    ax,ax
+        0150ae81 89742440         mov     [esp+0x40],esi
+        0150ae85 8944243c         mov     [esp+0x3c],eax
+        0150ae89 8bf8             mov     edi,eax
+        0150ae8b 0f8513ffffff     jne     0150ada4
+        0150ae91 5f               pop     edi
+        0150ae92 5e               pop     esi
+        0150ae93 5d               pop     ebp
+        0150ae94 668bc2           mov     ax,dx
+        0150ae97 5b               pop     ebx
+        0150ae98 83c41c           add     esp,0x1c
+        0150ae9b c3               ret
+        0150ae9c 5f               pop     edi
+        0150ae9d 5e               pop     esi
+        0150ae9e 5d               pop     ebp
+        0150ae9f b8ebffffff       mov     eax,0xffffffeb
+        0150aea4 5b               pop     ebx
+        0150aea5 83c41c           add     esp,0x1c
+        0150aea8 c3               ret
+
+Call stack:
+Address   Frame
+0150AE69  01584490
+    Filename: D:\noinstall\EasyRecovery_6.10.07\engine.dll
+    Logical Address: 0001:00009E69
+    Nearest export: DllUnregisterServer+0x5849
+        0150ae29 8b4c2434         mov     ecx,[esp+0x34]
+        0150ae2d 8b542440         mov     edx,[esp+0x40]
+        0150ae31 89442418         mov     [esp+0x18],eax
+        0150ae35 8d442410         lea     eax,[esp+0x10]
+        0150ae39 50               push    eax
+        0150ae3a 51               push    ecx
+        0150ae3b 56               push    esi
+        0150ae3c 66897c241e       mov     [esp+0x1e],di
+        0150ae41 89542420         mov     [esp+0x20],edx
+        0150ae45 e8c6110000       call    0150c010
+        0150ae4a 81e6ffff0000     and     esi,0xffff
+        0150ae50 8bd0             mov     edx,eax
+        0150ae52 8bce             mov     ecx,esi
+        0150ae54 8bc7             mov     eax,edi
+        0150ae56 c1e104           shl     ecx,0x4
+        0150ae59 03ce             add     ecx,esi
+        0150ae5b 8b35c07c5301     mov     esi,[01537cc0]
+        0150ae61 25ffff0000       and     eax,0xffff
+        0150ae66 83c40c           add     esp,0xc
+------> 0150ae69 8b4c8e14         mov     ecx,[esi+ecx*4+0x14]
+        0150ae6d 8b742440         mov     esi,[esp+0x40]
+        0150ae71 0fafc8           imul    ecx,eax
+        0150ae74 03d8             add     ebx,eax
+        0150ae76 8b44243c         mov     eax,[esp+0x3c]
+        0150ae7a 2bc7             sub     eax,edi
+        0150ae7c 03f1             add     esi,ecx
+        0150ae7e 6685c0           test    ax,ax
+        0150ae81 89742440         mov     [esp+0x40],esi
+        0150ae85 8944243c         mov     [esp+0x3c],eax
+        0150ae89 8bf8             mov     edi,eax
+        0150ae8b 0f8513ffffff     jne     0150ada4
+        0150ae91 5f               pop     edi
+        0150ae92 5e               pop     esi
+        0150ae93 5d               pop     ebp
+        0150ae94 668bc2           mov     ax,dx
+        0150ae97 5b               pop     ebx
+        0150ae98 83c41c           add     esp,0x1c
+        0150ae9b c3               ret
+        0150ae9c 5f               pop     edi
+        0150ae9d 5e               pop     esi
+        0150ae9e 5d               pop     ebp
+        0150ae9f b8ebffffff       mov     eax,0xffffffeb
+        0150aea4 5b               pop     ebx
+        0150aea5 83c41c           add     esp,0x1c
+        0150aea8 c3               ret
+    Stack Dump
+
+File Version Data:
+  D:\noinstall\EasyRecovery_6.10.07\engine.dll
+    CompanyName: Ontrack Data Recovery Inc.
+    FileDescription: FileRecoveryEngine
+    FileVersion: 1.00.16.44
+    InternalName: FileRecoveryEngine
+    LegalCopyright: Copyright ? 2002 Ontrack Data Recovery Inc.
+    LegalTrademarks: EasyRecovery Professional is a trademark of Ontrack Data Recovery Inc.
+    OriginalFilename: Engine.dll
+    ProductName: ONTRACK EasyRecovery Professional
+    ProductVersion: 6.10.07
+    LegalTrademarks: EasyRecovery Professional is a trademark of Ontrack Data Recovery Inc.
+    File Version 1.0.16.44
+    Product Version 6.1.0.7
+    Debug Info: No
+    Dynamically Created: No
+    Patched File: No
+    Pre-release build: No
+    Private Build: No
+    Special Build: No
+    Destination OS: Win32 API
+    File Type: DLL

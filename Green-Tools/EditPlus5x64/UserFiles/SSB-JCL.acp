@@ -1,0 +1,73 @@
+#TITLE=JCL
+#INFO
+COBOL 2006.06 V1.0
+EditPlus WEB auto completion file.
+Author: Sun shubin 
+TEL:86-(0)13840939258
+MAIL:DLSHUBIN@163.COM
+HOMEPAGE: www.learnstorm.com
+
+#SORT=n
+#T=****job****
+#T=JOB
+//作业脕EJOB  位置参数[，关紒E植问齗[，关紒E植问齗。。。[注释说明]
+#T=ADDRSPC
+ADDRSPC={VIRT}
+        {REAL}
+#T=BYTES
+,BYTES={nnnnn}
+#T=CLASS
+,CLASS=
+#T=COND
+COND=
+#T=DCB
+DCB=(RECFM=VB,LRECL=46,BLKSIZE=27968)
+#T=MSGCLASS
+,MSGCLASS=
+#T=MSGLEVEL
+,MSGLEVEL=
+#T=NOTIFY
+,NOTIFY=
+#T=PRTY
+,PRTY=
+#T=REGION
+,REGION=
+#T=TIME
+,TIME=
+#T=TYPRUN
+,TYPRUN=
+#T=****EXEC****
+#T=EXEC
+//[作业步名]  EXEC  位置参数[,关紒E植问齗…[符号参数=值]… [注释]
+#T=PGM
+PGM=
+#T=PROC
+PROC=
+#T=ACCT
+ACCT=
+#T=ADDRSPC
+ADDRSPC=
+#T=REGION
+REGION
+#T=TIME
+TIME=
+
+#T=PARM
+PARM=
+#T=****DD****
+#T=DD
+//[dd脕E       ]   DD  [位置参数][,关紒E植问齗… [注释]
+#T=DUMMY
+DUMMY
+#T=UNIT
+DUMMY
+#T=VOLUME
+VOLUME
+#T=SPACE
+SPACE
+#T=DISP
+DISP=
+#T=DCB
+DCB
+#T=SYSOUT
+SYSOUT
