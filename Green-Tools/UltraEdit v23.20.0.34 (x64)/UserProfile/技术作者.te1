@@ -1,0 +1,9 @@
+Template ID::EndIDUETMPNAME~:Date MDY            [DATE_MDY]:~End Template~:Template ID::EndIDUETMPNAME~:Time                [TIME]:~End Template~:Template ID::EndIDUETMPNAME~:Full File Name      [FULL_FILE_NAME]:~End Template~:Template ID::EndIDUETMPNAME~:File Name 2         [FILE_NAME]_[DATE_USER_SYS]yyMMdd[DATE_USER_SYS_END][FILE_EXTENSION]:~End Template~:Template ID::EndIDUETMPNAME~:Comment Header      // ----------------------------------------------------------------------------
+//
+//  File:   [FILE_NAME][FILE_EXTENSION]
+//  Creation Date:  [DATE_DMY]
+//  Last Modified:  [DATE_DMY]
+//  Purpose:
+//
+// ----------------------------------------------------------------------------
+:~End Template~:

@@ -1,0 +1,241 @@
+Template ID::EndIDUETMPNAME~:PS Desktop Settings $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_Desktop" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Border Width: " $objItem.BorderWidth
+      write-host "Caption: " $objItem.Caption
+      write-host "Cool Switch: " $objItem.CoolSwitch
+      write-host "Cursor Blink Rate: " $objItem.CursorBlinkRate
+      write-host "Description: " $objItem.Description
+      write-host "Drag Full Windows: " $objItem.DragFullWindows
+      write-host "Grid Granularity: " $objItem.GridGranularity
+      write-host "Icon Spacing: " $objItem.IconSpacing
+      write-host "Icon Title Face Name: " $objItem.IconTitleFaceName
+      write-host "Icon Title Size: " $objItem.IconTitleSize
+      write-host "Icon Title Wrap: " $objItem.IconTitleWrap
+      write-host "Name: " $objItem.Name
+      write-host "Pattern: " $objItem.Pattern
+      write-host "Screensaver Active: " $objItem.ScreenSaverActive
+      write-host "Screensaver Executable: " $objItem.ScreenSaverExecutable
+      write-host "Screensaver Secure: " $objItem.ScreenSaverSecure
+      write-host "Screensaver Timeout: " $objItem.ScreenSaverTimeout
+      write-host "Setting ID: " $objItem.SettingID
+      write-host "Wallpaper: " $objItem.Wallpaper
+      write-host "Wallpaper Stretched: " $objItem.WallpaperStretched
+      write-host "Wallpaper Tiled: " $objItem.WallpaperTiled
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS Domain List      $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_NTDomain" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Caption: " $objItem.Caption
+      write-host "Client Site Name: " $objItem.ClientSiteName
+      write-host "Creation Class Name: " $objItem.CreationClassName
+      write-host "DC Site Name: " $objItem.DcSiteName
+      write-host "Description: " $objItem.Description
+      write-host "DNS Forest Name: " $objItem.DnsForestName
+      write-host "Domain Controller Address: " $objItem.DomainControllerAddress
+      write-host "Domain Controller Address Type: " $objItem.DomainControllerAddressType
+      write-host "Domain Controller Name: " $objItem.DomainControllerName
+      write-host "Domain GUID: " $objItem.DomainGuid
+      write-host "Domain Name: " $objItem.DomainName
+      write-host "DS Directory Service Flag: " $objItem.DSDirectoryServiceFlag
+      write-host "DS DNS Controller Flag: " $objItem.DSDnsControllerFlag
+      write-host "DS DNS Domain Flag: " $objItem.DSDnsDomainFlag
+      write-host "DS DNS Forest Flag: " $objItem.DSDnsForestFlag
+      write-host "DS Global Catalog Flag: " $objItem.DSGlobalCatalogFlag
+      write-host "DS Kerberos Distribution Center Flag: " $objItem.DSKerberosDistributionCenterFlag
+      write-host "DS Primary Domain Controller Flag: " $objItem.DSPrimaryDomainControllerFlag
+      write-host "DS Time Service Flag: " $objItem.DSTimeServiceFlag
+      write-host "DS Writable Flag: " $objItem.DSWritableFlag
+      write-host "Installation Date: " $objItem.InstallDate
+      write-host "Name: " $objItem.Name
+      write-host "Name Format: " $objItem.NameFormat
+      write-host "Primary Owner Contact: " $objItem.PrimaryOwnerContact
+      write-host "Primary Owner Name: " $objItem.PrimaryOwnerName
+      write-host "Roles: " $objItem.Roles
+      write-host "Status: " $objItem.Status
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS List Environ Vars$strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_Environment" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Caption: " $objItem.Caption
+      write-host "Description: " $objItem.Description
+      write-host "InstallationDate: " $objItem.InstallDate
+      write-host "Name: " $objItem.Name
+      write-host "Status: " $objItem.Status
+      write-host "System Variable: " $objItem.SystemVariable
+      write-host "User Name: " $objItem.UserName
+      write-host "Variable Value: " $objItem.VariableValue
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS List Shortcuts   $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_ShortcutFile" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Access Mask: " $objItem.AccessMask
+      write-host "Archive: " $objItem.Archive
+      write-host "Caption: " $objItem.Caption
+      write-host "Compressed: " $objItem.Compressed
+      write-host "Compression Method: " $objItem.CompressionMethod
+      write-host "Creation Class Name: " $objItem.CreationClassName
+      write-host "Creation Date: " $objItem.CreationDate
+      write-host "CS Creation Class Name: " $objItem.CSCreationClassName
+      write-host "CS Name: " $objItem.CSName
+      write-host "Description: " $objItem.Description
+      write-host "Drive: " $objItem.Drive
+      write-host "8.3 File Name: " $objItem.EightDotThreeFileName
+      write-host "Encrypted: " $objItem.Encrypted
+      write-host "Encryption Method: " $objItem.EncryptionMethod
+      write-host "Extension: " $objItem.Extension
+      write-host "File Name: " $objItem.FileName
+      write-host "File Size: " $objItem.FileSize
+      write-host "File Type: " $objItem.FileType
+      write-host "FS Creation Class Name: " $objItem.FSCreationClassName
+      write-host "FS Name: " $objItem.FSName
+      write-host "Hidden: " $objItem.Hidden
+      write-host "Installation Date: " $objItem.InstallDate
+      write-host "In Use Count: " $objItem.InUseCount
+      write-host "Last Accessed: " $objItem.LastAccessed
+      write-host "Last Modified: " $objItem.LastModified
+      write-host "Manufacturer: " $objItem.Manufacturer
+      write-host "Name: " $objItem.Name
+      write-host "Path: " $objItem.Path
+      write-host "Readable: " $objItem.Readable
+      write-host "Status: " $objItem.Status
+      write-host "System: " $objItem.System
+      write-host "Target: " $objItem.Target
+      write-host "Version: " $objItem.Version
+      write-host "Writeable: " $objItem.Writeable
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS Start Menu Groups$strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_LogicalProgramGroup" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Caption: " $objItem.Caption
+      write-host "Description: " $objItem.Description
+      write-host "Group Name: " $objItem.GroupName
+      write-host "Installation Date: " $objItem.InstallDate
+      write-host "Name: " $objItem.Name
+      write-host "Status: " $objItem.Status
+      write-host "User Name: " $objItem.UserName
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS Start Menu Items $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_LogicalProgramGroupItem" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Caption: " $objItem.Caption
+      write-host "Description: " $objItem.Description
+      write-host "InstallationDate: " $objItem.InstallDate
+      write-host "Name: " $objItem.Name
+      write-host "Status: " $objItem.Status
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS List Startup Cmds$strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_StartupCommand" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Caption: " $objItem.Caption
+      write-host "Command: " $objItem.Command
+      write-host "Description: " $objItem.Description
+      write-host "Location: " $objItem.Location
+      write-host "Name: " $objItem.Name
+      write-host "Setting ID: " $objItem.SettingID
+      write-host "User: " $objItem.User
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS List Recovery Cfg$strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_OSRecoveryConfiguration" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Auto-Reboot: " $objItem.AutoReboot
+      write-host "Caption: " $objItem.Caption
+      write-host "Debug File Path: " $objItem.DebugFilePath
+      write-host "Debug Information Type: " $objItem.DebugInfoType
+      write-host "Description: " $objItem.Description
+      write-host "Expanded Debug File Path: " $objItem.ExpandedDebugFilePath
+      write-host "Expanded Mini-Dump Directory: " $objItem.ExpandedMiniDumpDirectory
+      write-host "Kernel-Dump Only: " $objItem.KernelDumpOnly
+      write-host "Mini-Dump Directory: " $objItem.MiniDumpDirectory
+      write-host "Name: " $objItem.Name
+      write-host "Overwrite Existing Debug File: " $objItem.OverwriteExistingDebugFile
+      write-host "Send Administrator Alert: " $objItem.SendAdminAlert
+      write-host "Setting ID: " $objItem.SettingID
+      write-host "Write Debug Information: " $objItem.WriteDebugInfo
+      write-host "Write To System Log: " $objItem.WriteToSystemLog
+      write-host
+}
+:~End Template~:Template ID:	:EndIDUETMPNAME~:	PS List Boot Config $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_BootConfiguration" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Boot Directory: " $objItem.BootDirectory
+      write-host "Caption: " $objItem.Caption
+      write-host "Configuration Path: " $objItem.ConfigurationPath
+      write-host "Description: " $objItem.Description
+      write-host "Last Drive: " $objItem.LastDrive
+      write-host "Name: " $objItem.Name
+      write-host "Scratch Directory: " $objItem.ScratchDirectory
+      write-host "Setting ID: " $objItem.SettingID
+      write-host "Temporary Directory: " $objItem.TempDirectory
+      write-host
+}:~End Template~:Template ID:
+:EndIDUETMPNAME~:
+PS List Logon Info  $strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_LogonSession" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Authentication Package: " $objItem.AuthenticationPackage
+      write-host "Caption: " $objItem.Caption
+      write-host "Description: " $objItem.Description
+      write-host "Installation Date: " $objItem.InstallDate
+      write-host "Logon ID: " $objItem.LogonId
+      write-host "Logon Type: " $objItem.LogonType
+      write-host "Name: " $objItem.Name
+      write-host "Start Time: " $objItem.StartTime
+      write-host "Status: " $objItem.Status
+      write-host
+}
+:~End Template~:Template ID::EndIDUETMPNAME~:PS Prod Activ Status$strComputer = "."
+
+$colItems = get-wmiobject -class "Win32_WindowsProductActivation" -namespace "root\CIMV2" `
+-computername $strComputer
+
+foreach ($objItem in $colItems) {
+      write-host "Activation Required: " $objItem.ActivationRequired
+      write-host "Caption: " $objItem.Caption
+      write-host "Description: " $objItem.Description
+      write-host "Is Notification On: " $objItem.IsNotificationOn
+      write-host "Product ID: " $objItem.ProductID
+      write-host "Remaining Evaluation Period: " $objItem.RemainingEvaluationPeriod
+      write-host "Remaining Grace Period: " $objItem.RemainingGracePeriod
+      write-host "Server Name: " $objItem.ServerName
+      write-host "Setting ID: " $objItem.SettingID
+      write-host
+}
+:~End Template~:

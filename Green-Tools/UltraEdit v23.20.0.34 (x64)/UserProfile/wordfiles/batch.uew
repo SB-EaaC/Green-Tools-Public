@@ -1,0 +1,75 @@
+/L20"Batch" DisableMLS Nocase Line Comment = rem Line Comment Alt = :: String Chars = " File Extensions = BAT CMD SYS
+/TGBegin "Labels"
+/TGFindStr = "^:(?!:)(.*)$"
+/TGEnd
+/Delimiters = $	'()*+./-;:<=>[\]^`{|}
+/Regexp Type = Perl
+/Ignore Strings SOL = "rem " "::"
+/Open Brace Strings =  "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/Marker Characters = "!!%%"
+/C1"Batch Commands"
+defined do
+echo else end errorlevel exist exit
+for
+goto
+if
+not nul
+pause
+return
+say select
+then
+when
+/C2"DOS Commands"
+ansi append arp assign assoc at atmadm attrib autofail
+backup basedev batch bcdedit boot bootcfg bootsect break buffers
+cache cacls call cd chcp chdir chkdsk chkntfs choice cipher cls cmd codepage color command comp compact
+control convert copy country ctty
+date ddinstal debug defrag del delete deltree detach device devicehigh devinfo dir disable diskcoache
+diskcomp diskcopy diskpart doskey dosshell dpath drivparm dumpchk dumpprocess
+eautil echo edit edlin emm386 enable endlocal erase exit exit_vdm expand extproc extract
+fasthelp fc fcbs fciv fdisk fdiskpm files find findstr fixboot fixmbr for forfiles format fsaccess
+fsfilter ftp fType
+goto gpupdate graftabl
+help himem.sys hostname
+icacls if ifshlp.sys iopl ipconfig
+join
+keyb keys
+label lastdrive lh libpath listsvc loadfix loadhigh lock logoff logon
+makeini map maxwait md mem memman mkdir mklink mode more move msav msbackup mscdex msd mwbackup
+nbtstat net netsh netstat nlsfunc None nslookup
+patch path pathping pause pauseonerror picview ping pmrexx popd power print printmonbufsize priority
+priority_disk_io prompt protectonly protshell pstat pushd
+qbasic
+rd recover reg ren rename repl replace restore rmdir rmsize robocopy route run runas
+scandisk scanreg schtasks set setboot setlocal setver sfc share shell shift shutdown smartdrv sort spool
+start subst suppresspopups swappath switches sys syslevel syslog systeminfo systemroot
+taskkill tasklist telnet threads time timeslice title trace tracebuf tracefmt tracert trapdump tree tskill
+type
+undelete unformat unlock unpack use
+ver verify view vmdisk vol
+wmic
+xcopy xcopy32 xdfcopy
+/C3"Variables"
+** ! %
+/C4"Labels"
+** :
+/C5"Echo"
+@echo
+off on
+/C6"Semicolon"
+;
+/C7"Delimiters"
+#
+$
+(
+)
++
+,
+// /
+<
+=
+>
+\

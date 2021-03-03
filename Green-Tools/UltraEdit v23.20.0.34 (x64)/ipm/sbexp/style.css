@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+
+html, body, form, fieldset, h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #b4b4b4;
+  background-color: #30302f;
+  text-align: center;
+  line-height: 1;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #ffffff;
+}
+
+
+#top {
+  padding: 26px;
+  background-color: #191919;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 150%;
+  letter-spacing: -1px;
+  color: #FF4242;
+}
+
+#date {
+  font-size: 90%;
+  line-height: 140%;
+  color: #949494;
+}
+
+#date strong, #daysleft strong {
+  color: #ffffff;
+}
+
+#bottom {
+  padding: 16px 26px 26px;
+  font-size: 90%;
+  line-height: 140%;
+}
+
+#description {
+  line-height: 1.25;
+}
+
+a.button,
+a.button:link,
+a.button:visited {
+  display: block;
+  height: 26px;
+  width: 188px;
+  margin: 26px auto;
+  line-height: 1.9;
+  letter-spacing: -.03em;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  color: #1D1D1D;
+  border-top: 1px solid #f5d87f;
+  border-bottom: 1px solid #caa341;
+  background: #fdcd54 url(images/button-bg.png) repeat-x 0 -26px;
+}
+
+a.button:hover, 
+a.button:active {
+  border-top: 1px solid #f5d87f;
+  border-bottom: 1px solid #c79d1f;
+  background: #f9c836 url(images/button-bg.png) repeat-x 0 0;
+}
+
+#trial-progress {
+  width: 93%;
+  height: 14px;
+  overflow: visible;
+  margin: 6px auto 26px;
+  text-align: center;
+  background: #7C2929;
+  border: 1px solid #D14E4E;
+}
+
+#trial-progress > span {
+  display: block;
+  height: 16px;
+  margin: -1px -1px 0 -1px;
+  z-index: 100;
+  height: 14px;
+  border: 1px solid #71f65c;
+  background: #06b025;
+}
+
