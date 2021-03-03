@@ -1,0 +1,323 @@
+# ----------- Intel C++ 7.1 configuration ----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+DevStudio = 6.0|5.0
+Target = 
+Category&00 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments = 
+Category&08 = INTEL COMPILER SETTINGS
+Version = 70
+Intel Platform = IA32|IA64
+Expand STDLIB functions = yes|no
+Spec. CPU Opt (next 4 opt) = no|yes|strict
+Intel Pentium MMX = yes|no
+Intel Pentium Pro & II = yes|no
+Intel Pentium III = yes|no
+Intel Pentium 4, Xeon & M = yes|no
+Function Splitting = yes|no
+FP Port = no|yes
+Interprocedural Opt = no|yes
+Contraction of FP Multiply = no|yes
+FP Speculation = no|fast|safe|strict|off
+FP Operations Evaluation = no|yes
+Controlling Accuracy of the FP Results = yes|no
+OpenMP = no|yes
+OpenMP* diagnostic levels = disable|0|1|2
+Optimization Report = no|yes
+Auto parallelization = no|yes
+Precision = 64|32|80
+Fast Float To Int Conversion = no|yes
+Loop Unroll = n
+Vectorizer Quick Reference = n|0|1|2|3|4|5
+Use EBP in Opt = yes|no
+Flushes Denormal Results to Zero = no|yes
+CHkstk Calls = no|yes
+Correct Computation = no|yes
+FDiv Patch = no|yes
+NoBSS Init = no|yes
+Save Opt to EXE = no|yes
+Version String = 
+Category&01 = COMPILER OPTIONS
+Warning Level = 3|0|1|2|4
+Link With = MD|ML|MT
+Optimization = speed|speed nis|speed aso|default|disable|size
+Processor = pentium II|blend|386|486|pentium|pentium 4
+Calling Convention = __cdecl|__fastcall|__stdcall
+Exception Handling = enable|disable
+RTTI = disable|enable
+ConDisp = enable|disable
+Struct Alignment = 8 Bytes|1 Bytes|2 Bytes|4 Bytes|16 Bytes
+Incremental Compilation = no|yes
+Additional Include Directories = 
+Preprocessor (Debug) = /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS"
+Preprocessor (Release) = /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS"
+Compiler Options = 
+Category&02 = LINKER OPTIONS
+Libraries = 
+Linker Options =
+Excluded Files = Excludes
+External Dependencies=yes|no
+
+[SettingsInfo]
+DevStudio = Provides a space for you to specify an version of compiler you want to use. 
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Preprocessor (Debug) = Shows the switches the tool will use to build. You can to add or remove switches.
+Preprocessor (Release) = Shows the switches the tool will use to build. You can to add or remove switches.
+Warning Level = Specifies the severity of warning for which the compiler generates messages.	
+Link With = Link with MD-Creates a multithreaded App using MSVCRT, ML-Creates a single-threaded App using LIBC, MT-Creates a multithreaded App using LIBCMT
+Machine = This option specifies the target platform for the program.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+Additional Include Directories = Provides a place for you to add one or more directories to the list of directories searched for include files. Separate directory names with a semicolon.
+Align = Specifies the alignment of each section.
+Comment = Inserts a comment string into header.
+Debug Type = Creates particular formats of debugging information.
+Map File = Creates a map file.
+Map Info = Includes the specified information in the map file. EXPORTS tells the linker to include exported functions. FIXUPS tells the linker to include base-relocation information. LINES includes line-number information.
+Optimization = Select from a list of compiler code optimizations. "speed nis" - optimization with no code size increase, "speed aso" - all speed optimization are used. This option is used only for RELEASE mode. In Debug mode is optimization disabled.
+Processor = Optimizes code to favor the selected processor.
+Calling Convention = A calling convention defines the way internal and external functions are called. Calling conventions differ in how arguments are passed, how values are returned by functions, and how the stack is cleaned up. Refer to the online reference material for the calling conventions applicable to the x86 platform.
+Exception Handling = Select this option to call destructors for automatic objects during a stack unwind caused by either a Windows NT-based structured exception or a C++ exception.
+RTTI = Select this option to add code for checking object types at run time (run-time type information).	
+ConDisp = Disable Construction Displacements. Suppresses the vtordisp constructor/destructor displacement member. Choose this option only if you are certain that all class constructors and destructors call virtual functions virtually.
+Struct Alignment = This setting allows you to use non-standard alignments for data structure members. Alignments other than the default can cause severe application performance degradation due to alignment faults and subsequent fixups. Change this setting from the default with caution. This setting changes the value of the /Zp compiler switch.
+Incremental Compilation = Select this option to enable function-level recompilation.
+External Dependencies = If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+Expand STDLIB functions = By default, the compiler automatically expands (inlines) a number of standard and math library functions at the point of the call to that function, which usually results in faster computation.
+Spec. CPU Opt (next 4 opt) = YES = Generates specialized code for specific processors while also generating generic IA-32 code. STRICT = generates only specialized code for specific processors. Do not use STRICT if code will be executed on non INTEL processors. IA-32 Only.
+Function Splitting = Enables or disables function splitting. IA-32 Only.
+FP Port = Round fp results at assignments and casts (some speed impact). IA-32 Only.
+Contraction of FP Multiply = This option enables or disables the contraction of floating-point multiply and add/subtract operations into a single operation.
+FP Speculation = This option sets the compiler to speculate on floating-point operations in one of the following modes: fast: sets the compiler to speculate on floating-point operations (default), safe: enables the compiler to speculate on floating-point operations only when it is safe, strict: disables the speculation of floating-point operations, off: disables the speculation on floating-point operations.
+FP Operations Evaluation = This option directs the compiler to evaluate the expressions involving floating-point operands in the precision indicated by the variable types declared in the program.
+Controlling Accuracy of the FP Results = This option disables or enables optimizations that impact floating-point accuracy.
+OpenMP* diagnostic levels = Controls the OpenMP* parallelizer's diagnostic levels.
+OpenMP = Enables the parallelizer to generate multi-threaded code based on the OpenMP* directives.
+Optimization Report = Generates an optimization report directed to stderr. Itanium-based Systems Only.
+Auto parallelization = Detects parallel loops capable of being executed safely in parallel and automatically generates multithreaded code for these loops. IA-32 Only.
+Precision = Enables floating-point significand precision control. The value is used to round the significand to the correct number of bits. The value must be either 32, 64 (default), or 80.
+Fast Float To Int Conversion = Enables or disables fast conversions of floating-point-to-integer conversions.
+Loop Unroll = Specifies the maximum number of times to unroll a loop. Omit n to let the compiler decide whether to perform unrolling or not. Use n = 0 to disable unroller.
+Vectorizer Quick Reference = Controls the amount of vectorizer diagnostic information produced depending on the value of n described as follows:0: no diagnostic information, 1: indicate vectorized loops(default),  2: indicate vectorized/non-vectorized loops, 3: indicate vectorized/non-vectorized loops and prohibiting data dependence information, 4: indicate non-vectorized loops, 5: indicate non-vectorized loops and prohibiting data dependence information.
+Use EBP in Opt = Enables or disables (the ebp register is used as frame pointer) the use of the ebp register in optimizations.
+Flushes Denormal Results to Zero = Flushes denormal results to zero. Itanium-based Systems Only.
+CHkstk Calls = Calls __chkstk for every call to alloca(). -Qchkstk- cancels calls to __chkstk. Itanium-based Systems Only.
+Correct Computation = Set this option to avoid the incorrect decoding of the instructions that have 2-byte opcodes with the first byte containing 0f.
+FDiv Patch = Enables or disables a software patch for the floating-point division flaw that exists in some steppings of the Intel Pentium processor.
+NoBSS Init = Places variables that are initialized with zeroes in the DATA section.
+Save Opt to EXE = Saving compiler options and version information in the executable file.
+Version String = Embeds version string in executable.
+
+[SettingsReps]
+
+Warning Level = @/W%s
+Link With = @/%s
+Comment = "@/COMMENT:"%s""
+Optimization = default=|disable=/Od|speed=/O2|speed nis=/Os|speed aso=/Ot|size=/O1
+Processor = blend=|386=/G3|486=/G4|pentium=/G5|pentium II=/G6|pentium 4=/G7
+Calling Convention = __cdecl=|__fastcall=/Gr|__stdcall=/Gz
+Exception Handling = disable=|enable=/GX
+RTTI = disable=|enable=/GR
+ConDisp = enable=|disable=/vd0
+Struct Alignment = 8 Bytes=|1 Bytes=/Zp1|2 Bytes=/Zp2|4 Bytes=/Zp4|16 Bytes=/Zp16
+Incremental Compilation = no=|yes=/Gi
+External Dependencies = yes=1|no=0
+Expand STDLIB functions = yes=/Oi|no=/Oi-
+Spec. CPU Opt (next 4 opt) = no=$(Optimization)|yes=$(Optimization) /Qax$(Intel Pentium MMX)$(Intel Pentium Pro & II)$(Intel Pentium III)$(Intel Pentium 4, Xeon & M)|strict=/Qx$(Intel Pentium MMX)$(Intel Pentium Pro & II)$(Intel Pentium III)$(Intel Pentium 4, Xeon & M)
+Intel Pentium MMX = no=|yes=M
+Intel Pentium Pro & II = no=|yes=i
+Intel Pentium III = yes=K|no=
+Intel Pentium 4, Xeon & M = yes=W|no=
+Function Splitting = yes=|no=/Qfnsplit-
+FP Port = no=|yes=/Qfp_port
+Interprocedural Opt = no=|yes=/Qip
+Contraction of FP Multiply = no=|yes=/QIPF_fma
+FP Speculation = no=|DEFAULT=@/QIPF_fp_speculation%s
+FP Operations Evaluation = no=|yes=/QIPF_flt_eval_method0
+Controlling Accuracy of the FP Results = yes=|no=/QIPF_fltacc
+OpenMP* diagnostic levels = disable=|DEFAULT=@/Qopenmp_report%s
+OpenMP = no=|yes=/Qopenmp
+Optimization Report = no=|yes=/Qopt_report
+Auto parallelization = no=|yes=/Qparallel
+Precision = 64=|DEFAULT=@/Qpc%s
+Loop Unroll = n=|DEFAULT=@/Qunroll%s
+Vectorizer Quick Reference = n=|DEFAULT=@/Qvec_report%s
+Fast Float To Int Conversion = default=|no=/QIfist-|yes=/QIfist
+Use EBP in Opt = yes=|no=/Oy-
+Flushes Denormal Results to Zero = no=/Qftz-|yes=/Qftz
+CHkstk Calls = no=/Qchkstk-|yes=
+Correct Computation = no=|yes=/QI0f
+FDiv Patch = no=|yes=/QIfdiv
+NoBSS Init = no=|yes=/Qnobss_init
+Save Opt to EXE = no=|yes=/Qsox
+Version String = @/V%s
+Additional Include Directories=^@[;|%s;]
+
+[Variables]
+
+DevStudioRegistry = $(DevStudio)
+Platform = Win32 (x86)
+RegPath = Software\Microsoft\DevStudio\$(DevStudioRegistry)\Build System\Components\Platforms
+
+I32CP = $(Function Splitting) $(FP Port) $(Auto parallelization) $(Precision) $(Fast Float To Int Conversion) $(Vectorizer Quick Reference) $(Use EBP in Opt) $(Correct Computation) $(FDiv Patch) $(Save Opt to EXE)
+I64CP = $(Contraction of FP Multiply) $(FP Speculation) $(FP Operations Evaluation) $(Controlling Accuracy of the FP Results) $(Optimization Report) $(Flushes Denormal Results to Zero) $(CHkstk Calls)
+I3264 = {[$(Intel Platform)=][IA32=$(I32CP)][IA64=$(I64CP)]}
+INOPT = $(Interprocedural Opt) /Qipo_obj $(OpenMP* diagnostic levels) $(OpenMP)  $(Auto parallelization) $(Loop Unroll) $(NoBSS Init) $(Version String)
+COPT  = $(Compiler Options) $(I3264) $(INOPT) $(Warning Level) $(Calling Convention) $(Exception Handling) $(RTTI) $(ConDisp) $(Processor) $(Struct Alignment) $(Incremental Compilation)
+LOPT  = $(Linker Options) /MACHINE:$(Machine)
+SPOPT = {[$(Intel Platform)=][IA32=$(Spec. CPU Opt (next 4 opt))][IA64=]}
+IOPT  = $(Expand STDLIB functions) $(SPOPT)
+
+Machine = IX86
+COMPILER = {[$(Intel Platform)=][IA32=ICL][IA64=ECL]}
+ASSEMBLER = {[$(Intel Platform)=][IA32=ML][IA64=IAS]}
+
+IsEDB = {[$(Debugger)=][EDB=YES]}
+DebugMe = {[$(ISEDB)=][YES=$(Debugger) $Tp\$Tn][=$(Debugger) $T]}
+
+[Environment]
+
+PATH = $(HKEY_LOCAL_MACHINE\SOFTWARE$6432\INTEL\Compilers\C++\$(Version)\$(Intel Platform)\BinDir);$(HKEY_CURRENT_USER\$(RegPath)\$(Platform)\Directories\Path Dirs)
+INCLUDE = $(HKEY_CURRENT_USER\$(RegPath)\$(Platform)\Directories\Include Dirs);$(Additional Include Directories);$(HKEY_LOCAL_MACHINE\SOFTWARE$6432\INTEL\Compilers\C++\$(Version)\$(Intel Platform)\IncludeDir);
+LIB = $(HKEY_CURRENT_USER\$(RegPath)\$(Platform)\Directories\Library Dirs);$(HKEY_LOCAL_MACHINE\SOFTWARE$6432\INTEL\Compilers\C++\$(Version)\$(Intel Platform)\LibDir);
+
+[General]
+
+TargetExt = .LIB
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+
+.CPP=.C
+.CXX=.C
+.CC=.C
+.I=.C
+.S=.NSM
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+debug =Start Debugger
+peview=PEview
+mkf = Show Makefile
+
+[Show Makefile]
+Cmd0 = uestudio makefile
+ShowWindow = 1
+DisplayConsole = 0
+
+[Execute Application]
+
+Title = Execute $(Command Line Arguments)
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Start Debugger]
+
+Title = Debug $Tn$Te
+Cmd0 = $(DebugMe)
+Depends = $T
+ShowWindow =1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;.res;
+FGL = .lib;
+FGD = .def;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+FGD = /def:%s
+
+[Build]
+
+Out = $T
+Depends = $FGO
+ReleaseFlag = /incremental:no
+DebugFlag = /incremental:yes /debug $(Debug Type)
+Cmd0 = XILINK -lib /NOLOGO $(LOPT) /OUT:$O $R $FGO $FGL
+
+[.C]
+
+Out = $In.obj
+ReleaseFlag = $(Link With) $(IOPT) /FD $(Preprocessor (Release))
+DebugFlag = $(Link With)d /Gm /ZI /Od /FD /GZ $(Preprocessor (Debug)) /Qinline_debug_info
+Cmd0 = $(COMPILER) /nologo $(COPT) $R /c $I
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.RC]
+
+Out = $In.res
+Cmd0 = RC /fo$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.ASM]
+
+Out = $In.obj
+Cmd0 = $(ASSEMBLER) /nologo /coff /c /Cp /Fo$O $I
+
+IncFiles = 1
+CaseSensitive = 0
+IncDirs = .;$(INCLUDE);
+IncKeyWords = include;
+Comments = ;.eol.
+
+[.NSM]
+
+Out = $In.obj
+Cmd0 = NASMW -f win32 -i$Ip -o$O $I
+IncFiles = 1
+CaseSensitive = 0
+IncDirs = .;
+IncKeyWords = %include;
+Comments = ;.eol.

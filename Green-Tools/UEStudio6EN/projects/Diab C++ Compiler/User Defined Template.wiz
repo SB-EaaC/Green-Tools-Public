@@ -1,0 +1,66 @@
+##############################################################################
+#                                                                            #
+#             UEStudio's User Defined Project Template                       #
+#                                                                            #
+# The following template is to be modified by the user.  It describes        #
+# individual preferences for new project creation.                           #
+#                                                                            #
+# The first and most important section is [UDT] which contains a "Compiler"  #
+# variable and a list of seed files to be inserted in the newly created      #
+# project.  The Compiler variable specifies the name of the compiler's       #
+# configuration directory, and the compiler configuration file.              #
+# For example:                                                               #
+# Compiler = Microsoft Visual C++ Compiler\Win32 Console Application         #
+#                                                                            #
+# The list of project files may be any combination of source, header,        #
+# resource, and data files.  An example follows:                             #
+#  File0=MyApp.h                                                             #
+#  File1=MyApp.c, Source Files                                               #
+#  File2=MyApp.ico                                                           #
+# and so forth....                                                           #
+#                                                                            #
+# All subsequent section(s) of this template describe the contents of one    #
+# or more of the project files defined above.  An optional group name may    #
+# be specified after the file name.  In the above example, the group         #
+# "Source Files" will automatically be created and MyApp.c will be included  #
+# in the group folder.                                                       #
+#                                                                            #
+# For binary file contents such as Resource, Icon, or any other data file,   #
+# where it is inconvenient to describe the contents in a script, the         #
+# following format may be used:                                              #
+# [File2]                                                                    #
+# INCLUDEBINARY=c:\my_data_files\ico_data.raw                                #
+# This will create [File2], in this case "MyApp.ico", with the content       #
+# ico_data.raw                                                               #
+#                                                                            #
+# Alternately, binary file contents may be defined in this template using    #
+# the ":HEX" directive.  This specifies that all data is represented as      #
+# hexadecimal values.  For example:                                          #
+# [File3:HEX]                                                                #
+# 0065 66 F0, 0FF0, 0F0F0F0F                                                 #
+# 12, FF, 20; 0F 40                                                          #
+#                                                                            #
+# where all numbers above are interpreted based on data length, as follows:  #
+#  1-2 = bytes, 3-4 = words, 5-8 = dwords, >8 = an array of bytes.           #
+#                                                                            #
+# Predefined variables may be used to specify the names of files as well as  #
+# the content of the files, e.g.:                                            #
+# USER (user name), COMPUTER (computer name), TIME, DATE, PRJPATH (project   #
+# path), PRJNAME (project name), PRJDIR (project directory)                  #
+# Example: File0=$(PRJNAME).cpp                                              #
+#                                                                            #
+##############################################################################
+
+[UDT]
+
+Compiler = Diab C++ Compiler\Application
+
+File0 = $(PRJNAME).cpp
+
+[File0]
+#include "stdio.h"
+
+void main(void)
+{
+	
+}

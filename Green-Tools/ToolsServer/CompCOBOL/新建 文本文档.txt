@@ -1,0 +1,21 @@
+我下載了RM/COBOL-85 Compiler v5.24. 這支編譯器來使用，在編譯時沒有問題
+，可是在run時就怪怪的。
+
+c:\>rmcobol test1
+這時編譯沒有問題
+c:\>runcobol test1
+可以run可是怪怪的
+       IDENTIFICATION                   DIVISION.
+       PROGRAM-ID.                      TEST1.
+       ENVIRONMENT                      DIVISION.
+       CONFIGURATION                    SECTION.
+       DATA                             DIVISION.
+       WORKING-STORAGE                  SECTION.
+       01   R                           PIC 9(9).
+       01   A                           PIC A(20).
+       PROCEDURE                        DIVISION.
+       0000-DISPLAY-SCREEN-RTN.
+            DISPLAY "INPUT:" LINE 10 POSITION 10 ERASE.
+       0100-ACCEPT-TEST-RTN.
+            ACCEPT R LINE 10 POSITION 20 REVERSE PROMPT.
+            STOP RUN.

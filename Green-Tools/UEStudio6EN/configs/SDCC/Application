@@ -1,0 +1,109 @@
+# ---------- SDCC C Compiler configuration ----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Processor = Intel MCS51 (8051-family)|Dallas DS80C390|Dallas DS80C400|Freescale/Motorola HC08|Zilog Z80|GameBoy Z80|Atmel AVR|Microchip PIC 14-bit (p16f84-family)|Microchip PIC 16-bit (p18f452-family)|Toshiba TLCS-900H|Phillips XA51
+Compiler Options = 
+Category&02 = LINKER OPTIONS
+Output Format = Intel HEX|Motorola S19
+Linker Options = 
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Processor = This option defines the processor which is being used.
+Output Format = Use this option to specify the output format.
+Compiler Options = Provides a space for you to specify additional compiler options.
+Linker Options = Provides a space for you to specify additional linker options.
+
+[SettingsReps]
+
+Processor = Intel MCS51 (8051-family)=mcs51|Dallas DS80C390=ds390|Dallas DS80C400=-ds400|Freescale/Motorola HC08=hc80|Zilog Z80=z80|GameBoy Z80=gbz80|Atmel AVR=avr|Microchip PIC 14-bit (p16f84-family)=pic14|Microchip PIC 16-bit (p18f452-family)=pic16|Toshiba TLCS-900H=tlcs900h|Phillips XA51=xa51
+Output Format = Intel HEX=ihx|Motorola S1/S9 HEX=s19
+
+[Environment]
+INCLUDE=C:\Program Files\SDCC\INCLUDE
+LIB=C:\Program Files\SDCC\LIB
+
+[Variables]
+
+COPT = $(Compiler Options)
+LOPT = $(Linker Options) -m$(Processor) --out-fmt-$(Output Format)
+
+[General]
+
+TargetExt = .hex
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+RemoveDot = 0
+ConvertBS = 0
+
+.C51 = .C
+
+[MakeCommands]
+
+makef=Show Makefile
+
+[InsertFiles]
+
+[FileGroups]
+
+FGR = .rel;
+FGL = .lib;
+
+[Build]
+
+Out = $T
+Depends = $FGR
+DebugFlag = --debug
+Cmd0 = SDCC --use-stdout $R $(LOPT) $FGR
+Cmd1 = REN *.$(Output Format) $T
+
+[.C]
+Out = $In.rel
+Depends = $I
+Cmd0 = SDCC --use-stdout $R $(COPT) -c -o $O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+

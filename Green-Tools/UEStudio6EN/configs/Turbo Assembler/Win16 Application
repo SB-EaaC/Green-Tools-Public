@@ -1,0 +1,167 @@
+# -------- Turbo Assembler 5.0 configuration -------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Warning Level = 1|0|2
+Case Sensitivity = default|none|globals|all
+Case Sensitive Link = default|yes|no
+Listing Files = none|normal|extended
+Floating Point = real|emulated
+Segment Ordering = source-code|alphabetic
+Libraries = 
+Excluded Files = Excludes
+Compiler Options = 
+Linker Options = 
+Debugger=TDW
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Warning Level = Set warning level.
+Case Sensitivity = Case sensitivity on symbols.
+Case Sensitive Link = Treats case as significant in symbols.
+Listing Files = Generate listing files.
+Floating Point = Generates real floating point instructions or emulator instructions.
+Segment Ordering = Alphabetic or Sequential segment ordering.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+
+Case Sensitivity = default=|all=/ml|globals=/mx|none=/mu
+Listing Files = none=|normal=/l|extended=/la
+Floating Point = real=/r|emulated=/e
+Segment Ordering = source-code=/s|alphabetic=/a
+Case Sensitive Link = yes=/c|no=|default=
+External Dependencies=yes=1|no=0
+
+[Variables]
+
+CPATH =C:\TASM
+COPT = /t /q $(Compiler Options) /w$(Warning Level) /q $(Case Sensitivity) $(Listing Files) $(Floating Point) $(Segment Ordering)
+LOPT = -Twe $(Linker Options) $(Case Sensitive Link) $(LIB)
+ASM = TASMX
+LINK = TLINK
+IMPLIB = import
+
+[Environment]
+
+PATH = $(CPATH)\Bin;%PATH%
+INCLUDE = $(CPATH)\Include
+LIB = /L$(CPATH)\Lib
+
+[General]
+
+TargetExt = .EXE
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+debug =Start Debugger
+tdump = Turbo Dump
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 0
+
+[Start Debugger]
+
+Cmd0 =$(Debugger) $T
+Depends =$T
+ShowWindow =1
+Title=Debug $T
+
+[Turbo Dump]
+
+Title = Dump $T
+Cmd0 = TDUMP $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGR = .res;
+FGL = .lib;
+FGD = .def;
+
+[Build]
+
+Out = $T
+Depends = $FGO $FGR
+ReleaseFlag = 
+DebugFlag = -v -s
+Cmd0 = $(LINK) $(LOPT) $FGO,$T,$Tn,$(IMPLIB) $FGL,$FGD,$FGR,
+
+[.RC]
+
+Out = $In.res
+Cmd0 = BRCC -i$(INCLUDE) -fo$O $I
+
+[.ASM]
+
+Out = $In.obj
+ReleaseFlag = /zn /DNDEBUG
+DebugFlag = /zi /DDEBUG
+Cmd0 = $(ASM) /i$(INCLUDE) /i$Ip $(COPT) $R $I,$O
+
+IncFiles = 1
+CaseSensitive = 0
+IncDirs = .;$(CPATH)\Include;
+IncKeyWords = include;
+Comments = ;.eol.
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

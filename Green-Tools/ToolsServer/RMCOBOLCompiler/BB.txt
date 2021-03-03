@@ -1,0 +1,27 @@
+主程序: ST077.COBOL.SOURCE(C1)
+***************************** Top of Data ******************************
+       IDENTIFICATION  DIVISION.                                        
+       PROGRAM-ID.  MAIN.                                               
+       ENVIRONMENT  DIVISION.                                           
+       DATA  DIVISION.                                                  
+       PROCEDURE  DIVISION.                                             
+           CALL 'SUBPG'.                                   
+           CALL 'SUBPG'.                                                   
+           CALL 'SUBPG'.                                          
+           STOP RUN.                                                    
+**************************** Bottom of Data ****************************
+
+
+子程序: ST077.COBOL.SOURCE(C2)
+***************************** Top of Data ******************************
+       IDENTIFICATION  DIVISION.                                        
+       PROGRAM-ID.   SUBPG.                                             
+       ENVIRONMENT  DIVISION.                                           
+       DATA  DIVISION. 
+       WORKING-STORAGE SECTION.
+       77   A  PIC  99  VALUE  1.                                                 
+       PROCEDURE        DIVISION.                                       
+           ADD  1  TO  A.                             
+           DISPLAY 'A=', A.                                          
+           EXIT PROGRAM.                                                
+**************************** Bottom of Data ****************************

@@ -1,0 +1,149 @@
+# ------------ Borland C++ configuration -----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Generate Code = 386|80186/286|286 Protected mode|80086/80088
+Compilance = AT|A|AK|AU
+Warning Level = default|all warnings
+Memory Model = Large|Small|Tiny|Medium|Compact|Huge
+Floating Point = Emulation|None|80087/80287
+Calling Convention = C|Pascal
+Force C++ Compile = disable|enable
+Alignment = Byte|Word
+Optimize For = Size|Speed
+Libraries = 
+Excluded Files = Excludes
+Compiler Options = 
+Debugger= 
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Warning Level = Specifies the severity of warning for which the compiler generates messages.	
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compilance = AT-Use Borland C++ keywords and extensions, A-Ansi, AK-Use Kernighan and Ritchie keywords, AU-Use UNIX V keywords and extensions.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Generate Code = Provides a space for you to specify an type of code, that will be generated. 1-80186, 2-80286, 7-80287
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, uemakeXp will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+
+Generate Code = 386=-3|80186/286=-1|286 Protected mode=-2|80086/80088=-1-
+Memory Model = Tiny=-mt|Small=-ms|Medium=-mm|Compact=-mc|Large=-ml|Huge=-mh
+Warning Level = default=|all warnings=-w
+Calling Convention = C=|Pascal=-p
+Floating Point = 80287=-f287|Emulation=-f|None=-f-|80087=-f87
+Alignment = Byte=|Word=-a
+Optimize = Size=-G-|Speed=-G
+Force C++ Compile = disable=|enable=-P
+External Dependencies=yes=1|no=0
+
+[Variables]
+
+CPATH=C:\BORLANDC
+COPT = -c $(Generate Code) $(Memory Model) $(Warning Level) $(Calling Convention) $(Alignment) $(Floating Point) $(Force C++ Compile) -$(Compilance) -I$(CPATH)\INCLUDE -I$Ip
+
+[Environment]
+
+PATH = $(CPATH)\BIN;%PATH%
+INCLUDE = $(CPATH)\INCLUDE
+
+[General]
+
+TargetExt = .EXE
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 1
+Excludes = $(Excluded Files)
+#EasyCapture = 1
+
+.ASM = .C
+.CPP = .C
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+debug=Start Debugger
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGL = .lib;
+
+[Build]
+
+Out = $T
+Depends = $FGO
+DebugFlag = -ll -ls -lv
+Cmd0 = BCC -l3 -L$(CPATH)\LIB $R -e$T $FGO $FGL
+
+[.C]
+Out = $In.obj
+ReleaseFlag = -O -Z $(Optimize)
+DebugFlag = -y -v -O-
+Cmd0 = BCC $(COPT) $R -o$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.

@@ -1,0 +1,17 @@
+[UDT]
+
+Compiler = Visual Studio 2005\Visual C++ Compiler\Win32 Static Library
+
+File0 = $(PRJNAME).h, Header Files
+File1 = $(PRJNAME).cpp, Source Files
+
+[File0]
+#include "stdio.h"
+
+[File1]
+#include "$(PRJNAME).h"
+
+int InitLibrary(void)
+{
+	return 1;
+}

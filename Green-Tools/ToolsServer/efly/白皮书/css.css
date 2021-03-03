@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Garamond, Times, Serif;
+	font-size: 12pt;
+}
+
+table {
+	font-size: 12pt;
+}
+
+div.toc {
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	padding-left: 0pt;
+	padding-right: 2pt;
+}
+
+div.toc ul {
+}
+
+div.toc li {
+	font-size: 10pt;
+}
+
+div.toc a {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	text-decoration: none;
+}
+
+div.toc a:hover {
+	text-decoration: underline;
+}
+
+div.body {
+	padding-top: 0pt;
+	padding-bottom: 1pt;
+	padding-left: 6pt;
+	padding-right: 6pt;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+div.body h1 {
+	text-align: left;
+	margin-top: 5pt;
+	margin-bottom: 18pt;
+	font-size: 20pt;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+
+div.body h2 {
+	text-align: left;
+	margin-top: 24pt;
+	margin-bottom: 18pt;
+	font-size: 16pt;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+div.body h3 {
+	text-align: left;
+	margin-top: 24pt;
+	margin-bottom: 16pt;
+	font-size: 13pt;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+div.body h4 {
+	text-align: left;
+	margin-top: 24pt;
+	margin-bottom: 16pt;
+	font-size: 12pt;
+	font-weight: normal;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+div.body h5 {
+	width: 80%;
+	text-align: left;
+	margin-top: 6pt;
+	margin-bottom: 16pt;
+	font-size: 10pt;
+	padding: 5px;
+}
+
+
+div.body a {
+	font-family: monospace;
+	text-decoration: none;
+	color: blue;
+}
+
+div.body a:hover {
+	text-decoration: underline;
+}
+
+div.body blockquote {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background: #FFFFBB;
+	padding: 15px;
+}
+div.body blockquote p {
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+div.body pre {
+	background: #FFFFBB;
+	padding: 15px;
+	border: 1px dashed black;
+}
+
+div.body dt {
+	background: #BBFFBB;
+	padding: 3pt;
+	border-left: 3px solid black;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	margin-top: 18pt;
+	margin-bottom: 8pt;
+}
+

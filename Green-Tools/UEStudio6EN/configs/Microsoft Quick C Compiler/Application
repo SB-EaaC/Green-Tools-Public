@@ -1,0 +1,159 @@
+# -------- Microsoft Quick C configuration ---------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Memory Model = small|compact|medium|large|huge|tiny
+Optimization = on|off|full
+Code Generation = 286|8086|186
+Function Cals = C|Pascal
+Incremental Compilation = disable|enable
+Language Extensions = enable|disable
+Alignment = byte|word
+Floating Point = default|8087|emulator
+Unsigned Char = no|yes
+Stack Size = 4000
+Warning Level = 2|1|0|3|4
+
+Libraries = 
+Compiler Options = 
+Linker Options = 
+Debugger= 
+External Dependencies=yes|no
+
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Warning Level = Specifies the severity of warning for which the compiler generates messages.	
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Code Generation = Provides a space for you to specify an type of code, that will be generated.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+
+Memory Model = small=/AS|compact=/AC|medium=/AM|large=/AL|huge=/AH|tiny=/AT
+Optimization = on=/Ot|off=/Od|full=/Ox
+Code Generation = 286=/G2|8086=/G0|186=/G1
+Function Cals = C=|Pascal=/Gc
+Incremental Compilation = disable=|enable=/Gi
+Language Extensions = enable=/Ze|disable=/Za
+Alignment = byte=/Zp1|word=/Zp2
+Floating Point = 8087=/FPi87|emulator=/FPi|default=
+Unsigned Char = no=|yes=/J
+External Dependencies=yes=1|no=0
+
+[Variables]
+
+CPATH =C:\QC25
+COPT = /c /batch /nologo $(Compiler Options) $(Memory Model) $(Code Generation) $(Function Cals) $(Incremental Compilation) $(Language Extensions) $(Alignment) $(Floating Point) $(Unsigned Char) /F $(Stack Size) /W$(Warning Level)
+LOPT = /NOLOGO /BATCH
+
+[Environment]
+
+PATH = $(CPATH)\BIN
+INCLUDE = $(CPATH)\INCLUDE
+LIB = $(CPATH)\LIB
+
+[General]
+
+TargetExt = .EXE
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 1
+Excludes = $(Excluded Files)
+#EasyCapture = 1
+#StdOut = compile.err
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+debug=Start Debugger
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+DisplayConsole=1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGL = .lib;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO
+Cmd0 = QLINK $(LOPT) $FGO,$T,$Tn,$FGL,
+
+[.C]
+
+Out = $In.obj
+DebugFlag = /Od /Zd /Zi
+ReleaseFlag =  $(Optimization) /DNDEBUG
+Cmd0 = QCL $(COPT) $R /Fo$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.

@@ -1,0 +1,85 @@
+# -------------- ErLang configuration --------------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Compiler Version = 5.4.13
+Target = 
+Working Directory =.
+Command Line Arguments =
+
+Libraries = 
+Compiler Options = 
+Linker Options =
+Debugger=
+External Dependencies=yes|no
+
+[Variables]
+CPATH = C:\Program Files\erl$(Compiler Version)
+COPT = $(Compiler Options)
+LOPT = $(Linker Options)
+
+[FileGroups]
+FGE = .erl
+
+[GroupFormats]
+FGE = %s
+
+[Environment]
+PATH = $(CPATH)\bin;$(CPATH)\erts-$(Compiler Version)\bin;%PATH%
+INCLUDE = $(CPATH)\erts-$(Compiler Version)\include
+LIB = $(CPATH)\erts-$(Compiler Version)\lib
+
+[General]
+TargetExt = .beam
+ReleaseOut = Release
+DebugOut = Debug
+Excludes = $(Excluded Files)
+
+[MakeCommands]
+run = Execute Application
+
+[Build]
+Out = $In.beam
+Depends = $FGE
+ReleaseFlag = 
+DebugFlag = 
+Cmd0 = 
+
+[Execute Application]
+Title = Execute $T
+Cmd0 = werl -s $T
+Depends $T
+ShowWindow = 1
+
+
+[.erl]
+Out = $In.beam
+DebugFlag = +debug_info
+Cmd0 = erlc $R $(COPT) -o ebin $I
+
+IncDirs = .;$(INCLUDE);
+IncKeyWords = -include;
+Comments = %%.eol.

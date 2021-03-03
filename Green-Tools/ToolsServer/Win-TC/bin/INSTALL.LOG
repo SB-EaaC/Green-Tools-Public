@@ -1,0 +1,194 @@
+***  Installation Started 05/27/2006 7:35  ***
+Title: Win-TC v1.9.1  安装
+Source: E:\wintc191.EXE | 03-01-2006 | 01:36:46 | 3536897
+Made Dir: C:\Win-TC
+Made Dir: C:\Win-TC\bin
+File Copy: C:\Win-TC\bin\UNWISE.EXE | 08-08-2002 | 23:40:48 | | 153088 | 833b8ad1
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Win-TC v1.9.1 
+RegDB Val: Win-TC v1.9.1 
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Win-TC v1.9.1 
+RegDB Val: C:\Win-TC\bin\UNWISE.EXE C:\Win-TC\bin\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: C:\Win-TC\wintchlp.chm | 05-29-2003 | 12:15:22 | | 568277 | 17439f51
+File Copy: C:\Win-TC\tcstudy.chm | 11-18-2003 | 19:59:30 | | 208378 | db54f295
+Made Dir: C:\Win-TC\template
+File Copy: C:\Win-TC\template\BGI瓜絪祘家狾.tpl | 06-06-2004 | 12:52:40 | | 591 | 5c87cb06
+Made Dir: C:\Win-TC\projects
+Made Dir: C:\Win-TC\projects\翴皚家ㄣボㄒ
+File Copy: C:\Win-TC\projects\翴皚家ㄣボㄒ\hz_tool.c | 06-06-2004 | 12:48:42 | | 13477 | 62ea64ab
+File Copy: C:\Win-TC\template\BGI图形编程模板.tpl | 06-06-2004 | 12:12:42 | | 591 | 467786b1
+File Copy: C:\Win-TC\bin\Bgiobj.exe | 08-29-1988 | 02:00:00 | | 7901 | 8148e92c
+Made Dir: C:\Win-TC\Include
+File Copy: C:\Win-TC\Include\Graphics.h | 04-26-2003 | 00:14:00 | | 12288 | 7dc9ba05
+Made Dir: C:\Win-TC\Lib
+File Copy: C:\Win-TC\Lib\Graphics.lib | 05-18-2003 | 12:20:02 | | 33792 | d684cb13
+Made Dir: C:\Win-TC\projects\BorlandBGI示例
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Egavga.bgi | 05-11-1989 | 02:01:00 | | 5363 | 6d36962
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Cga.bgi | 08-29-1988 | 02:00:00 | | 6253 | 17cbdd92
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Bgidemo.c | 06-06-2004 | 18:23:38 | | 40197 | 354f933b
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Goth.chr | 08-29-1988 | 02:00:00 | | 8560 | 48a03304
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Litt.chr | 08-29-1988 | 02:00:00 | | 2138 | e18c9d7c
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Sans.chr | 08-29-1988 | 02:00:00 | | 5438 | 6f847c6
+File Copy: C:\Win-TC\projects\BorlandBGI示例\Trip.chr | 08-29-1988 | 02:00:00 | | 7241 | fe5cd6b1
+Made Dir: C:\Win-TC\projects\点阵字模工具示例
+File Copy: C:\Win-TC\projects\点阵字模工具示例\hz_tool.c | 06-06-2004 | 12:40:10 | | 13477 | b2f5e515
+File Copy: C:\Win-TC\projects\Cga.bgi | 08-29-1988 | 02:00:00 | | 6253 | 17cbdd92
+File Copy: C:\Win-TC\projects\Egavga.bgi | 05-11-1989 | 02:01:00 | | 5363 | 6d36962
+Made Dir: C:\Win-TC\projects\いゅDOS吏挂笲︽ボㄒ
+File Copy: C:\Win-TC\projects\いゅDOS吏挂笲︽ボㄒ\cn_input.c | 06-12-2004 | 01:35:54 | | 782 | c21e1da4
+File Copy: C:\Win-TC\bin\98ccdos.PIF | 06-16-2003 | 23:39:58 | | 967 | 5fa4e764
+File Copy: C:\Win-TC\bin\2KXPccdos.PIF | 06-16-2003 | 23:26:04 | | 967 | f695af
+Made Dir: C:\Win-TC\ccdos
+File Copy: C:\Win-TC\ccdos\Hzk16 | 09-06-1998 | 07:20:00 | | 267616 | fc8e674a
+File Copy: C:\Win-TC\ccdos\Py.usr | 12-13-2002 | 20:58:10 | | 38888 | eb657021
+File Copy: C:\Win-TC\ccdos\Quit.exe | 05-25-1998 | 06:00:02 | | 4674 | 18d54024
+File Copy: C:\Win-TC\ccdos\Py.com | 09-06-1998 | 07:20:00 | | 10912 | 7abb30c2
+File Copy: C:\Win-TC\ccdos\Cizu.exe | 05-25-1998 | 06:00:02 | | 15688 | 5db2e9d
+File Copy: C:\Win-TC\ccdos\Gb5.exe | 05-25-1998 | 06:00:02 | | 15882 | b741d34c
+File Copy: C:\Win-TC\ccdos\Ed.exe | 05-25-1998 | 06:00:02 | | 81964 | 2d67b744
+File Copy: C:\Win-TC\ccdos\Setup.exe | 05-25-1998 | 06:00:02 | | 8332 | e98c797a
+File Copy: C:\Win-TC\ccdos\Fuhao.mb | 05-25-1998 | 06:00:02 | | 1300 | 8685a75a
+File Copy: C:\Win-TC\ccdos\Ccusr.cwd | 11-30-1998 | 21:11:12 | | 64802 | 571c0578
+File Copy: C:\Win-TC\ccdos\Ccdos.pkv | 05-25-1998 | 06:00:02 | | 236400 | 29a78a40
+File Copy: C:\Win-TC\ccdos\Ccdos.ini | 12-07-2002 | 19:42:30 | | 4241 | 283f7fcd
+File Copy: C:\Win-TC\ccdos\Ccdos.exe | 05-25-1998 | 06:00:10 | | 78564 | acb215cf
+Made Dir: C:\Win-TC\ccdos\drv
+File Copy: C:\Win-TC\ccdos\drv\Py.ovr | 09-06-1998 | 07:20:00 | | 108890 | 6b2c3430
+Made Dir: C:\Win-TC\ccdos\Utl
+File Copy: C:\Win-TC\ccdos\Utl\Foxgb.exe | 05-25-1998 | 06:00:02 | | 5233 | afd6d723
+File Copy: C:\Win-TC\ccdos\Utl\Ccedcc.exe | 05-25-1998 | 06:00:02 | | 1831 | 23fb7d1c
+File Copy: C:\Win-TC\ccdos\Utl\Ccdos.drv | 05-25-1998 | 06:00:02 | | 470 | de144f6f
+Made Dir: C:\Win-TC\ccdos\Dat
+File Copy: C:\Win-TC\ccdos\Dat\Ccdos.tab | 05-25-1998 | 06:00:02 | | 45840 | 4af3bcdb
+File Copy: C:\Win-TC\ccdos\Dat\Ccdos.mb | 05-25-1998 | 06:00:02 | | 124960 | bd9eb166
+File Copy: C:\Win-TC\ccdos\Dat\Ccdos.cwd | 08-25-1998 | 00:48:26 | | 222630 | b7e7cbed
+File Copy: C:\Win-TC\bin\runccdos.bat
+Made Dir: C:\Win-TC\projects\中文DOS环境运行示例
+File Copy: C:\Win-TC\projects\中文DOS环境运行示例\cn_input.c | 06-06-2004 | 12:14:06 | | 450 | b44fac40
+Made Dir: C:\Win-TC\bin\201e
+File Copy: C:\Win-TC\bin\201e\TASM.exe | 11-11-1991 | 03:00:00 | | 73532 | 6289c72b
+File Copy: C:\Win-TC\bin\201e\Tlink.exe | 05-11-1989 | 02:01:00 | | 15152 | ce766571
+File Copy: C:\Win-TC\bin\201e\Tcc.exe | 05-11-1989 | 02:01:00 | | 74877 | e9154445
+Made Dir: C:\Win-TC\projects\Svgacc图形库示例
+File Copy: C:\Win-TC\projects\Svgacc图形库示例\usesvgac_f.c | 06-06-2004 | 21:28:08 | | 773 | 53388cd2
+File Copy: C:\Win-TC\Include\Svgacc.h | 11-30-2002 | 10:52:12 | | 11333 | ce88b0ae
+File Copy: C:\Win-TC\Lib\Svgacc.lib | 03-24-1997 | 09:50:34 | | 79119 | 9ca8c043
+File Copy: C:\Win-TC\projects\Svgacc图形库示例\Svgacc.txt | 01-01-2000 | 16:19:52 | | 306167 | d463c15e
+File Copy: C:\Win-TC\projects\Svgacc图形库示例\usesvgac.c | 05-18-2003 | 23:09:14 | | 706 | 9a7163cf
+Made Dir: C:\Win-TC\projects\第三方BGI演示
+File Copy: C:\Win-TC\projects\第三方BGI演示\64k_test_f.c | 06-06-2004 | 13:29:08 | | 1422 | 49b6a67f
+File Copy: C:\Win-TC\projects\第三方BGI演示\256_test_f.c | 06-06-2004 | 13:28:38 | | 1527 | ca7387b
+File Copy: C:\Win-TC\projects\第三方BGI演示\Svga256.bgi | 10-17-2002 | 23:20:52 | | 6335 | 4ef1bcca
+File Copy: C:\Win-TC\projects\第三方BGI演示\Svga256.h | 10-18-2002 | 00:23:14 | | 1312 | c72256fd
+File Copy: C:\Win-TC\projects\第三方BGI演示\xy_256.bmp | 05-21-2003 | 19:20:32 | | 39478 | 73176b7b
+File Copy: C:\Win-TC\projects\第三方BGI演示\256_test.c | 06-06-2004 | 12:07:50 | | 1527 | 34ed66e8
+File Copy: C:\Win-TC\projects\第三方BGI演示\xy_tc.bmp | 05-21-2003 | 19:19:50 | | 115254 | 432a533f
+File Copy: C:\Win-TC\projects\第三方BGI演示\Svga64k.bgi | 08-23-1994 | 00:58:52 | | 8681 | 92b37bfe
+File Copy: C:\Win-TC\projects\第三方BGI演示\64k_test.c | 06-06-2004 | 12:11:20 | | 1422 | 2f871110
+File Copy: C:\Win-TC\projects\第三方BGI演示\Svga64k.h | 06-10-1994 | 00:56:26 | | 847 | 7acc786a
+Shell Link: C:\Documents and Settings\Administrator\「开始」菜单\程序\Win-TC\WIN-TC.lnk
+Link Info: C:\Win-TC\Win-TC.exe | C:\Win-TC |  | 0 | 1 | 0 | 
+File Copy: C:\Win-TC\forms.cht | 06-12-2004 | 00:42:16 | | 18948 | 11a66e64
+Made Dir: C:\Win-TC\projects\盿把笲︽ボㄒ
+File Copy: C:\Win-TC\projects\盿把笲︽ボㄒ\testpara.c | 06-06-2004 | 12:41:24 | | 795 | ead06342
+Made Dir: C:\Win-TC\projects\虫︽爹睦闽ボㄒ
+File Copy: C:\Win-TC\projects\虫︽爹睦闽ボㄒ\testcomm.c | 06-06-2004 | 22:21:14 | | 812 | b10e4556
+Made Dir: C:\Win-TC\projects\Cず碠稪絪ボㄒ
+File Copy: C:\Win-TC\projects\Cず碠稪絪ボㄒ\c_asm.c | 06-06-2004 | 12:32:12 | | 346 | 2d197318
+File Copy: C:\Win-TC\instfile.exe | 06-12-2004 | 01:29:34 | | 4879 | 41e1b15c
+File Copy: C:\Win-TC\狜癘魁.txt | 06-12-2004 | 01:38:06 | | 2854 | 17b6d21f
+File Copy: C:\Win-TC\BUGの某は鮔.txt | 06-02-2004 | 23:37:36 | | 691 | 161f9e1d
+File Copy: C:\Win-TC\mattool.ini | 05-31-2004 | 20:28:34 | | 42 | 3ab8334e
+File Copy: C:\Win-TC\Win-TC.exe | 06-12-2004 | 00:47:58 | 1.9.0.0 | 487936 | 90133747
+File Copy: C:\Win-TC\BUG及建议反馈表.txt | 05-21-2003 | 20:10:04 | | 691 | 36bd8496
+File Copy: C:\Win-TC\set.ini | 06-06-2004 | 10:49:54 | | 1111 | 6b02f9e8
+File Copy: C:\Win-TC\升级记录.txt | 06-12-2004 | 01:37:18 | | 2854 | 396bd38e
+Made Dir: C:\Win-TC\bin\20cn
+File Copy: C:\Win-TC\bin\20cn\Tcc.exe | 06-01-2004 | 23:17:02 | | 74924 | e0d69f9a
+File Copy: C:\Win-TC\bin\20cn\Tlink.exe | 04-24-2003 | 10:31:00 | | 15180 | 584fc493
+File Copy: C:\Win-TC\bin\20cn\TASM.exe | 04-23-2003 | 20:55:54 | | 73652 | 88741a3c
+File Copy: C:\Win-TC\bin\Tlib.exe | 04-23-1999 | 20:58:46 | | 17148 | f7d54804
+File Copy: C:\Win-TC\bin\turboc.cfg
+File Copy: C:\Win-TC\bin\compline.bat
+File Copy: C:\Win-TC\bin\cmdhook.dll | 04-15-2003 | 13:13:28 | | 10752 | 7f80116f
+Made Dir: C:\Win-TC\Include\Sys
+File Copy: C:\Win-TC\Include\Sys\Stat.h | 04-23-1999 | 20:58:46 | | 1020 | 1f6648fe
+File Copy: C:\Win-TC\Include\Sys\Timeb.h | 04-23-1999 | 20:58:46 | | 425 | c522968f
+File Copy: C:\Win-TC\Include\Sys\Types.h | 04-23-1999 | 20:58:46 | | 193 | c56ee302
+File Copy: C:\Win-TC\Include\Alloc.h | 04-23-1999 | 20:58:46 | | 1346 | 3248763c
+File Copy: C:\Win-TC\Include\Assert.h | 04-23-1999 | 20:58:46 | | 414 | e0ac40e8
+File Copy: C:\Win-TC\Include\Bios.h | 04-23-1999 | 20:58:46 | | 532 | 643dab37
+File Copy: C:\Win-TC\Include\Conio.h | 04-23-1999 | 20:58:46 | | 2257 | 32cfd7d5
+File Copy: C:\Win-TC\Include\Ctype.h | 04-23-1999 | 20:58:46 | | 1323 | b8bfb14d
+File Copy: C:\Win-TC\Include\Dir.h | 04-23-1999 | 20:58:46 | | 1391 | 48215b43
+File Copy: C:\Win-TC\Include\Dos.h | 04-23-1999 | 20:58:46 | | 7832 | 5487cd96
+File Copy: C:\Win-TC\Include\Errno.h | 04-23-1999 | 20:58:46 | | 2657 | 3cc91e26
+File Copy: C:\Win-TC\Include\Fcntl.h | 04-23-1999 | 20:58:46 | | 1320 | a7f34081
+File Copy: C:\Win-TC\Include\Float.h | 04-23-1999 | 20:58:46 | | 3978 | 4626281e
+File Copy: C:\Win-TC\Include\Io.h | 04-23-1999 | 20:58:46 | | 2469 | 1a6f378f
+File Copy: C:\Win-TC\Include\Limits.h | 04-23-1999 | 20:58:46 | | 762 | f2d531c6
+File Copy: C:\Win-TC\Include\Malloc.h | 04-23-1999 | 20:58:46 | | 1346 | 3248763c
+File Copy: C:\Win-TC\Include\Math.h | 04-23-1999 | 20:58:46 | | 3049 | b5f67ac1
+File Copy: C:\Win-TC\Include\Mem.h | 04-23-1999 | 20:58:46 | | 1298 | bb668f47
+File Copy: C:\Win-TC\Include\Process.h | 04-23-1999 | 20:58:46 | | 1797 | fcf7a926
+File Copy: C:\Win-TC\Include\Setjmp.h | 04-23-1999 | 20:58:46 | | 547 | 8908bf6e
+File Copy: C:\Win-TC\Include\Share.h | 04-23-1999 | 20:58:46 | | 439 | 74e9c03
+File Copy: C:\Win-TC\Include\Signal.h | 04-23-1999 | 20:58:46 | | 1219 | 9fb19401
+File Copy: C:\Win-TC\Include\Stdarg.h | 04-23-1999 | 20:58:46 | | 469 | 64b8fd2e
+File Copy: C:\Win-TC\Include\Stddef.h | 04-23-1999 | 20:58:46 | | 672 | 613d80be
+File Copy: C:\Win-TC\Include\Stdio.h | 04-23-1999 | 20:58:46 | | 6890 | d62fd1bc
+File Copy: C:\Win-TC\Include\Stdlib.h | 04-23-1999 | 20:58:46 | | 4173 | 3a6b6dc1
+File Copy: C:\Win-TC\Include\String.h | 04-23-1999 | 20:58:46 | | 2219 | aec9ac26
+File Copy: C:\Win-TC\Include\Time.h | 04-23-1999 | 20:58:46 | | 1043 | 1400de04
+File Copy: C:\Win-TC\Include\Values.h | 04-23-1999 | 20:58:46 | | 996 | 165bb4ba
+File Copy: C:\Win-TC\Lib\C0c.obj | 04-23-1999 | 20:58:46 | | 2026 | f8fcaedb
+File Copy: C:\Win-TC\Lib\C0h.obj | 04-23-1999 | 20:58:46 | | 1977 | 9cd9e4ff
+File Copy: C:\Win-TC\Lib\C0l.obj | 04-23-1999 | 20:58:46 | | 2043 | d6e8a0f1
+File Copy: C:\Win-TC\Lib\C0m.obj | 04-23-1999 | 20:58:46 | | 2217 | daba7b3d
+File Copy: C:\Win-TC\Lib\C0s.obj | 04-23-1999 | 20:58:46 | | 2200 | cd773756
+File Copy: C:\Win-TC\Lib\C0t.obj | 04-23-1999 | 20:58:46 | | 2107 | 497316c6
+File Copy: C:\Win-TC\Lib\Cc.lib | 04-23-1999 | 20:58:46 | | 107895 | a9ba618c
+File Copy: C:\Win-TC\Lib\Ch.lib | 04-23-1999 | 20:58:46 | | 107556 | 3f22934c
+File Copy: C:\Win-TC\Lib\Cl.lib | 04-23-1999 | 20:58:46 | | 110973 | 7b875da3
+File Copy: C:\Win-TC\Lib\Cm.lib | 04-23-1999 | 20:58:46 | | 107959 | ad139030
+File Copy: C:\Win-TC\Lib\Cs.lib | 04-23-1999 | 20:58:46 | | 104894 | 15129671
+File Copy: C:\Win-TC\Lib\Emu.lib | 04-23-1999 | 20:58:46 | | 15384 | fb07c79e
+File Copy: C:\Win-TC\Lib\Fp87.lib | 04-23-1999 | 20:58:46 | | 3540 | 8a1bb48c
+File Copy: C:\Win-TC\Lib\Init.obj | 04-23-1999 | 20:58:46 | | 1642 | 51769d9f
+File Copy: C:\Win-TC\Lib\Mathc.lib | 04-23-1999 | 20:58:46 | | 21509 | 1fd07b8d
+File Copy: C:\Win-TC\Lib\Mathh.lib | 04-23-1999 | 20:58:46 | | 20747 | 643f4266
+File Copy: C:\Win-TC\Lib\Mathl.lib | 04-23-1999 | 20:58:46 | | 21510 | e10ce0f3
+File Copy: C:\Win-TC\Lib\Mathm.lib | 04-23-1999 | 20:58:46 | | 21470 | 864be976
+File Copy: C:\Win-TC\Lib\Maths.lib | 04-23-1999 | 20:58:46 | | 20957 | 46f291c8
+Made Dir: C:\Win-TC\projects\C内嵌汇编示例
+File Copy: C:\Win-TC\projects\C内嵌汇编示例\c_asm.c | 06-06-2004 | 12:01:30 | | 346 | e5e4f102
+File Copy: C:\Win-TC\projects\noname.c | 05-18-2003 | 23:21:12 | | 128 | 4417b559
+Made Dir: C:\Win-TC\projects\单行注释相关示例
+File Copy: C:\Win-TC\projects\单行注释相关示例\testcomm.c | 06-06-2004 | 12:03:16 | | 824 | 95887e16
+Made Dir: C:\Win-TC\projects\带参运行功能示例
+File Copy: C:\Win-TC\projects\带参运行功能示例\testpara.c | 06-06-2004 | 12:02:34 | | 795 | 5e3b2cd8
+Shell Link: C:\Documents and Settings\Administrator\桌面\WIN-TC.lnk
+Link Info: C:\Win-TC\Win-TC.exe | C:\Win-TC |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\Administrator\「开始」菜单\程序\Win-TC\Uninstall WIN-TC.lnk
+Link Info: C:\Win-TC\bin\UNWISE.EXE | C:\Win-TC\bin\UNWISE.EXE |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\Administrator\「开始」菜单\程序\Win-TC\WIN-TC Help.lnk
+Link Info: C:\Win-TC\wintchlp.chm | C:\Win-TC |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\Administrator\「开始」菜单\程序\Win-TC\TC2 tutorial from www.vcok.com.lnk
+Link Info: C:\Win-TC\tcstudy.chm | C:\Win-TC |  | 0 | 1 | 0 | 
+RegDB Key: C File\DefaultIcon
+RegDB Val: C:\Win-TC\Win-TC.exe,1
+INI New: Created INI
+INI File: C:\Win-TC\bin\UNWISE.INI
+INI Sect: Settings
+INI Item: Text Font
+INI Val: MS Sans Serif
+RegDB Key: C File
+RegDB Val: C File
+RegDB Key: .c
+RegDB Val: C File
+RegDB Key: C File\shell\open\command
+RegDB Val: "C:\Win-TC\WIN-TC.exe" "%1"
+User Rights: Admin

@@ -1,0 +1,46 @@
+[UDT]
+
+Compiler = Microsoft .NET\Visual C# compiler\Windows Application
+
+File0 = $(PRJNAME).cs
+
+[File0]
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data;
+
+namespace $(PRJNAME) {
+  public class Form1 : System.Windows.Forms.Form {
+    private System.ComponentModel.Container components = null;
+
+    public Form1() {
+      InitializeComponent();
+    }
+
+    protected override void Dispose(bool disposing) {
+      if(disposing) {
+        if (components != null) {
+          components.Dispose();
+        }
+      }
+      base.Dispose(disposing);
+    }
+
+    #region Windows Form Designer generated code
+    private void InitializeComponent()
+    {
+      this.components = new System.ComponentModel.Container();
+      this.Size = new System.Drawing.Size(300,300);
+      this.Text = "Form1";
+    }
+    #endregion
+
+    [STAThread]
+    static void Main() {
+      Application.Run(new Form1());
+    }
+  }
+}

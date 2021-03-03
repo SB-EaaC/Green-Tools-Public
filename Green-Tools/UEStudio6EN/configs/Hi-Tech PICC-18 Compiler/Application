@@ -1,0 +1,208 @@
+# --------- Hi-Tech PICC-18 configuration ----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target =
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+CompVersion = 9.50
+Memory Model = large|small
+Strict ANSI conformance = no|yes
+Identifiers = 31
+Processor = 18C242|18C252|18C442|18C452|18C601|18C658|18C801|18C858|18F010|18F020|18F1220|18F1320|18F2220|18F2221|18F2320|18F2321|18F2331|18F2410|18F242|18F2420|18F2431|18F2439|18F2455|18F248|18F2480|18F24J10|18F2510|18F2515|18F252|18F2520|18F2525|18F2539|18F2550|18F258|18F2580|18F2585|18F25J10|18F2610|18F2620|18F2680|18F4220|18F4221|18F4320|18F4321|18F4331|18F4410|18F442|18F4420|18F4431|18F4439|18F4455|18F448|18F4480|18F44J10|18F4510|18F4515|18F452|18F4520|18F4525|18F4539|18F4550|18F458|18F4580|18F4585|18F45J10|18F4610|18F4620|18F4680|18F6310|18F6390|18F6410|18F6490|18F6520|18F6525|18F6527|18F6585|18F65J10|18F65J15|18F6620|18F6621|18F6622|18F6627|18F6680|18F66J10|18F66J15|18F6720|18F6722|18F67J10|18F8310|18F8390|18F8410|18F8490|18F8520|18F8525|18F8527|18F8585|18F85J10|18F85J15|18F8620|18F8621|18F8622|18F8627|18F8680|18F86J10|18F86J15|18F8720|18F8722|18F87J10
+Unsigned char = no|yes
+AA Symbolic HEX = no|yes
+Avocet Table = no|yes
+Banking Window = 
+C Listing = no|yes
+Cross Reference Listing = no|yes
+Printf = default|longs support|longs and floats support
+Map file = no|yes
+Pre file = no|yes
+Proto file = no|yes
+RAM Ranges = 
+ROM Ranges = 
+Warning Level = 0|-3|-2|-1|1|2|3|4|5|6|7|8|9
+Optimization Level = 1|2|3|4|5|6|7|8|9
+Optimize for = none|speed|size
+Stack Checking = no|yes
+Define Macros = 
+Additional Include Path = 
+Compiler Options = 
+Category&03 = LINKER OPTIONS
+Output Format = Intel HEX|Motorola HEX|Binary image|Tektronix HEX|American Automation symbolic Hex|UBROF
+Link Startup = yes|no
+Linker Options = 
+Libraries = 
+Debugger= 
+Excluded Files = Excludes
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+Processor = This option defines the processor which is being used.
+AA Symbolic HEX = This option tells PICC-18 to generate an American Automation symbolic format HEX file if producing a file with .hex extension.
+Avocet Table = This option is used in conjunction with the -H option to generate Avocet style symbol tables for use with AVSIM simulators and certain in-circuit emulators.
+C Listing = This option will request the compiler to generate a C source listing file.
+Cross Reference Listing = This option will produce a cross reference listing.
+Define Macros = Shows the switches the tool will use to build. This option may take one of two forms: -Dmacro or -Dmacro=text.
+Additional Include Path = Use to specify an additional directory to use when searching for header files which have been included using the #include.
+Printf = By default, printf() and related functions contained in the standard libraries support the printing of integers only.
+Map file = This option is used to request the generation of a map file.
+Link Startup = Using this option will not link in the standard runtime startup module.
+Pre file = This option is used to generate preprocessed C source files with an extension .pre.
+Proto file = This option is used to generate .pro files containing both ANSI and K&R style function declarations for all functions within the specified source files.
+RAM Ranges = Some 8051 devices allow off-chip data memory to be placed in the chip’s external data space. To indicate the additional data space memory present in such systems, this option can be used. The syntax for this option is a comma-separated list of address ranges, e.g. 0-2FFF,6000-7FFF.
+ROM Ranges = Some 8051 devices allow off-chip data memory to be placed in the chip’s external data space. To indicate the additional data space memory present in such systems, this option can be used. The syntax for this option is a comma-separated list of address ranges, e.g. 0-2FFF,6000-7FFF.
+Strict ANSI conformance = This option is used to enable strict ANSI conformance of all special keywords.
+Unsigned char = This option will make the default char type unsigned char.
+Warning Level = This option is used to set the compiler warning level. Allowable warning levels range from -3 to 9. The warning level determines how selective the compiler is about dubious type conversions and constructs.
+Optimization Level = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Optimize for = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Stack Checking = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Identifiers = Specify number of significant characters in identifiers.
+
+
+[SettingsReps]
+
+External Dependencies=yes=1|no=0
+AA Symbolic HEX = no=|yes=--output=aahex
+Output Format = Intel HEX=--output=intel|Motorola HEX=--output=mot|Binary image=--output=bin|Tektronix HEX=--output=tek|American Automation symbolic Hex=--output=aahex|UBROF=--output=ubrof
+Memory Model = large=-Bl|small=-Bs
+C Listing = no=|yes=-CLIST
+Cross Reference Listing = no=|yes=-CR$In.crf
+Additional Include Path = -I%s
+Printf = default=|longs support=-Ll|longs and floats support=-Lf
+Map file = no=|yes=-M$In.map
+Link Startup = yes=|no=--runtime=none
+Pre file = no=|yes=--pre
+Proto file = no=|yes=--proto
+RAM Ranges = @--ram=%s
+ROM Ranges = @--rom=%s
+Strict ANSI conformance = no=|yes=--strict
+Unsigned char = no=|yes=--char=unsigned
+Warning Level = @--warn=%s
+Optimization Level = @-Zg%s
+Optimize for = none=|speed=f|size=s
+Stack Checking = no=|yes=k
+Processor = @-%s
+Identifiers = @-N%s
+
+[Variables]
+
+CPATH = $(HKEY_LOCAL_MACHINE\SOFTWARE\HI-TECH Software\PICC-18\$(CompVersion)\PL3\InstDir)
+OPTM = $(Optimization Level)$(Stack Checking)$(Optimize for)
+COPT = -C -E $(Processor) $(Warning Level) $(Strict ANSI conformance) $(Identifiers) $(Unsigned char) $(Memory Model) $(Map file) $(Pre file) $(Proto file) $(RAM Ranges) $(ROM Ranges) $(Banking Window) $(C Listing) $(Define Macros) $(Cross Reference Listing) $(Printf)
+LOPT = $(Processor) $(Output Format) $(Link Startup) $(AA Symbolic HEX)
+
+[Environment]
+
+PATH = $(CPATH)\BIN
+INCLUDE = $(CPATH)\INCLUDE
+LIB = $(CPATH)\LIB
+
+[General]
+
+TargetExt = .HEX
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+GenerateEDGroup=$(External Dependencies)
+GrabErr = 1
+GrabOut = 1
+
+.AS = .C
+
+[MakeCommands]
+
+run = Execute Application
+debug = Start Debugger
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGL = .lib;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO
+Cmd0 = PICC18 -O$O $(LOPT) $FGO $FGL
+
+[.C]
+
+Out = $In.obj
+DebugFlag = -G$In.sym
+ReleaseFlag = -O $(OPTM)
+Cmd0 = PICC18 $(COPT) $R -O$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+

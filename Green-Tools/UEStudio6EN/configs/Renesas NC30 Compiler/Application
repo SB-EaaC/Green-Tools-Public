@@ -1,0 +1,216 @@
+# ----------- Renesas NC30 configuration -----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+MessagesOutput=on|off
+Optimization = none|speed&ROM|ROM,speed|speed,ROM
+ConstOpt = no|yes
+NoBitOpt = no|yes
+NoBreakOpt = no|yes
+NoFloatConstFold = no|yes
+RemovalOpt = no|yes
+StackFrameAlign = no|yes
+NoLogicalOrCombine = no|yes
+EnumType = int|uchar
+NoEven = no|yes
+FarRAM = no|yes
+ConstNotRom = no|yes
+NotAddressVolatile = no|yes
+EnableRegister = no|yes
+JSRW = no|yes
+OneBit = no|yes
+NoCarry = no|yes
+AutoStack = no|yes
+ChangeBankAlways = no|yes
+Warning Level = default|all warnings
+Preprocessor (Debug) = -DDEBUG
+Preprocessor (Release) = -DNDEBUG
+AssemblerCodeGenerate = default|M60|M61|M62E
+
+Libraries = nc30lib.lib
+Assembler Options = 
+Compiler Options = 
+Linker Options = 
+Debugger = 
+
+[SettingsInfo]
+
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Assembler Options = Provides a space for you to specify an additional assembler options.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger = Provides a space for you to set the debugger you want to use to debug application.
+Preprocessor (Debug) = Shows the switches the tool will use to build. You can to add or remove switches.
+Preprocessor (Release) = Shows the switches the tool will use to build. You can to add or remove switches.
+Optimization = Maximum optimization of speed and ROM size, Maximum optimization of ROM size followed by speed, Maximum optimization of speed followed by ROM size.
+ConstOpt = Performs optimization by replacing references to the const-qualified external variables with constants.
+NoBitOpt = Suppresses optimization based on grouping of bit manipulations.
+NoBreakOpt = Suppresses optimization that affects source line data.
+NoFloatConstFold = Suppresses the constant folding processing of floating point numbers.
+RemovalOpt = Optimizes removal of stack correction code. This allows the necessary ROM capacity to be reduced. However, this may result in an increased amount ofstack being used.
+StackFrameAlign = Aligns the stack frame on an every boundary.
+NoLogicalOrCombine = Suppresses the optimization that puts consecutive ORs together.
+EnumType = Handles the enumerator type as an unsigned char type or as an int type.
+NoEven = Allocate all data to the odd section , with no separating odd data from even data when outputting.
+FarRAM = Changes the default attribute of RAM data to far.
+ConstNotRom = Does not handle the types specified by const as ROM data.
+NotAddressVolatile = Does not regard the variables specified by #pragma ADDRESS (#pragma EQU) as those specified by volatile.
+EnableRegister = Make register storage class available.
+JSRW = Changes the default instruction for calling functions to JSR.W.
+OneBit = Outputs a 1-bit manipulate instruction to all variables arranged in the near area.
+NoCarry = Suppresses carry flag addition when data is indirectly accessed using far-type pointers.
+AutoStack = Limits the usable stack frame to 128 byte.
+ChangeBankAlways = This option allows you to write multiple variables to an extended area.
+AssemblerCodeGenerate = Code is generated that conforms to the M16C/60 or M16C/61 group or if M62E is specified, code is generated that conforms to the M16C/62's extended memory area.
+MessagesOutput = Enables/Disables message output to a display screen.
+
+[SettingsReps]
+
+Optimization = none=|speed&ROM=-O|ROM,speed=-OR|speed,ROM=-OS
+ConstOpt = no=|yes=-OC
+NoBitOpt = no=|yes=-ONB
+NoBreakOpt = no=|yes=-ONBSD
+NoFloatConstFold = no=|yes=-ONFCF
+RemovalOpt = no=|yes=-OSA
+StackFrameAlign = no=|yes=-OSFA
+NoLogicalOrCombine = no=|yes=-ONLOC
+EnumType = int=|uchar=-fCE
+NoEven = no=|yes=-fNE
+FarRAM = no=|yes=-fFRAM
+ConstNotRom = no=|yes=-fCNR
+NotAddressVolatile = no=|yes=-fNAV
+EnableRegister = no=|yes=-fER
+JSRW = no=|yes=-fJSRW
+OneBit = no=|yes=-fB
+NoCarry = no=|yes=-fNC
+AutoStack = no=|yes=-fA1
+ChangeBankAlways = no=|yes=-fCBA
+Warning Level = default=|all warnings=-Wall
+AssemblerCodeGenerate = default=|M60=-M60|M61=-M61|M62E=-M62E
+MessagesOutput=on=|off=-.
+
+[Variables]
+
+CPATH = $(HKEY_LOCAL_MACHINE\SOFTWARE$6432\MITSUBISHI SEMICONDUCTOR SYSTEMS\UserInfo\Directory)
+OPTIM = $(Optimization) $(ConstOpt) $(NoBitOpt) $(NoBreakOpt) $(NoFloatConstFold) $(RemovalOpt) $(StackFrameAlign) $(NoLogicalOrCombine)
+COPT = $(Compiler Options) $(EnumType) $(NoEven) $(FarRAM) $(ConstNotRom) $(NotAddressVolatile) $(EnableRegister) $(JSRW) $(OneBit) $(NoCarry) $(AutoStack) $(ChangeBankAlways) $(Warning Level)
+AOPT = $(Assembler Options) $(AssemblerCodeGenerate) $(MessagesOutput)
+LOPT = $(Linker Options) $(MessagesOutput)
+
+[Environment]
+
+BIN30 = $(CPATH)\BIN
+LIB30 = $(CPATH)\LIB30
+INC30 = $(CPATH)\INC30
+TMP30 = $(CPATH)\TMP
+PATH  = $(CPATH)\BIN;%PATH%
+
+[General]
+
+TargetExt = .X30
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+
+[MakeCommands]
+
+run = Execute Application
+debug = Start Debugger
+view = Map Viewer
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Map Viewer]
+
+Title = MapViewer
+Cmd0 = mapviewer $T
+Depends = $T
+ShowWindow = 1
+
+
+[Start Debugger]
+
+Title = Debug $T
+Cmd0 = $(Debugger) $T
+Depends = $T
+ShowWindow = 1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .r30;
+FGL = .lib;
+
+[GroupFormats]
+
+FGL = %s
+FGL0 = -L %s
+
+[Build]
+
+Out = $T
+file@0=[$Pn.cmd] $(LOPT) $FGL -. $R -O $Tp\$O $FGO
+Depends = $FGO
+DebugFlag = -G
+Cmd0 = ln30 @$Pn.cmd
+
+[.A30]
+
+Out = $In.r30
+ReleaseFlag = 
+Cmd0 = as30 $(AOPT) $R -O$Tp $I
+
+[.C]
+
+Out = $In.r30
+DebugFlag = -g $(Preprocessor (Debug))
+ReleaseFlag = $(OPTIM) $(Preprocessor (Release))
+Cmd0 = nc30 -c -I$Ip -silent -dir $Tp $(COPT) $R $I
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

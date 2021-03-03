@@ -1,0 +1,19 @@
+[Variables]
+CPATH=C:\NASM
+[Settings]
+Debugger= 
+[SettingsInfo]
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+[MakeCommands]
+debug=Start Debugger
+makef=Show Makefile
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

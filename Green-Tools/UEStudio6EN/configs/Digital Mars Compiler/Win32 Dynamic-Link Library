@@ -1,0 +1,173 @@
+# -------- Digital Mars C/C++ configuration --------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Structure Align = def|4|1|2|8
+Exception Handling = disable|enable
+bool = disable|enable
+RTTI = disable|enable
+Message Language = English|French|German|Japanese
+COD Files = no|generate
+Static functions = static|global
+Fast Inline 8087 = disable|enable
+Precompiler Headers = use|don't use
+Asian Language Characters = Disable|Japanese|Taiwanese and Chinese|Korean
+Unsigned Chars = no|yes
+Warnings = on|off
+Generate Code = Pentium|8088|286|386|486|P6
+Libraries = 
+Excluded Files = Excludes
+Compiler Options = 
+Linker Options = 
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Static functions = Make static functions global.
+Struct Alignment = The Struct Alignment options let you choose how the compiler aligns data in stored memory.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+
+Exception Handling = disable=|enable=-Ae
+bool = disable=|enable=-Ab
+RTTI = disable=|enable=-Ar
+Message Language = English=e|French=f|German=g|Japanese=j
+COD Files = no=|generate=-cod
+Static functions = static=|global=-gg
+Fast Inline 8087 = disable=|enable=-ff
+Precompiler Headers = use=-HX|don't use=
+Asian Language Characters = Disable=|Japanese=-j0|Taiwanese and Chinese=-j1|Korean=-j2
+Unsigned Chars = no=|yes=-Ju
+Warnings = on=|off=-w
+Generate Code = Pentium=-5|8088=-0|286=-2|386=-3|486=-4|P6=-6
+External Dependencies=yes=1|no=0
+Structure Align = def=|4=-a4|1=-a1|2=-a2|8=-a8
+
+
+[Variables]
+
+CPATH =C:\DM
+COPT = -c -mn $(Generate Code) $(Structure Align) $(Exception Handling) $(bool) $(RTTI) -B$(Message Language) $(COD Files) $(Static Functions) $(Fast Inline 8087) $(Precompiled Headers) $(Asian Language Characters) $(Unsigned Chars) $(Warnings) $(Compiler Options)
+LOPT = -WD -v0 $(Linker Options)
+DEBUGGER = windbg
+INCLUDE = $(CPATH)\Include;$(CPATH)\stl;$(CPATH)\mfc\include;
+LIB = $(CPATH)\Lib
+
+[Environment]
+
+PATH = $(CPATH)\Bin;%PATH%
+
+[General]
+
+TargetExt = .DLL
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+
+.CPP=.C
+.CXX=.C
+.CC=.C
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+peview=PEview
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $(Command Line Arguments)
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;.res;
+FGL = .lib;
+FGD = .def;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO
+ReleaseFlag =
+DebugFlag = -g
+Cmd0 = dmc $FGO $FGL $R $(LOPT) -o$T
+
+[.C]
+
+Out = $In.obj
+ReleaseFlag =
+DebugFlag = -D -g
+Cmd0 = dmc $I $R $(COPT) -o$O
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.RC]
+
+Out = $In.res
+Cmd0 = rcc $I -o$O -32
+[PEview]
+Title=Show PE Information
+Depends=$T
+Cmd0=uetools -pe $T
+ShowWindow=1
+DisplayConsole=0
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

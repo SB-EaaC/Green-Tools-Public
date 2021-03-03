@@ -1,0 +1,57 @@
+[UDT]
+
+Compiler = Visual Studio 2005\Visual C++ Compiler\Win32 Dynamic-Link Library
+
+File0 = $(PRJNAME).h, Header Files
+File1 = $(PRJNAME).cpp, Source Files
+
+[File0]
+#include "stdio.h"
+#include "windows.h"
+
+#ifdef $(PRJNAME)_EXPORTS
+#define $(PRJNAME)_API __declspec(dllexport)
+#else
+#define $(PRJNAME)_API __declspec(dllimport)
+#endif
+
+extern $(PRJNAME)_API int n$(PRJNAME);
+
+$(PRJNAME)_API int fn$(PRJNAME)(void);
+
+[File1]
+#define $(PRJNAME)_EXPORTS
+#include "$(PRJNAME).h"
+
+BOOL APIENTRY DllMain(HANDLE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
+{
+  switch (ul_reason_for_call)	{
+	case DLL_PROCESS_ATTACH:
+			// The DLL is being loaded for the first time by a given process.
+
+			break;
+	case DLL_PROCESS_DETACH:
+			// The DLL is being unloaded by a given process.
+
+			break;
+	case DLL_THREAD_ATTACH:
+			// A thread is being created in a process that has already
+			// loaded this DLL.
+
+			break;
+	case DLL_THREAD_DETACH:
+			// A thread is exiting cleanly in a process that has already
+			// loaded this DLL.
+
+			break;
+    }
+  return TRUE;
+}
+
+// Example of an exported variable and function.
+$(PRJNAME)_API int n$(PRJNAME)=0;
+
+$(PRJNAME)_API int fn$(PRJNAME)(void)
+{
+	return 1;
+}

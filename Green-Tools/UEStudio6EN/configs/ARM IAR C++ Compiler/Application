@@ -1,0 +1,292 @@
+# ------- ARM IAR C++ Compiler configuration -------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Workbench = 3.2
+Target Processor = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Mode = silent|normal
+Processor variant = ARM7TDMI|ARM7TDMI-S|ARM710T|ARM720T|ARM740T|ARM9TDMI|ARM920T|ARM922T|ARM940T|ARM9E|ARM9E-S|ARM926EJ-S|ARM946E-S|ARM966E-S|ARM10E|ARM1020E|ARM1022E|ARM1026EJ-S|XScale
+Language Extensions = no|yes|embedded
+Strict Ansi = no|yes
+Char Type = unsigned|signed
+Code Model = small|large
+CPU Mode = arm|thumb
+Stack Align = 4|8
+Allow Multibytes = no|yes
+Endian Mode = little|big
+FPU = none|VFPv1|VFPv2|VFP9-S
+Interwork = no|yes
+Module Type = program|library
+Omit Types = no|yes
+Compiler Defines = 
+Compiler Options = 
+Compiler Listing File = no|yes
+Additional Include Directories = 
+Category&03 = OPTIMIZATION
+Static Clustering = yes|no
+Code Motion = yes|no
+Common SubEx Elimination = yes|no
+Inline Functions = yes|no
+Scheduling = yes|no
+Object Unrolling = yes|no
+Optimization Level = none|low|medium|high|size
+Category&04 = DIAGNOSTIC MESSAGES
+Warning Messages = enable|disable
+Warnings As Errors = no|yes
+As Errors = 
+As Remarks = 
+As Warnings = 
+Suppress = 
+File Name = .
+Category&05 = ASSEMBLER OPTIONS
+Asm Module Type = program|library
+Increase Compatibility = no|yes
+Symbol Mode = case sensitive|case insensitive
+Assembler Defines = 
+Assembler Options = 
+Category&06 = LINKER OPTIONS
+LINKER = XLINK
+Output Format = UBROF|UBROF10|UBROF5|UBROF6|UBROF7|UBROF8|UBROF9|AOMF80196|AOMF80251|AOMF8051|AOMF8096|ASHLING|ASHLING-6301|ASHLING-64180|ASHLING-6801|ASHLING-8080|ASHLING-8085|ASHLING-Z80|DEBUG|ELF|EXTENDED-TEKHEX|HP-CODE|HP-SYMB|IEEE695|INTEL-EXTENDED|INTEL-STANDARD|MILLENIUM|MOTOROLA|MOTOROLA-S19|MOTOROLA-S28|MOTOROLA-S37|MPDS-CODE|MPDS-SYMB|MSD|MSP430|NEC-SYMBOLIC|NEC2-SYMBOLIC|NEC78K-SYMBOLIC|PENTICA-A|PENTICA-B|PENTICA-C|PENTICA-D|RCA|SIMPLE|SYMBOLIC|SYSROF|Single|TEKTRONIX|TI7000|TYPED|XCOFF78k|ZAX
+Load As Program = no|yes
+Load As Library = no|yes
+Trial Linking = no|yes
+Type Checking At Link Time = yes|no
+Fill unused code memory = 
+Additional Object Directory = 
+Ignore Local Symbols = no|compiler-generated|all
+XLINK messages = yes|no
+XLINK Warning messages = yes|no
+Libraries = 
+Linker Defines = 
+Linker Options = 
+Listing File = no|yes
+Excluded Files = Excludes
+Debugger = C-SPY
+External Dependencies=yes|no
+
+
+[SettingsInfo]
+
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Assembler Options = Provides a space for you to specify an additional assembler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+Load As Program = Use this option to temporarily force all of the modules within the specified input files to be loaded as if they were all program modules, even if some of the modules have the LIBRARY attribute.
+Load As Library = Use this option to temporarily force all of the modules within the specified input files to be loaded as if they were all library modules, even if some of the modules have the PROGRAM attribute.
+Target Processor = Use this option to specify the target processor.
+Linker Defines = Provides a space for you to define absolute symbols at link time. This is especially useful for configuration purposes. Any number of symbols can be defined in a linker command file. Example: -Dsymbol=value.
+Trial Linking = Use this option to disable the generation of output code from XLINK. This option is useful for the trial linking of programs; for example, checking for syntax errors, missing symbol definitions, etc. XLINK will run slightly faster for large programs when this option is used.
+Output Format = Use this option to specify the output format.
+Type Checking At Link Time = Use this option to disable type checking at link time. While a well-written program should not need this option, there may be occasions where it is helpful. By default, XLINK performs link-time type checking between modules by comparing the external references to an entry with the PUBLIC entry (if the information exists in the object modules involved). A warning is generated if there are mismatches.
+Fill unused code memory = Provides a space for you to define hex string that will be used to fill all gaps between segment parts.
+Additional Object Directory = Specifies a pathname to be searched for object files. By default, XLINK searches for object files only in the current working directory. This option allows you to specify the names of the directories which it will also search if it fails to find the file in the current working directory. For example: "v:\general\lib;c:\project\lib\".
+Listing File = By default, the linker does not generate a listing.
+Ignore Local Symbols = Use this option to ignore all or compiler-generated local (non-public) symbols in the input modules. This option speeds up the linking process and can also reduce the amount of host memory needed to complete a link.
+XLINK messages = Use this option to turn off the XLINK sign-on message and final statistics report so that nothing appears on your screen during execution. However, this option does not disable error and warning messages or the list file output.
+XLINK Warning messages = Use this option to allow/suppress warning messages.
+Additional Include Directories = Provides a place for you to add one or more directories to the list of directories searched for include files. Separate directory names with a semicolon.
+Char Type = By default the compiler interprets the char type as unsigned char. This option causes the compiler to interpret the char type as signed char instead. This can be useful when you, for example, want to maintain compatibility with another compiler. Note: The runtime library is compiled without this option. If you use this option, you may get type mismatch warnings from the IAR XLINK Linker since the library uses unsigned chars.
+Code Model = Use this option to select the code model for which the code is to be generated. The code model determines the default function memory attribute: small-nearfunc, large-farfunc.
+Processor variant = Use this option to select the processor variant for which the code is to be generated.
+CPU Mode = Use this option to select the default mode for functions. This setting must be the same for all files included in a program, unless they are all compiled with the Interwork option.
+Compiler Defines = Provides a space for you to define symbols. Example: -Dsymbol=value.
+Assembler Defines = Provides a space for you to define symbols. Example: -Dsymbol=value.
+As Errors = Use this option to classify diagnostic messages as errors. An error indicates a violation of the C or Embedded C++ language rules, of such severity that object code will not be generated, and the exit code will be non-zero. Example: Pe117.
+As Remarks = Use this option to classify diagnostic messages as remarks. A remark is the least severe type of diagnostic message and indicates a source code construct that may cause strange behavior in the generated code. Example: Pe117.
+As Warnings = Use this option to classify diagnostic messages as warnings. A warning indicates an error or omission that is of concern, but which will not cause the compiler to stop before compilation is completed. Example: Pe826.
+Suppress = Use this option to suppress diagnostic messages. Example: Pe117,Pe177.
+File Name = Use this option to list all possible diagnostic messages in a named file. This can be very convenient, for example, if you have used a pragma directive to suppress or change the severity level of any diagnostic messages, but forgot to document why. If you want to generate a table to a file diagnostics_tables.txt in the working directory, keep the option unchanged.
+Language Extensions = Language extensions are disabled by default. If you use language extensions such as ARM-specific keywords and anonymous structs and unions in your source code, you must enable them by using this option.
+Allow Multibytes = By default, multibyte characters cannot be used in C or Embedded C++ source code. If you use this option, multibyte characters in the source code are interpreted according to the host computer’s default setting for multibyte support. Multibyte characters are allowed in C and C++ style comments, in string literals, and in character constants. They are transferred untouched to the generated code.
+Endian Mode = Specifies the byte order of the generated code and data.
+FPU = Use this option to generate code that carries out floating-point operations using a Vector Floating Point (VFP) coprocessor. By selecting a VFP coprocessor, you will override the use of the software floating-point library for all supported floating-point operations. Select VFPv1 support if you have a vector floating-point unit conforming to architecture VFPv1, such as the VFP10 rev 0. Similarly, select VFPv2 on a system that implements a VFP unit conforming to architecture VFPv2, such as the VFP10 rev 1. VFP9-S is an implementation of the VFPv2 architecture that can be used with the ARM9E family of CPU cores. Selecting the VFP9-S coprocessor is therefore identical to selecting the VFPv2 architecture. By selecting none (default) the software floating-point library is used.
+Interwork = Use this option to generate interworking code. In code compiled with this option, functions will by default be of the type interwork.
+Compiler Listing File = Use this option to generate a listing to a file.
+Module Type = Use this option to set module type. A program module is always included during linking. A library module will only be included if it is referenced in your program.
+Static Clustering = When static clustering is enabled, static and global variables are arranged so that variables that are accessed in the same function are stored close to each other. This makes it possible for the compiler to use the same base pointer for several accesses. Alignment gaps between variables can also be eliminated.
+Code Motion = Use this option to disable optimizations that move code. These optimizations, which are performed at optimization levels 6 and 9, normally reduce code size and execution time. The resulting code may however be difficult to debug.
+Common SubEx Elimination = Use this option to disable common sub-expression elimination. At optimization levels 6 and 9, the compiler avoids calculating the same expression more than once. This optimization normally reduces both code size and execution time. The resulting code may however be difficult to debug.
+Inline Functions = Use option to disable function inlining. Function inlining means that a simple function, whose definition is known at compile time, is integrated into the body of its caller to eliminate the overhead of the call. This optimization, which is performed at optimization level 9, normally reduces the execution time, but increases the code size. The resulting code may also be difficult to debug. In certain cases, the code size will decrease when this option is used. The compiler heuristically decides which functions to inline. Different heuristics are used when optimizing for speed and size.
+Scheduling = The ARM IAR C/EC++ Compiler features an instruction scheduler to increase the performance of the generated code. To achieve that goal, the scheduler rearranges the instructions to minimize the number of pipeline stalls emanating from resource conflicts within the microprocessor. Use option to disable the instruction scheduler.
+Object Unrolling = Use this option to disable loop unrolling for object code. The code body of a small loop, whose number of iterations can be determined at compile time, is duplicated to reduce the loop overhead. For small loops, the overhead required to perform the looping can be large compared to the work performed in the loop body. The loop unrolling optimization duplicates the body several times, reducing the loop overhead. The unrolled body also opens up for other optimization opportunities, for example the instruction scheduler.
+Warning Messages = By default the compiler issues warning messages. Use this option to disable all warning messages.
+Omit Types = Use this option if you instead want the compiler to ignore such type information in the output. The object file will then only contain type information that is a part of a symbol’s name. This means that the linker cannot check symbol references for type correctness, which is useful when you build a library that should not contain type information.
+Optimization Level = Use this option to make the compiler optimize the code for maximum execution speed or minimum size.
+Mode = This option does not affect the display of error and warning messages.
+Stack Align = Use this option to increase the stack alignment at function entry from 4 to 8. The default is 4.
+Strict Ansi = By default the compiler accepts a relaxed superset of ISO/ANSI C (see the chapter IAR C extensions). Use this option to ensure that the program conforms to the ISO/ANSI C standard.
+Warnings As Errors = Use this option to make the compiler treat all warnings as errors. If the compiler encounters an error, no object code is generated. Warnings that have been changed into remarks are not treated as errors.
+Asm Module Type = By default, the assembler produces a program module ready to be linked with the IAR XLINK Linker. Use this option if you instead want the assembler to make a library module for use with XLIB.
+Increase Compatibility = Enables alternative register names, mnemonics, and operators in order to increase compatibility with other assemblers and allow porting of code.
+Symbol Mode = By default, case sensitivity is on. This means that, for example LABEL and label refer to different symbol.
+LINKER = Provides a space for you to specify linker name.
+
+
+[SettingsReps]
+
+Load As Program = no=|yes=-A
+Load As Library = no=|yes=-C
+Target Processor = @-c%s
+Trial Linking = no=|yes=-d
+Output Format = @-F%s
+Type Checking At Link Time = yes=|no=-G
+Fill unused code memory = @-H%s
+Additional Object Directory = @-I%s
+Listing File = no=|yes=-L
+Ignore Local Symbols = no=|compiler-generated=-nc|all=-n
+XLINK messages = yes=|no=-S
+XLINK Warning messages = yes=|no=-w
+Char Type = unsigned=|signed=--char_is_signed
+Code Model = @--code_model=%s
+Processor variant = @--cpu=%s
+CPU Mode = @--cpu_mode %s
+As Errors = @--diag_error=%s
+As Remarks = --diag_remark=%s
+As Warnings = --diag_warning=%s
+Suppress = --diag_suppress=%s
+File Name = --diagnostics_tables %s
+Language Extensions = no=|yes=-e|embedded=--eec++
+Allow Multibytes = no=|yes=--enable_multibytes
+Endian Mode = @--endian=%s
+Interwork = no=|yes=--interwork
+FPU = none=|DEFAULT=@--fpu=%s
+Compiler Listing File = no=|yes=-l
+Module Type = program=|library=--library_module
+Static Clustering = yes=|no=--no_clustering
+Code Motion = yes=|no=--no_code_motion
+Common SubEx Elimination = yes=|no=--no_cse
+Inline Functions = yes=|no=--no_inline
+Scheduling = yes=|no=--no_scheduling
+Object Unrolling = yes=|no=--no_unroll
+Warning Messages = enable=|disable=--no_warnings
+Omit Types = no=|yes=--omit_types
+Optimization Level = none=-s2|low=-s3|medium=-s6|high=-s9|size=-z3
+Mode = normal=|silent=--silent
+Stack Align = 4=|DEFAULT=@--stack_align %s
+Strict Ansi = no=|yes=--strict_ansi
+Warnings As Errors = no=|yes=--warnings_are_errors
+Asm Module Type = program=|library=-b
+Increase Compatibility = no=|yes=-j
+Symbol Mode = case sensitive=|case insensitive=-s-
+Additional Include Directories =^@[;|%s;]
+
+[Variables]
+
+CPATH =C:\Program Files\IAR Systems
+LOPT  = $(Target Processor) $(Output Format) $(Trial Linking) $(Type Checking At Link Time) $(Fill unused code memory) $(XLINK messages) $(XLINK Warning messages) $(Listing File) $(Ignore Local Symbols) $(Additional Object Directory) $(Linker Defines) $(Load As Program) $(Load As Library)
+COPT  = $(Compiler Options) $(Mode) $(Code Model) $(CPU Mode) $(Processor variant) $(FPU) $(Stack Align) $(Char Type) $(Module Type) $(Interwork) $(Language Extensions) $(Allow Multibytes) $(Endian Mode) $(Compiler Listing File) $(Compiler Defines) $(Code Motion) $(As Errors) $(As Remarks) $(As Warnings) $(Suppress) $(File Name) $(Static Clustering) $(Common SubEx Elimination) $(Inline Functions) $(Scheduling) $(Object Unrolling) $(Warning Messages) $(Omit Types) $(Optimization Level) $(Strict Ansi) $(Warnings As Errors) 
+AOPT  = -s $(Assembler Options) $(Symbol Mode) $(Processor variant) $(Asm Module Type) $(Assembler Defines) $(Endian Mode) $(Increase Compatibility) 
+
+
+[Environment]
+
+PATH = $(CPATH)\Embedded Workbench $(Workbench)\ARM\BIN;$(CPATH)\Embedded Workbench $(Workbench)\COMMON\BIN;
+INCLUDE = $(CPATH)\Embedded Workbench $(Workbench)\ARM\inc;$(Additional Include Directories)
+LIB = $(CPATH)\Embedded Workbench $(Workbench)\ARM\lib
+C_INCLUDE=$(INCLUDE)
+
+[General]
+
+TargetExt = .HEX
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+GenerateEDGroup=$(External Dependencies)
+
+.CPP=.C
+.S79=.S
+
+[MakeCommands]
+
+makef=Show Makefile
+
+[Show Makefile]
+
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .r79;
+FGM = .obj;
+
+[GroupFormats]
+
+FGO = %s
+FGM = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO $FGM
+ReleaseFlag = 
+DebugFlag = 
+Cmd0 = $(LINKER) $R $(LOPT) -o $O $FGO $FGM
+
+[.C]
+
+Out = $In.r79
+ReleaseFlag = 
+DebugFlag = --debug
+Cmd0 = ICCARM $R $(COPT) -o $O $I
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.S]
+
+Out = $In.r79
+ReleaseFlag = 
+DebugFlag = -r
+Cmd0 = AARM $R $(AOPT) -o $O $I
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(AARM_INC);
+IncKeyWords = #include;
+Comments = ;.eol.

@@ -1,0 +1,18 @@
+[UDT]
+
+Compiler = Microsoft .NET\Visual C# compiler\Console Application
+
+File0 = $(PRJNAME).cs
+
+[File0]
+// Hello World
+using System;
+
+public class $(PRJNAME) 
+{
+   public static int Main(string[] args)
+   {
+      Console.WriteLine("Hello, World!");
+      return 0;
+   }
+}

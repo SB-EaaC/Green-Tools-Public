@@ -1,0 +1,208 @@
+# ---------- Hi-Tech 8051C configuration -----------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Strict ANSI conformance = no|yes
+Identifiers = 31
+Processor = P87C51FA|P87C51FB|P87C51FC|P87C51MB2|P87C51MC2|P87C51RA|P87C51RB|P87C51RC|P87C51RD|P87C51X2|P87C52|P87C524|P87C528|P87C52X2|P87C54|P87C54X2|P87C550|P87C552|P87C554|P87C557E8|P87C575|P87C576|P87C58|P87C58X2|P87C591|P87C652|P87C654|P87C748|P87C749|P87C750|P87C751|P87C752|P87C766|P87C770|P87CE560|P87CL881H|P87CL883|P87CL884|P87LPC760|P87LPC761|P87LPC762|P87LPC764|P87LPC767|P87LPC768|P87LPC769|P89C51|P89C51RA2XX|P89C51RB2|P89C51RB2HXX|P89C51RB2XX|P89C51RC|P89C51RC2|P89C51RC2HXX|P89C51RC2XX|P89C51RD|P89C51RD2|P89C51RD2HXX|P89C51RD2XX|P89C51X2|P89C52|P89C52X2|P89C535|P89C536|P89C538|P89C54|P89C54X2|P89C557E4|P89C58|P89C58X2|P89C60X2|P89C61X2|P89C660|P89C662|P89C664|P89C668|P89C738|P89C739|P89CE558|PAGEONE|PAROS|PCD6001|PL_ONE|R8032S|R8032T|R8032TT|R8032TTE|R8032TTEX|S80C552|S87C552|SAA5290|SAA5290A|SAA5291|SAA5291A|SAA5296|SAA5296A|SAA5297|SAA5297A|SAA5297H|SAA5491|SAA5491H|SAA5496|SAA5497|SAA5497A|SAA5497H|SAA5500|SAA5501|SAA5502|SAA5503|SAA5520|SAA5521|SAA5522|SAA5523|SAA5530|SAA5531|SAA5532|SAA5533|SAA5540|SAA5541|SAA5542|SAA5543|SAA5547|SAA5551|SAA5552|SAA5553|SAA5561|SAA5562|SAA5563|SAA5564|SAA5565|SAA5645|SAA5647|SAA5665|SAA5667|SAB80515|SAB80535|SAB80C515|SAB80C515A|SAB80C517|SAB80C517A|SAB80C535|SAB80C537|SAB83C515A_5|SAB83C517A_5|SDA30C263|SDA30C264|SDA55XX|SM2965|SM5964|SM8051|SM8052|SM8058|SM8951|SM89516|SM8952|SM8954|SM8958|SS1102C|SS8203|SST89C54|SST89C58|SST89C59|SST89E554|SST89E554RC|SST89E564|SST89E564RD|SST89F54|SST89F58|SST89V554|SST89V554RC|SST89V564|SST89V564RD|SZF2002|T33520|T80C154|T80C5111|T80C5112|T83C154|T83C154D|T83C5101|T83C5102|T83C5111|T83C5112|T83C5121|T85C5121|T87C5101|T87C5111|T87C5112|T89C5115|T89C5121|T89C51AC2|T89C51CC01|T89C51CC02|T89C51IC2|T89C51RB2|T89C51RC2|T89C51RD2|TDA8006|TEE502|TEE505|TEE512|TEE520|TEE532|TS80C31X2|TS80C32X2|TS80C51RA2|TS80C51RD2|TS80C51U2|TS80C52X2|TS80C54X2|TS80C58X2|TS83C51RB2|TS83C51RC2|TS83C51RD2|TS83C51U2|TS87C51RB2|TS87C51RC2|TS87C51RD2|TS87C51U2|TS87C52X2|TS87C54X2|TS87C58X2|TSC73M2910|TSC73M2910A|TSC73M2910L|TSC80C31|TSC80C32|TSC80C51|TSC80C52|TSC87C51|TUSB2136|TUSB3200|TUSB3210|TUSB3410|TUSB5052|TUSB5152|UPSD3233A|UPSD3233BV|UPSD3234B|UPSD3234BV|USB97C100|USB97C102|USB97C201|UT69RH051|V87C54|V87C58|VERSA1|VERSA1B|VERSAMIX|W77C32|W77C58|W77E468|W77E516|W77E532|W77E58|W77IC32|W77IE58|W77L32|W77LE58|W78C32|W78C33|W78C374|W78C378|W78C438C|W78C51D|W78C52|W78C52D|W78C54|W78C58|W78C801|W78E354|W78E365|W78E378|W78E516B|W78E51B|W78E52B|W78E54B|W78E58B|W78E62|W78E65|W78E858|W78IE52|W78IE54|W78L32|W78L51|W78L52|W78L54|W78L801|W78LE51|W78LE516|W78LE52|W78LE54|W78LE58|W78LE812|W81E381AD|W81E381D
+Memory Model = small|medium|large|huge
+Unsigned char = no|yes
+AA Symbolic HEX = no|yes
+Avocet Table = no|yes
+Banking Window = 
+C Listing = no|yes
+Cross Reference Listing = no|yes
+Printf = default|longs support|longs and floats support
+Map file = no|yes
+Pre file = no|yes
+Proto file = no|yes
+RAM Ranges = 
+ROM Ranges = 
+Warning Level = 0|-3|-2|-1|1|2|3|4|5|6|7|8|9
+Optimization Level = 1|2|3|4|5|6|7|8|9
+Optimize for = none|speed|size
+Stack Checking = no|yes
+Define Macros = 
+Additional Include Path = 
+Compiler Options = 
+Category&03 = LINKER OPTIONS
+Output Format = Motorola HEX|Binary image|Intel OMF51|Extended OMF51|Tektronix HEX|American Automation symbolic Hex|UBROF
+Link Startup = yes|no
+Linker Options = 
+Libraries = 
+Debugger= 
+Excluded Files = Excludes
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+Processor = This option defines the processor which is being used.
+AA Symbolic HEX = This option tells C51 to generate an American Automation symbolic format HEX file if producing a file with .hex extension.
+Avocet Table = This option is used in conjunction with the -H option to generate Avocet style symbol tables for use with AVSIM simulators and certain in-circuit emulators.
+Banking Window = This option tells C51 the banking information to use when using huge model. It takes the form base,size,start,num.
+C Listing = This option will request the compiler to generate a C source listing file.
+Cross Reference Listing = This option will produce a cross reference listing.
+Define Macros = Shows the switches the tool will use to build. This option may take one of two forms: -Dmacro or -Dmacro=text.
+Additional Include Path = Use to specify an additional directory to use when searching for header files which have been included using the #include.
+Printf = By default, printf() and related functions contained in the standard libraries support the printing of integers only.
+Map file = This option is used to request the generation of a map file.
+Link Startup = Using this option will not link in the standard runtime startup module.
+Pre file = This option is used to generate preprocessed C source files with an extension .pre.
+Proto file = This option is used to generate .pro files containing both ANSI and K&R style function declarations for all functions within the specified source files.
+RAM Ranges = Some 8051 devices allow off-chip data memory to be placed in the chip’s external data space. To indicate the additional data space memory present in such systems, this option can be used. The syntax for this option is a comma-separated list of address ranges, e.g. 0-2FFF,6000-7FFF.
+ROM Ranges = Some 8051 devices allow off-chip data memory to be placed in the chip’s external data space. To indicate the additional data space memory present in such systems, this option can be used. The syntax for this option is a comma-separated list of address ranges, e.g. 0-2FFF,6000-7FFF.
+Strict ANSI conformance = This option is used to enable strict ANSI conformance of all special keywords.
+Unsigned char = This option will make the default char type unsigned char.
+Warning Level = This option is used to set the compiler warning level. Allowable warning levels range from -3 to 9. The warning level determines how selective the compiler is about dubious type conversions and constructs.
+Optimization Level = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Optimize for = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Stack Checking = This option affect global optimization during the code generation pass. This can result in significant reductions to code size and internal RAM usage. This option is used only when RELEASE MODE is used.
+Identifiers = Specify number of significant characters in identifiers.
+
+
+[SettingsReps]
+
+External Dependencies=yes=1|no=0
+AA Symbolic HEX = no=|yes=-AAHEX
+Avocet Table = no=|yes=-AV
+Banking Window = @-BANK%s
+Output Format = Motorola HEX=-MOTOROLA|Binary image=-BIN|Intel OMF51=-OMF|Extended OMF51=-EOMF|Tektronix HEX=-TEK|American Automation symbolic Hex=-AAHEX|UBROF=-UBROF
+Memory Model = small=-Bs|medium=-Bm|large=-Bl|huge=-Bh
+C Listing = no=|yes=-CLIST
+Cross Reference Listing = no=|yes=-CR$In.crf
+Additional Include Path = -I%s
+Printf = default=|longs support=-Ll|longs and floats support=-Lf
+Map file = no=|yes=-M$In.map
+Link Startup = yes=|no=-NORT
+Pre file = no=|yes=-PRE
+Proto file = no=|yes=-PROTO
+RAM Ranges = @-RAM%s
+ROM Ranges = @-ROM%s
+Strict ANSI conformance = no=|yes=-STRICT
+Unsigned char = no=|yes=-UNSIGNED
+Warning Level = @-W%s
+Optimization Level = @-Zg%s
+Optimize for = none=|speed=f|size=s
+Stack Checking = no=|yes=k
+Processor = @-%s
+Identifiers = @-N%s
+
+[Variables]
+
+CPATH =C:\HT-8051
+OPTM = $(Optimization Level)$(Stack Checking)$(Optimize for)
+COPT = -C -E $(Processor) $(Warning Level) $(Strict ANSI conformance) $(Identifiers) $(Unsigned char) $(Memory Model) $(Map file) $(Pre file) $(Proto file) $(RAM Ranges) $(ROM Ranges) $(Avocet Table) $(Banking Window) $(C Listing) $(Define Macros) $(Cross Reference Listing) $(Printf)
+LOPT = $(Processor) $(Output Format) $(Link Startup) $(AA Symbolic HEX)
+
+[Environment]
+
+PATH = $(CPATH)\BIN
+INCLUDE = $(CPATH)\INCLUDE
+LIB = $(CPATH)\LIB
+
+[General]
+
+TargetExt = .HEX
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+GenerateEDGroup=$(External Dependencies)
+GrabErr = 0
+GrabOut = 1
+
+.AS = .C
+
+[MakeCommands]
+
+run = Execute Application
+debug = Start Debugger
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGL = .lib;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO
+Cmd0 = C51 -Q -O$O $(LOPT) $FGO $FGL
+
+[.C]
+
+Out = $In.obj
+DebugFlag = -G$In.sym
+ReleaseFlag = -O $(OPTM)
+Cmd0 = C51 -Q $(COPT) $R -O$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

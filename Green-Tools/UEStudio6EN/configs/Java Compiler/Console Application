@@ -1,0 +1,186 @@
+# ---------------- JAVA configuration --------------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Main Class =
+VM = client|server
+Program Arguments =
+Launcher Options = 
+Category&02 = COMPILER OPTIONS
+Compiler = javac|jikes
+Optimize = no|yes
+Source = 
+Target VM = 1.6|1.5|1.1|1.2|1.3|1.4
+Character Encoding = 
+Compiler Options = 
+Debugger = jdb
+JAR Options = cvfm
+Category&03 = PATHS/DIRECTORIES
+Class Paths =.
+Input Paths =
+Boot Class Path = 
+ExtDirs = 
+Category&04 = PROJECT GROUPS
+Resource Files = Resources
+Excluded Files = Excludes
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output .jar file and location of the program that the linker creates.
+Excluded Files = This will exclude the file(s) included in this project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Resource Files = Files included in project group with this name will be added to .jar file.
+Class Paths = Set the user class path, overriding the user class path in the CLASSPATH environment variable. path1;path2... 
+Input Paths = Specify where to find input source files.
+Program Arguments = Argument passed to the main function.
+Compiler = Provides a space for you to specify a compiler you want to use. 
+Launcher Options = The launcher options that are supported on the runtime environment.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+Optimize = Used only for RELEASE mode. Optimize may enlarge class file.
+Character Encoding = Specify character encoding used by source files.
+Boot Class Path = Override location of bootstrap class files.
+Source = Provide source compatibility with specified release.
+Target VM = Generate class files for specific VM version.
+ExtDirs = Override location of installed extensions.
+JAR Options = These options are used to build .jar archive.
+
+[SettingsReps]
+
+Class Paths = @-classpath %s
+Optimize = no=|yes=-O
+Input Paths = @-sourcepath %s
+Character Encoding = @-encoding %s
+Boot Class Path = @-bootclasspath %s
+Target VM = @-target %s
+Source = @-source %s
+ExtDirs = @-extdirs %s
+VM = client=|server=-server
+
+[Variables]
+
+EOPT = $(VM) $(Launcher Options)
+COPT = $(Compiler Options) $(Input Paths) $(Character Encoding) $(Target VM) $(Source) $(ExtDirs)
+JDKv = $(HKEY_LOCAL_MACHINE\SOFTWARE$6432\JavaSoft\Java Development Kit\CurrentVersion)
+CPATH = $(HKEY_LOCAL_MACHINE\SOFTWARE$6432\JavaSoft\Java Development Kit\$(JDKv)\JavaHome)
+java = java
+
+[Environment]
+
+PATH = $(CPATH)\BIN
+
+[General]
+
+TargetExt = .jar
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 1
+UseDosNames = 0
+Excludes = $(Excluded Files)
+BuildOnly = 1
+ConvertBS = 1
+
+[InsertFiles]
+
+[FileGroups]
+
+FGA = .java;.jav;
+FGC = .class;
+FGR = $(Resource Files);
+
+[GroupFormats]
+
+FGA = ""%s""
+FGC = ""%s""
+
+[MakeCommands]
+
+run = Execute
+classrun = Execute Class
+debug = Start Debugger
+gindex = Generate Index Information
+makef=Show Makefile
+
+[Debug]
+
+Title = Debug class [$(Main Class)]
+Depends = $T
+Cmd0 = $(Debugger) $(Class Paths) $(Main Class) $(Program Arguments)
+ShowWindow = 1
+DisplayConsole = 1
+
+[Execute]
+
+Title = Execute $T
+Depends = $T
+Cmd0 = @$(java) $(EOPT) $(Class Paths) -jar $T $(Program Arguments)
+ShowWindow = 1
+DisplayConsole = 1
+
+[Execute Class]
+
+Title = Execute class [$(Main Class)]
+Depends = $(Main Class).class
+Cmd0 = @$(java) $(EOPT) $(Class Paths) $(Main Class) $(Program Arguments)
+ShowWindow = 1
+DisplayConsole = 1
+
+[Generate Index Information]
+
+Title = Generate Index Information for $T
+Depends = $T
+Cmd0 = jar -i $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+
+[Build]
+
+Out = $T
+Depends = $FGA
+file@0 = [$Pn.object] $FGA
+file@1 = [$Pn.man]Manifest-Version: $(Target VM)|Main-Class: $(Main Class)|Created-By: UEStudio '05
+file@2 = [$Pn.resource] $FGR|$FGC
+DebugFlag = -g
+ReleaseFlag = -g:none $(Optimize)
+Cmd0 = $(Compiler) $(COPT) -d .\ $(Class Paths); $R @$Pn.object
+Cmd1 = jar $(JAR Options) $T $Pn.man @$Pn.resource -C .\ *.class
+
+[Clean]
+
+Clean0 = $FGC;
+Clean1 = $FGA;
+
+[CleanFormat]
+
+Clean0 = $p$n*$e
+Clean1 = $p$n*.class

@@ -1,0 +1,201 @@
+# ---------- Borland C++ 5.5 configuration ---------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Generate Code = 5|3|4|6
+Compilance = AT|A|AK|AU
+Data Alignment = 4|1|2|8|16
+Optimize = O2|O1|Od
+Precompiled Headers = H-|H
+Preprocessor (Debug) = -D_DEBUG
+Preprocessor (Release) =-DNDEBUG
+Link With = cw32|cw32i|cw32mt|cw32mti
+Libraries = 
+Excluded Files = Excludes
+Compiler Options = 
+Linker Options = 
+Debugger=TD32
+External Dependencies=yes|no
+
+[SettingsInfo]
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Generate Code = 3-Generate 80386 protected-mode compatible instructions, 4-486, 5-pentium, 6-pentium pro
+Compilance = AT-Use Borland C++ keywords and extensions, A-Ansi, AK-Use Kernighan and Ritchie keywords, AU-Use UNIX V keywords and extensions.
+Data Alignment = The Data Alignment options let you choose how the compiler aligns data in stored memory.
+Optimize = O2-Optimize for speed, O1-Optimize for size, Od-Disable all optimizations.
+Precompiled Headers = H--Do dot use precompiled headers, H-Use precompiled headers.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Preprocessor (Debug) = Shows the switches the tool will use to build. You can to add or remove switches.
+Preprocessor (Release) = Shows the switches the tool will use to build. You can to add or remove switches.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+External Dependencies=yes=1|no=0
+
+[Variables]
+
+CPATH =C:\Borland\BCC55
+COPT = -c -q -VF -$(Generate Code) -$(Compilance) -a$(Data Alignment) -$(Precompiled Headers) $(Compiler Options)
+
+[Environment]
+
+PATH = $(CPATH)\Bin;%PATH%
+INCLUDE = $(CPATH)\Include
+LIB = /L$(CPATH)\Lib /L$(CPATH)\Lib\PSDK
+
+[General]
+
+TargetExt = .EXE
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+GenerateEDGroup=$(External Dependencies)
+
+.CPP=.C
+.CXX=.C
+.CC=.C
+
+[MakeCommands]
+
+run = Execute Application
+debug =Start Debugger
+tdump = Turbo Dump
+peview=PEview
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 0
+
+[Start Debugger]
+
+Cmd0 =$(Debugger) $T
+Depends =$T
+ShowWindow =1
+Title=Debug $T
+
+[Turbo Dump]
+
+Title = Dump $T
+Cmd0 = TDUMP $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[PEview]
+Title=Show PE Information
+Depends=$T
+Cmd0=uetools -pe $T
+ShowWindow=1
+DisplayConsole=0
+
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGO = .obj;
+FGR = .res;
+FGL = .lib;
+FGD = .def;
+
+[GroupFormats]
+
+FGO = %s
+FGL = %s
+FGR = %s
+
+[Build]
+
+Out = $T
+Depends = $FGO $FGR
+ReleaseFlag = /Gz /v-
+DebugFlag = /v+
+Cmd0 = ILINK32 /aa /Tpe /q $(Linker Options) $R $(LIB) c0w32 $FGO,$T,$On,$(Link With) Import32 $FGL,$FGD,$FGR
+
+[.C]
+
+Out = $In.obj
+ReleaseFlag = -$(Optimize) -v- -k- $(Preprocessor (Release))
+DebugFlag = -v -d -y $(Preprocessor (Debug))
+Cmd0 = BCC32 $(COPT) -I$(INCLUDE) $R -o$O $I
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.RC]
+
+Out = $In.res
+Cmd0 = BRCC32 -i$(INCLUDE) -32 -fo$O $I
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.ASM]
+
+Out = $In.obj
+ReleaseFlag = /zn
+DebugFlag = /zi
+Cmd0 = TASM32 /i$(INCLUDE) $R $I
+
+IncFiles = 1
+CaseSensitive = 0
+IncDirs = .;$(INCLUDE);
+IncKeyWords = include;
+Comments = ;.eol.
+
+[.NSM]
+
+Out = $In.obj
+Cmd0 = NASMW -f win32 -i$Ip -o$O $I

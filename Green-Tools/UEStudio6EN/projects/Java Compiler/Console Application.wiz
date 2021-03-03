@@ -1,0 +1,55 @@
+##############################################################################
+#                                                                            #
+#             UEStudio's User Defined Project Template                       #
+#                                                                            #
+# The following template is to be modified by the user.  It describes        #
+# individual preferences for new project creation.                           #
+#                                                                            #
+# The first and most important section is [UDT] which contains a "Compiler"  #
+# variable, and a list of seed files to be inserted in the newly created     #
+# project.  The Compiler variable specifies the name of the compilers's      #
+# configuration directory, and the compiler configuration file.              #
+#  An example follows:                                                       #
+# Compiler = Microsoft Visual C++ Compiler\Win32 Console Application         #
+#                                                                            #
+# The list of project files may be any combination of source, header,        #
+# resource, and data files.  An example follows:                             #
+#  File0=MyApp.h                                                             #
+#  File1=MyApp.c, Source Files                                               #
+#  File2=MyApp.ico                                                           #
+# and so forth....                                                           #
+#                                                                            #
+# All subsequent section(s) of this template describe the contents of one    #
+# or more of the project files defined above.  An optional group name may    #
+# be specified after the file name.  In the above example, the group         #
+# "Source Files" will automatically be created and MyApp.c will be included  #
+# in the group folder.                                                       #
+#                                                                            #
+# For binary file contents such as Resource, Icon, or any other data file,   #
+# where it is inconvenient to describe the contents in a script, the         #
+# following format may be used:                                              #
+# [File2]                                                                    #
+# INCLUDEBINARY=c:\my_data_files\ico_data.raw                                #
+# This will create [File2], in this case "MyApp.ico", with the content       #
+# ico_data.raw                                                               #
+#                                                                            #
+# Predefined variables may be used to specify the names of files as well as  #
+# the content of the files, e.g.:                                            #
+# USER (user name), COMPUTER (computer name), TIME, DATE, PRJPATH (project   #
+# path), PRJNAME (project name), PRJDIR (project directory)                  #
+# Example: File0=$(PRJNAME).cpp                                              #
+#                                                                            #
+##############################################################################
+
+[UDT]
+
+Compiler = Java Compiler\Console Application
+
+File0 = $(PRJNAME).java
+
+[File0]
+public class $(PRJNAME) {
+    public static void main(String s[]) {
+    	System.out.print("Hello World!\n");    	
+    }
+}

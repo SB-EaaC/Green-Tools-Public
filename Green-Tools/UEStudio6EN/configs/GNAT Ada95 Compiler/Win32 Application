@@ -1,0 +1,194 @@
+# ------------ GNAT Ada95 configuration ------------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+MainApp = $Pn
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+ANSI = no|yes
+Trigraphs = no|yes
+K&R pre-processor = no|yes
+Optimize = speed|size
+Warning Level = default|none|all
+Generate Code = 386|486|pentium|pentium pro
+Floating Point = hardware|software
+Libraries = 
+Compiler Options = 
+Linker Options =
+Excluded Files = Excludes
+Debugger=gvd
+External Dependencies=yes|no
+
+[SettingsInfo]
+MainApp = Provides a space for you to specify the filename without extension of MAIN module (.adb)
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Libraries = Provides a space for you to specify an object file or standard library (either static or import) to pass to the linker. Separate file names with a space.
+Excluded Files = This will exclude the file(s) included in this UE project group from the build.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Trigraphs = Support ANSI C trigraphs.
+K&R pre-processor = Follow K&R pre-processor behaviour.
+ANSI = Compile just for ANSI C.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+External Dependencies=If you select "yes" option, UE Studio will generate in project group "External Dependencies" from included files.
+
+[SettingsReps]
+
+Trigraphs = no=|yes=-trigraphs
+K&R pre-processor = no=|yes=-traditional
+ANSI = no=|yes=-ansi
+Warning Level = default=|none=-w|all=-Wall
+Generate Code = 386=-mcpu=i386|486=-mcpu=i486|pentium=-mcpu=pentium|pentium pro=-mcpu=pentiumpro
+Floating Point = hardware=-mhard-float|software=-msoft-float
+Optimize = speed=-O2|size=-Os
+External Dependencies=yes=1|no=0
+
+[Variables]
+
+CPATH = $(HKEY_LOCAL_MACHINE\SOFTWARE$6432\Ada Core Technologies\GNAT\ROOT)
+COPT = -c $(Generate Code) $(Compiler Options) -I $(INCLUDE) $(Trigraphs) $(K&R pre-processor) $(ANSI) $(Warning Level) $(Floating Point)
+LOPT = -mwindows $(Linker Options)
+Compiler = gcc
+
+[Environment]
+
+PATH = $(CPATH)\BIN;%PATH%
+INCLUDE = $(CPATH)\Include
+LIB = $(CPATH)\Lib
+
+[General]
+
+TargetExt = .EXE
+ReleaseOut = Release
+DebugOut = Debug
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+
+.CPP = .C
+.CXX = .C
+.CC = .C
+.S = .C
+.F = .C
+.RES = .RC
+.NSM = .ASM
+.ADS = .ADB
+GenerateEDGroup=$(External Dependencies)
+
+[MakeCommands]
+
+run = Execute Application
+debug = Start Debugger
+peview=PEview
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 0
+
+[Start Debugger]
+
+Cmd0 =$(Debugger) $T
+Depends =$T
+ShowWindow =1
+DisplayConsole = 1
+Title=Debug $T
+
+[InsertFiles]
+
+group0 = $(Libraries)
+group1 = $(MainApp)
+
+[FileGroups]
+
+FGA = group1;
+FGD = .ali;.o;
+FGO = .o;
+FGL = .a;
+
+[GroupFormats]
+
+FGA = ..\%s.adb
+FGO = %s
+FGL = %s
+
+[Build]
+
+Out = $T
+Depends = $FGD
+ReleaseFlag = -s
+DebugFlag = -g
+Cmd0 = gnatmake -o $Tn $(GNOPT) $FGA $FGO $FGL -largs $(LOPT) $R
+
+[.ADB]
+
+Out = $In.ali
+ReleaseFlag = $(Optimize)
+DebugFlag = -ggdb
+Cmd0 = $(Compiler) $(COPT) $I
+
+[.C]
+
+Out = $In.o
+ReleaseFlag = $(Optimize)
+DebugFlag = -ggdb
+Cmd0 = $(Compiler) $(COPT) -o $O $I
+
+IncFiles = 1
+CaseSensitive = 1
+IncDirs = .;$(INCLUDE);
+IncKeyWords = #include;
+Comments = /*.*/.//.eol.
+
+[.ASM]
+
+Out = $In.o
+Cmd0 = nasm -f win32 -i $Ip -o $O $I
+
+[.RC]
+
+Out = $In.o
+Cmd0 = windres -o $O $I
+[PEview]
+Title=Show PE Information
+Depends=$T
+Cmd0=uetools -pe $T
+ShowWindow=1
+DisplayConsole=0
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0

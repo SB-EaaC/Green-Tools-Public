@@ -1,0 +1,14 @@
+[UDT]
+
+Compiler = Visual Studio 2005\Visual C++ Compiler\Win32 Console Application
+
+File0 = $(PRJNAME).cpp, Source Files
+
+[File0]
+#include "stdio.h"
+
+int main(int argc, char* argv[])
+{
+	printf("Hello world!\n");
+	return 0;
+}

@@ -1,0 +1,41 @@
+Features:
+
+v06.50
+
+   - File encryption / decryption to encrypt and 
+     decrypt current or multiple files
+   - Environment Selector - Allows use of predefined 
+     or user createable environments that remember the 
+     state of all of UltraEdit's dockable windows, 
+     toolbars and more for user convenience.  Quickly 
+     switch to the environment you need for the task 
+     at hand.
+     * Switchable items in each Environment include:
+       -- Menus and Toolbars
+       -- Application launch size and position
+       -- Dockable windows plus size and position
+       -- Template list
+     * Switch Environments with a single click
+     * Manage Environments
+     * Create your own custom Environments
+     * Import / Export Environments
+   - Redesigned and enhanced Find and Replace Dialogs
+     * Multi-line scrollable text boxes
+     * Collapsible Advanced options
+     * Ability to search in specified column range
+   - MSI installer
+   - Move current line up or down in file
+   - Compare modified file with version on disk
+   - Compare 2 snippets of text
+   - New WebSearch Toolbar
+   - Dockable named bookmark list
+   - Dockable ASCII table
+   - Redesigned Set Colors dialog
+   - Auto tab row adjustment (Fixed auto-adjust Tabs)
+   - Updated Navigate option to search all terms in 
+     all config pages
+   - Single Open prompt for converting Unix files
+   - Single Save prompt for multiple modified files
+   - Separate project file for user-specific and 
+     workspace information
+   - Other minor improvements

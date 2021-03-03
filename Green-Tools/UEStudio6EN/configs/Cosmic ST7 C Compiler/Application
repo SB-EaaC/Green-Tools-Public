@@ -1,0 +1,158 @@
+# ------- Cosmic ST7 C Compiler configuration ------
+# --- general --------------------------------------
+# $P  - project name
+# $Pp - path to project directory
+# $Pn - project name
+# --- compile --------------------------------------
+# $I  - input full name
+# $Ip - input path
+# $In - input name
+# $Ie - input extension
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for compiler
+# --- build ----------------------------------------
+# $T  - target full name
+# $Tp - target path
+# $Tn - target name
+# $O  - output file
+# $Op - path to output file
+# $On - output filename (without path)
+# $Oe - output extension
+# $R  - release/debug setting for linker
+
+[Settings]
+
+Target = 
+Category&01 = DEFAULT RUN CONFIGURATION
+Working Directory =.
+Command Line Arguments =
+Category&02 = COMPILER OPTIONS
+Stack Model = Default|Long|Short
+Memory Model = Default|Small|Medium|Long|Short|Compact
+Optimizer = On|Off
+Split Functions = Off|On
+Listing = No|Yes
+Force Prototyping = No|Yes
+Type Checking = No|Yes
+Msb2Lsb = No|Yes
+Compiler Options = 
+Absolute Assembler = No|Yes
+Motorola Syntax = Off|On
+All Symbols Public = Disable|Enable
+All Equates Public = Disable|Enable
+Output Cross References = No|Yes
+Assembler Options = 
+Linker Options = 
+Libraries = 
+Debugger = ZapSt7
+
+[SettingsInfo]
+
+Target = Provides a space for you to specify an output file and location of the program that the linker creates.
+Working Directory = Provides a space for you to specify the directory in which executing occurs. If you do not specify a directory, executing occurs in the directory where the executable is located.
+Command Line Arguments = Provides a space for you to specify command-line arguments you want to pass to the program at startup.
+Compiler Options = Provides a space for you to specify an additional compiler options.
+Assembler Options = Provides a space for you to specify an additional assembler options.
+Linker Options = Provides a space for you to specify an additional linker options.
+Debugger=Provides a space for you to set the debugger you want to use to debug application.
+Split Functions = Split functions in different sections (allows unused functions removal by linker).
+Optmizer = Use function Jump Table to optimize Calls.
+Type Checking = Enforce type checking.
+Msb2Lsb = Number bits from MSB to LSB in bitfields.
+Motorola Syntax = Accept old MOTOROLA syntax.
+All Symbols Public = Make ALL symbol public.
+
+[SettingsReps]
+
+Stack Model = Default=|Long=+modsl|Short=+mods
+Memory Model = Default=|Small=+modms|Medium=+modmm|Long=+modml|Short=+modm|Compact=+modc
+Optimizer = On=+jmp|Off=
+Split Functions = Off=|On=+split
+Listing = Yes=-l|No=
+Force Prototyping = No=|Yes=-pp
+Type Checking = No=|Yes=+strict
+Msb2Lsb = No=|Yes=+rev
+Absolute Assembler = No=|Yes=-a
+Motorola Syntax = Off=|On=-m
+All Symbols Public = Disable=|Enable=-p
+All Equates Public = Disable=|Enable=-pe
+Output Cross References = No=|Yes=-c
+
+[Variables]
+
+CPATH =C:\COSMIC\ST7
+
+COPT = -v -i "$(CPATH)\Hst7" $(Stack Model) $(Memory Model) $(Optimizer) $(Split Functions) $(Listing) $(Force Prototyping) $(Type Checking) $(Msb2Lsb) $(Compiler Options)
+AOPT = -v -i "$(CPATH)\Hst7" $(Absolute Assembler) $(Motorola Syntax) $(All Symbols Public) $(All Equates Public) $(Output Cross References) $(Assembler Options)
+LOPT = -v $(Linker Options)
+
+[Environment]
+
+PATH = $(CPATH)
+
+[General]
+
+TargetExt = .st7
+ReleaseOut = .
+DebugOut = .
+UseFullPaths = 0
+UseDosNames = 0
+Excludes = $(Excluded Files)
+RemoveDot = 1
+
+.CPP = .C
+.ASM = .S
+
+[MakeCommands]
+
+run = Execute Application
+debug = Start Debugger
+makef=Show Makefile
+
+[Execute Application]
+
+Title = Execute $T
+Cmd0 = $(Command Line Arguments)
+Depends = $T
+ShowWindow = 1
+DisplayConsole = 1
+
+[Start Debugger]
+Title=Debug $T
+Cmd0=$(Debugger) $T
+Depends=$T
+ShowWindow=1
+
+[InsertFiles]
+
+group0 = $(Libraries)
+
+[FileGroups]
+
+FGF = .lkf;
+FGO = .o;
+
+[Build]
+
+Out = $T
+Depends = $FGO
+Cmd0 = Clnk $(LOPT) -m $Op$On.map -o $O $FGF
+
+[.C]
+
+Out = $In.o
+DebugFlag = +debug
+Cmd0 = cxst7 $(COPT) $R $I
+
+[.S]
+
+Out = $In.o
+Cmd0 = cast7 $(AOPT) $R $I
+[Show Makefile]
+Title=Show makefile
+Cmd0=uestudio $(UESMAKEFILE)
+ShowWindow=1
+DisplayConsole=0
