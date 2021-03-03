@@ -1,0 +1,396 @@
+
+
+
+          README Contents          _______________
+
+          This document contains the following sections:
+
+               Diskette Contents
+               Product Restrictions
+               5.20 Changes
+               5.20 Deficiencies
+               Documentation Updates
+               Compatibility with Liant Products
+               Compatibility with Other Products
+               Bulletin Board Information
+
+
+          Diskette Contents          _________________
+
+          The following is a list of files included on your RM/COBOL-85
+          development media:
+
+               README.DEV     - this commentary file
+
+               RMCOBOL.EXE    - compiler
+               RMCOBOL.OVY    - compiler overlay file
+
+               RUNCOBOL.EXE   - runtime system
+
+
+          Product Restrictions          ____________________
+
+          The Educational Version of the RM/COBOL-85 product contains the
+          following restrictions and changes:
+
+               COBOL source programs may describe no more than 4 files.
+
+               Source programs may define no more than 2 keys in an indexed
+               file.
+
+               The described record sizes of files are limited to 132
+               characters.
+
+               Source programs may not use segmentation.
+
+               If a program compilation error is diagnosed for one of the
+               above Educational Version restrictions, the generated object
+               is marked as not executable.
+
+               Programs compiled with the Educational compiler will not run
+               on a standard RM/COBOL-85 runtime system and vice versa.
+
+               Both the compiler and the runtime system display an
+               additional banner line identifying the product as an
+               Educational Version.
+
+               Neither the compiler nor the runtime system support
+               configuration files.
+
+               Runtime instrumentation is not supported.
+
+               The COBOL main program always starts in debug mode.
+
+               Only one CALL statement to a separately compiled program may
+               be active, but contained programs may be called
+               indefinitely.
+
+               The only subprogram provided with runtime is C$RERR.  The
+               C$RERR subprogram may be called from the inner separately
+               compiled program.
+
+               No more than 4 files may be open concurrently.
+
+               No more than 1000 records may be written to sequential and
+               relative organization files; no more than 100 records may be
+               written to an indexed organization file.  This also
+               restricts the compiler to no more than 1000 source or print
+               records.  No more than 100 records may be written to a file
+               opened extend.
+
+               No utility or verify programs are provided with the
+               Educational Version.
+
+
+          5.20 Changes          ____________
+
+          In releases before 5.20, the compiler version of the object was
+          closely tied to language features such that if an existing
+          program did not use any of the features, when compiled it would
+          automatically produce object at a version level corresponding to
+          the language features that were actually used.  The result of
+          this was that a newer compiler could produce object at an object
+          version level that older runtimes could execute.  In 5.20,
+          however, enhancements were made to commonly used language
+          features to improve their performance.  These enhancements can
+          not be executed by previous versions of the runtime, thus
+          existing programs should not be recompiled with the 5.20 compiler
+          unless they can be executed by a 5.20 runtime everywhere, or they
+          are compiled with the Z option setting the object version level
+          to one that can be accepted by all runcobols.
+
+
+
+
+          5.20 Deficiencies          _________________
+
+          None.
+
+
+          Documentation Updates          _____________________
+
+          The 5.2 User's Guide and Language Reference manual did not state
+          that performing an ACCEPT with a BEFORE TIME value of 0 will
+          result in a immediate return if there is no key stroke waiting,
+          and that a value greater than 4,294,967,295 (a PIC 9(10) data
+          item set to a value of all 9s is recommended) will cause the
+          ACCEPT to behave as if it did not contain a BEFORE TIME phrase.
+
+          The 5.2 User's Guide incorrectly states that any value greater
+          than 8,639,999 in the BEFORE TIME phrase of the ACCEPT statement
+          will be set to 8,639,999.  This is only true of values in the
+          range 8,640,000 through 4,294,967,295.  As noted above, a value
+          greater than 4,294,967,295 may be used to suppress the timeout of
+          the ACCEPT operation normally caused by the presence of the
+          BEFORE TIME phrase.
+
+
+
+          The RM/COBOL-85 User's Guide for DOS, OS/2 and NetWare, on page
+          8-16, states that the default pool size is 65000 for the runtime
+          system and 20000 for the compiler.  This is incorrect, it is
+          actually 64000 for a DOS runtime system, 20480 for a DOS compiler
+          system, and 256000 for the DOS recover1 utility.  Furthermore,
+          the User's guide does not state the default for OS/2, which is
+          256000 for the runtime system and 20480 for the compiler system.
+
+
+
+          The User's Guide, page A-6, replace description of procedure
+          errors 208 - 210 with the following clarifications:
+
+               208  The ALTER statement cannot be executed because of an
+               error in the source program.  The compilation listing
+               provides the specific reason for the error, for example, an
+               undefined procedure-name, an ambiguous procedure-name
+               reference, an attempt to ALTER a procedure-name that is not
+               alterable, a conflict with segmentation rules, et cetera.
+
+               209  The GO TO statement cannot be executed because it does
+               not specify a default procedure-name and was not altered
+               before attempting its execution.  The source program would
+               have a compilation error if no ALTER statement specifies the
+               paragraph containing the GO TO statement, but would have
+               compiled without error if there exists at least one ALTER
+               statement that specifies the paragraph containing the GO TO
+               statement.  In the latter case, no such ALTER statement was
+               executed in the logical sequence of statements leading to
+               execution of the GO TO statement.
+
+               210  The GO TO or PERFORM statement cannot be executed
+               because of an error in the source program.  The compilation
+               listing provides the specific reason for the error, for
+               example, an undefined procedure-name, an ambiguous
+               procedure-name reference, a conflict with segmentation
+               rules, et cetera.
+
+          The User's Guide, page A-6, add a description of runtime
+          procedure error 212:
+
+               212  The USE procedure cannot exit because it was invoked by
+               the execution of a SORT or MERGE statement and the sort-
+               merge operation is either no longer active or the exit
+               location has been lost.
+
+
+
+
+          Compatibility with Liant Products          _________________________________
+
+          Not applicable.
+
+
+          Compatibility with Other Products          _________________________________
+
+
+          DOS 5.0 DOSSHELL
+
+          The DOSSHELL program, provided with DOS 5.0, allows the operator
+          to switch among several concurrent programs.  If you intend to
+          run more than one version of RUNCOBOL under the DOSSHELL, we
+          recommend that you install SHARE.EXE before starting the
+          DOSSHELL.  Failure to first install SHARE.EXE will cause File
+          Status 98 errors when a file is opened by two instances of the
+          runtime system.
+
+
+
+
+          Novell NETWARE XMS and EMS Shells
+
+          There is a bug in the Novell Netware XMS and EMS shells, versions
+          3.01 A-D.  This bug causes them to return incorrect information
+          for the server name when asked to resolve a file name for a file
+          that resides on the server.  Novell's recommendation is to use
+          the NET3 or NET4 shells instead of the XMS or EMS versions until
+          they release the next version of the shell software.  If the
+          flawed Netware Shells are used they could cause problems in the
+          RM/COBOL-85 Runtime System.  These problems include the
+          possibility of having an OPEN statement open a different file
+          than the one specified in the SELECT clause.
+
+
+
+
+          Novell NETWARE 1.1
+
+          On some early versions of network software, including Novell
+          Netware 1.1.1, the RM/COBOL-85 I/O system fails when opening a
+          file with a filename longer than eight characters or an extension
+          longer than three characters.  If you encounter this problem use
+          filenames of eight or fewer characters with extensions of three
+          or fewer characters.  If a COBOL program specifies a file name
+          with too many characters in the SELECT clause you can set an
+          environment variable to override that name and avoid the problem
+          without recompiling the program.
+
+
+
+
+          PC-NFS
+
+          In order for PC-NFS from Sun Microsystems to be able to properly
+          apply region locks to files on a UNIX NFS server, version 3 or
+          later of the "Network Lock Manager" program must be installed on
+          all connected UNIX systems.  Failure to insure that all systems
+          are current could prevent file and record locking from working or
+          cause processes to "hang."  See the PC-NFS installation manual
+          for directions on determining the version of the "Network Lock
+          Manager" on your system.  If you need to upgrade Interactive UNIX
+          System V.3.2/386, contact Interactive Systems and request updates
+          SSU4.a and SSU4.b.
+
+
+
+
+          SMARTDRV.EXE 4.0
+
+          When loading SMARTDRV.EXE 4.0, provided with Microsoft Windows
+          3.1, specify the undocumented /Y option to obtain correct
+          RM/COBOL-85 behavior.  The default SMARTDRV 4.0 behavior is
+          defective in ways which adversely affect the RM/COBOL-85 file
+          system.  When a DOS Commit File Function is issued, SMARTDRV.EXE
+          fails to clear the carry flag to indicate that the function
+          succeeded, nor does it set the carry flag when the function
+          failed.  This causes the RM/COBOL-85 file system to believe that
+          the Commit File function is not supported and to revert to its
+          pre-DOS 3.3 behavior of closing and reopening files in order to
+          force data to disk.  This degrades performance and opens recovery
+          windows that do not exist when the Commit File function is
+          supported.  Specifying the /Y option fixes SMARTDRV's handling of
+          the Commit File function.  Microsoft has said that this problem
+          will be fixed in a future release.
+
+
+
+          Bulletin Board Information          __________________________
+
+          Refer to the BIX bulletin board conference "liant.software" for
+          current information regarding this product.  The topic
+          "tech.notes" is updated frequently with information regarding
+          reported problems and technical tips.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
