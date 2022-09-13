@@ -1,0 +1,55 @@
+#TITLE=SSB-MarkDown
+; EditPlus Auto-completion file v1.0 written by MarkDown.
+; This file is provided as a default auto-completion file for MarkDown, 2020
+; sunshubin@outlook.it
+
+#INFO
+MarkDown
+#SORT=n
+#CASE=y
+#T=if
+if (^!)
+{
+}
+#T=img
+![imgname](http://)
+#T=link
+[title](http://www.z01.com)
+#T=#
+# ^!
+#T=b
+** ^! **
+#T=x
+*^!*
+#T=code
+```
+^!
+```
+#T=line
+------------
+^!
+#T=~
+~~^!~~
+#T=table
+| ^! |   |
+| ------------ | ------------ |
+|   |   |
+|   |   |
+#T=!
+<!--
+^!
+-->
+#T=ul
+- ^!
+-
+-
+-
+-
+#T=ol
+1. ^!
+2.
+3.
+4.
+5.
+#T=`
+`^!`
