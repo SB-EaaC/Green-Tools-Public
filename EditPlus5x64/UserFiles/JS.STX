@@ -20,6 +20,8 @@
 
 #KEYWORD=Reserved words
 abstract
+arguments
+await
 boolean
 break
 byte
@@ -29,11 +31,15 @@ char
 class
 const
 continue
+debugger
 default
 delete
 do
 double
 else
+enum
+eval
+export
 extends
 false
 final
@@ -44,11 +50,12 @@ function
 goto
 if
 implements
-import
+import*
 in
 instanceof
 int
 interface
+let
 long
 native
 new
@@ -72,8 +79,10 @@ try
 typeof
 var
 void
+volatile
 while
 with
+yield
 
 #KEYWORD=Built-in objects
 Anchor
